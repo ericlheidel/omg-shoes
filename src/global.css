@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+}
+
+.flex-left {
+  justify-content: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.shoe-img {
+  max-width: 25%;
+  max-height: 25%;
+  overflow: hidden;
+  border: solid 10px red;
+}

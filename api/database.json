@@ -1,0 +1,1548 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Charlie",
+      "lastName": "Kelly",
+      "city": "Philadelphia",
+      "state": "PA",
+      "avatar": "http://google.com",
+      "email": "charlie@kelly.com",
+      "bio": "Small time Shoe collector!",
+      "hasEmoji": false
+    },
+    {
+      "email": "dennis@reynolds.com",
+      "firstName": "Dennis",
+      "lastName": "Reynolds",
+      "city": "Philadelphia",
+      "state": "PA",
+      "avatar": "http://google.com",
+      "bio": "I am a five star man!!!",
+      "hasEmoji": false,
+      "id": 2
+    },
+    {
+      "email": "frank@reynolds.com",
+      "firstName": "Frank",
+      "lastName": "Reynolds",
+      "city": "Philadelphia",
+      "state": "PA",
+      "avatar": "http://google.com",
+      "bio": "I'm gonna get real weird with it!",
+      "hasEmoji": true,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "firstName": "Mac",
+      "lastName": "McDonald",
+      "city": "Philadelphia",
+      "state": "PA",
+      "avatar": "http://google.com",
+      "bio": "I'm playing both sides!",
+      "hasEmoji": true
+    },
+    {
+      "email": "eric@heidel.com",
+      "firstName": "Eric",
+      "lastName": "Heidel",
+      "city": "Nashville",
+      "state": "TN",
+      "avatar": "http://google.com",
+      "bio": "You can run, but you can't Heidel",
+      "hasEmoji": true,
+      "id": 5
+    }
+  ],
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Richard Mulder",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-141",
+      "colorway": "WHITE/ORION BLUE-WHITE",
+      "image": "https://www.nicekicks.com/files/2019/02/iu-232.jpeg",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "name": "Danny Supa",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-841",
+      "colorway": "SAFETY ORANGE/HYPER BLUE-WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/Nike-SB-Dunk-Low-Danny-Supa.png.jpeg",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "name": "Reese Forbes Wheat",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-731",
+      "colorway": "WHEAT/TWIG-DUNE",
+      "image": "https://www.nicekicks.com/files/2019/01/080047_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "name": "Gino Iannucci 1",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292_401",
+      "colorway": "OBSIDIAN/LIGHT GRAPHITE-BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-pro-sb-gino-iannucci-obsidian-light-graphite-black-080044_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "name": "Zoo York",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "305162-201",
+      "colorway": "PAUL BROWN/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-pro-sp-zoo-york-paul-brown-black-080066_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "name": "Chocolate",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "305162-001",
+      "colorway": "ANTHRACITE/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-213.jpeg",
+      "link": ""
+    },
+    {
+      "id": 7,
+      "name": "Supreme Black",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-131",
+      "colorway": "BLACK/BLACK-CEMENT GREY",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-69.jpeg",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "name": "Supreme White",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-001",
+      "colorway": "WHITE/BLACK-CEMENT GREY",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-68.jpeg",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "name": "Loden",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-301",
+      "colorway": "DARK LODEN/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-72-e1546660152389.jpeg",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "name": "Sharks",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-361",
+      "colorway": "NIGHTSHADE/TEAM RED-SHARK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-73.jpeg",
+      "link": ""
+    },
+    {
+      "id": 11,
+      "name": "Flash",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-801",
+      "colorway": "ORANGE FLASH/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-74.jpeg",
+      "link": ""
+    },
+    {
+      "id": 12,
+      "name": "Denim Reese Forbes",
+      "style": "Low",
+      "year": 2002,
+      "modelNumber": "304292-441",
+      "colorway": "DENIM/DENIM",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-75.jpeg",
+      "link": ""
+    },
+    {
+      "id": 13,
+      "name": "Bison",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-226",
+      "colorway": "DARK CINDER/BISON/SPORT RED",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-83-e1546800515542.jpeg",
+      "link": ""
+    },
+    {
+      "id": 14,
+      "name": "Takashi",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-072",
+      "colorway": "BLACK/METALLIC GOLD/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-84.jpeg",
+      "link": ""
+    },
+    {
+      "id": 15,
+      "name": "Futura",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-013",
+      "colorway": "BLACK/WHITE-NIGHTSHADE-SHARK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-85.jpeg",
+      "link": ""
+    },
+    {
+      "id": 16,
+      "name": "Heineken",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-302",
+      "colorway": "CLASSIC GREEN/BLACK-WHITE-RED",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-87.jpeg",
+      "link": ""
+    },
+    {
+      "id": 17,
+      "name": "True Reds",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-601",
+      "colorway": "TRUE RED/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-89.jpeg",
+      "link": ""
+    },
+    {
+      "id": 18,
+      "name": "True Blacks",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-061",
+      "colorway": "BLACK/TRUE RED",
+      "image": "https://images.stockx.com/360/Nike-Dunk-SB-Low-Vamps/Images/Nike-Dunk-SB-Low-Vamps/Lv2/img01.jpg?fm=jpg&auto=compress&w=480&dpr=2&updated_at=1635268985&h=320&q=60",
+      "link": ""
+    },
+    {
+      "id": 19,
+      "name": "Broncos",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-184",
+      "colorway": "WHITE/ORANGE BLAZE-MIDNIGHT NAVY",
+      "image": "https://www.nicekicks.com/files/2019/01/080037_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 20,
+      "name": "Barfs",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-431",
+      "colorway": "NAVY/OUTDOOR GREEN/LIGHT CHOCOLATE",
+      "image": "https://www.nicekicks.com/files/2019/01/Nike-Dunk-SB-Low-Barf.jpg",
+      "link": ""
+    },
+    {
+      "id": 21,
+      "name": "Ostrich",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-003",
+      "colorway": "BLACK/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-93.jpeg",
+      "link": ""
+    },
+    {
+      "id": 22,
+      "name": "Brown Pack Low",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-221",
+      "colorway": "BAROQUE BROWN/HAY/MAPLE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-94.jpeg",
+      "link": ""
+    },
+    {
+      "id": 23,
+      "name": "Paris",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "308270-111",
+      "colorway": "ROPE/SPECIAL CARDINAL",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-107.jpeg",
+      "link": ""
+    },
+    {
+      "id": 24,
+      "name": "Buck",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "304292-132",
+      "colorway": "WHITE/CLASSIC GREEN-DEL SOL",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-96.jpeg",
+      "link": ""
+    },
+    {
+      "id": 25,
+      "name": "Blue Hemp",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-741",
+      "colorway": "JERSEY GOLD/CASCADE BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-100.jpeg",
+      "link": ""
+    },
+    {
+      "id": 26,
+      "name": "Burgundy Hemp",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-761",
+      "colorway": "JERSEY GOLD/RED MAHOGANY",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-98.jpeg",
+      "link": ""
+    },
+    {
+      "id": 27,
+      "name": "Green Hemp",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-732",
+      "colorway": "JERSEY GOLD/BONSAI",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-99.jpeg",
+      "link": ""
+    },
+    {
+      "id": 28,
+      "name": "Homer",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-173",
+      "colorway": "WHITE/MEDIUM YELLOW-UNIVERSITY BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-102.jpeg",
+      "link": ""
+    },
+    {
+      "id": 29,
+      "name": "Jedi",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-222",
+      "colorway": "KHAKI/BAROQUE BROWN-SAFARI",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-103-1.jpeg",
+      "link": ""
+    },
+    {
+      "id": 30,
+      "name": "Carhartt Shale",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-224",
+      "colorway": "SHALE/SHALE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-106.jpeg",
+      "link": ""
+    },
+    {
+      "id": 31,
+      "name": "Carhartt Black",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-004",
+      "colorway": "BLACK/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-105.jpeg",
+      "link": ""
+    },
+    {
+      "id": 32,
+      "name": "Medicom 1",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-142",
+      "colorway": "WHITE/COLLEGE BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-108.jpeg",
+      "link": ""
+    },
+    {
+      "id": 33,
+      "name": "Cali",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-211",
+      "colorway": "PECAN/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-110.jpeg",
+      "link": ""
+    },
+    {
+      "id": 34,
+      "name": "Tokyo",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "308268-111",
+      "colorway": "MUSLIN/MUSLIN",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-111.jpeg",
+      "link": ""
+    },
+    {
+      "id": 35,
+      "name": "London",
+      "style": "Low",
+      "year": 2003,
+      "modelNumber": "308269-111",
+      "colorway": "SOFT GREY/MAGNET",
+      "image": "https://www.nicekicks.com/files/2019/01/080284_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 36,
+      "name": "Tweed",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-223",
+      "colorway": "BAROQUE BROWN/MUSHROOM/TWEED",
+      "image": "https://www.nicekicks.com/files/2019/01/080039_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 37,
+      "name": "Reese Forbes Hunter",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-281",
+      "colorway": "NATURAL BURALAP/ORANGE BLAZE",
+      "image": "https://www.nicekicks.com/files/2019/01/080040_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 38,
+      "name": "Shanghai 1",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-112",
+      "colorway": "WHITE/METALLIC GOLD0-REDWOOD",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-118.jpeg",
+      "link": ""
+    },
+    {
+      "id": 39,
+      "name": "Grits",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-261",
+      "colorway": "GRIT/TEAM RED",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-120.jpeg",
+      "link": ""
+    },
+    {
+      "id": 40,
+      "name": "Mocha",
+      "style": "Low",
+      "year": 2004,
+      "modelNumber": "304292-225",
+      "colorway": "DARK MOCHA/CHINO",
+      "image": "https://www.nicekicks.com/files/2019/01/080103_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 41,
+      "name": "NYC Pigeon",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-011",
+      "colorway": "MEDIUM GREY/WHITE-DARK GREY",
+      "image": "https://www.nicekicks.com/files/2019/01/63611742970-nike-dunk-low-pro-sb-pigeon-medium-grey-white-dark-grey-080016_1-2.jpg",
+      "link": ""
+    },
+    {
+      "id": 42,
+      "name": "J-Pack Blue",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-041",
+      "colorway": "BLACK/BLACK-GAME ROYAL",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-121.jpeg",
+      "link": ""
+    },
+    {
+      "id": 43,
+      "name": "Raygun Home Black",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-803",
+      "colorway": "ORANGE FLASH/BLACK-BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-123.jpeg",
+      "link": ""
+    },
+    {
+      "id": 44,
+      "name": "Raygun Away White",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-802",
+      "colorway": "ORANGE FLASH/BLACK-WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-124.jpeg",
+      "link": ""
+    },
+    {
+      "id": 45,
+      "name": "Oompa Loompa",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-228",
+      "colorway": "LIGHT CHOCOLATE/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-125.jpeg",
+      "link": ""
+    },
+    {
+      "id": 46,
+      "name": "St. Patrick's Day",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-133",
+      "colorway": "WHITE/CLASSIC GREEN",
+      "image": "https://www.nicekicks.com/files/2019/01/080034_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 47,
+      "name": "Boca",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-471",
+      "colorway": "VARSITY ROYAL/LIGHTNING",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-127-1.jpeg",
+      "link": ""
+    },
+    {
+      "id": 48,
+      "name": "Band-Aid",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-006",
+      "colorway": "LIGHT BONE/FLINT GREY",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-129.jpeg",
+      "link": ""
+    },
+    {
+      "id": 49,
+      "name": "Cinco de Mayo",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-113",
+      "colorway": "WHITE/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-130.jpeg",
+      "link": ""
+    },
+    {
+      "id": 50,
+      "name": "Stussy Cherry",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-671",
+      "colorway": "SHY PINK/VANILLA",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-133.jpeg",
+      "link": ""
+    },
+    {
+      "id": 51,
+      "name": "Tiffany",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-402",
+      "colorway": "AQUA/CHROME",
+      "image": "https://www.nicekicks.com/files/2019/01/080091_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 52,
+      "name": "Vapor",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-271",
+      "colorway": "VAPOR/MINERAL YELLOW",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-134.jpeg",
+      "link": ""
+    },
+    {
+      "id": 53,
+      "name": "Slam City",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-201",
+      "colorway": "LIGHT TAUPE/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-135.jpeg",
+      "link": ""
+    },
+    {
+      "id": 54,
+      "name": "Shanghai 2",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-721",
+      "colorway": "LIGHT TAUPE/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-138.jpeg",
+      "link": ""
+    },
+    {
+      "id": 55,
+      "name": "Halloween",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-007",
+      "colorway": "BLACK/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/080127_01-1.jpg",
+      "link": ""
+    },
+    {
+      "id": 56,
+      "name": "Medicom 2",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-005",
+      "colorway": "BLACK/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-148.jpeg",
+      "link": ""
+    },
+    {
+      "id": 57,
+      "name": "De La Soul",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-171",
+      "colorway": "WHITE/YELLOW",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-pro-sb-de-la-soul-white-yellow-080109_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 58,
+      "name": "Medicom 3",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-008",
+      "colorway": "SILVER/CHROME",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-147.jpeg",
+      "link": ""
+    },
+    {
+      "id": 59,
+      "name": "Avenger (Blue)",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-143",
+      "colorway": "WHITE/MIDNIGHT NAVY-BLUE REEF",
+      "image": "https://www.nicekicks.com/files/2019/01/080097_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 60,
+      "name": "Avenger (Purple)",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "304292-101",
+      "colorway": "WHITE/BLACK-HYACINTH",
+      "image": "https://www.nicekicks.com/files/2019/01/080114_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 61,
+      "name": "Pushead",
+      "style": "Low",
+      "year": 2005,
+      "modelNumber": "313233-001",
+      "colorway": "BLACK/BLACK-BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-145.jpeg",
+      "link": ""
+    },
+    {
+      "id": 62,
+      "name": "Hawaii",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-003",
+      "colorway": "BLACK/BLACK-DEEP ORANGE",
+      "image": "https://www.nicekicks.com/files/2019/01/080146_01-1.jpg",
+      "link": ""
+    },
+    {
+      "id": 63,
+      "name": "High Hair",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-142",
+      "colorway": "WHITE/AQUA",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-150.jpeg",
+      "link": ""
+    },
+    {
+      "id": 64,
+      "name": "Lunar Eclipse East",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-001",
+      "colorway": "LIGHT GRAPHITE/ANTHRACITE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-151.jpeg",
+      "link": ""
+    },
+    {
+      "id": 65,
+      "name": "Lunar Eclipse West",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-002",
+      "colorway": "STEALTH/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-152.jpeg",
+      "link": ""
+    },
+    {
+      "id": 66,
+      "name": "Spanish Moss",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-321",
+      "colorway": "SPANISH MOSS/SANDALWOOD",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-153.jpeg",
+      "link": ""
+    },
+    {
+      "id": 67,
+      "name": "Crimson",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-161",
+      "colorway": "WHITE/VARSITY CRIMSON",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-154.jpeg",
+      "link": ""
+    },
+    {
+      "id": 68,
+      "name": "Eire",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-185",
+      "colorway": "NET/DEEP ORANGE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-155.jpeg",
+      "link": ""
+    },
+    {
+      "id": 69,
+      "name": "Brown Golf",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-171",
+      "colorway": "NET/MAIZE-BAROQUE BROWN",
+      "image": "https://www.nicekicks.com/files/2019/01/080148_01-e1546970776469.jpg",
+      "link": ""
+    },
+    {
+      "id": 70,
+      "name": "Blue Golf",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-141",
+      "colorway": "WHITE/MIDNIGHT NAVY-BLUE ICE",
+      "image": "https://www.nicekicks.com/files/2019/01/Nike-SB-Dunk-Low-Golf-Pack-Blue.png.jpeg",
+      "link": ""
+    },
+    {
+      "id": 71,
+      "name": "Neptune",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-144",
+      "colorway": "WHITE/NEPTUNE BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-pro-sb-neptune-white-neptune-blue-080168_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 72,
+      "name": "Weiger",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-014",
+      "colorway": "BLACK/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-156-1.jpeg",
+      "link": ""
+    },
+    {
+      "id": 73,
+      "name": "Puf-N-Stuf",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-341",
+      "colorway": "OIL GREEN/INTERNATIONAL BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-157.jpeg",
+      "link": ""
+    },
+    {
+      "id": 74,
+      "name": "SBTG",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-201",
+      "colorway": "SABLE GREEN/METALLIC GOLD",
+      "image": "https://www.nicekicks.com/files/2019/01/080182_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 75,
+      "name": "Bic",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-701",
+      "colorway": "VARSITY MAIZE/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-159.jpeg",
+      "link": ""
+    },
+    {
+      "id": 76,
+      "name": "Aqua Chalk",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-032",
+      "colorway": "ASH/AQUA CHALK",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-161-1.jpeg",
+      "link": ""
+    },
+    {
+      "id": 77,
+      "name": "Day of the Dead",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-801",
+      "colorway": "ORANGE BLAZE/BLACK-WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-162.jpeg",
+      "link": ""
+    },
+    {
+      "id": 78,
+      "name": "Baby Bear",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-731",
+      "colorway": "LIGHT UMBER/GRASSHOPPER TERSIE/STRELL",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-163.jpeg",
+      "link": ""
+    },
+    {
+      "id": 79,
+      "name": "Purple Pigeon",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-051",
+      "colorway": "LIGHT GRAPHITE/PRISM VIOLET",
+      "image": "https://www.nicekicks.com/files/2019/01/080219_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 80,
+      "name": "Mafia",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-004",
+      "colorway": "BLACK/BLACK-TEAM RED",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-164-1.jpeg",
+      "link": ""
+    },
+    {
+      "id": 81,
+      "name": "Tokyo Taxi Green",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "304292-311",
+      "colorway": "GRASS GREEN/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/080229_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 82,
+      "name": "Tokyo Taxi Blue",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "313170-411",
+      "colorway": "CHLORINE BLUE/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/080246_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 83,
+      "name": "Michael Lau",
+      "style": "Low",
+      "year": 2006,
+      "modelNumber": "316164-222",
+      "colorway": "DARK COFFEE/DARK COFFEE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-173.jpeg",
+      "link": ""
+    },
+    {
+      "id": 84,
+      "name": "Tweed 2",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "304292-229",
+      "colorway": "DARK MOCHA/TWEED",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-pro-sb-dark-mocha-tweed-080251_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 85,
+      "name": "Mill Vanilli",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "304292-602",
+      "colorway": "VARSITY CRIMSON/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/080263_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 86,
+      "name": "Border Blue",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "304292-411",
+      "colorway": "BORDER BLUE/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/080262_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 87,
+      "name": "Money Cat",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "304292-771",
+      "colorway": "GOLD DUST/METALLIC GOLD",
+      "image": "https://www.nicekicks.com/files/2019/01/080286_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 88,
+      "name": "Trail End",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "304292-102",
+      "colorway": "WHITE/BLACK-TRAIL END BROWN",
+      "image": "https://www.nicekicks.com/files/2019/01/080310_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 89,
+      "name": "C&K",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "313170-031",
+      "colorway": "BLACK/ACID",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-premium-sb-c-k-black-acid-080305_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 90,
+      "name": "Old Spice",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "304292-272",
+      "colorway": "BUFF/METALLIC GOLD",
+      "image": "https://www.nicekicks.com/files/2019/01/080327_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 91,
+      "name": "Coral Snake",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "313170-701",
+      "colorway": "BRIGHT GOLDENROD/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/080318_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 92,
+      "name": "Takashi 2",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "313170-005",
+      "colorway": "BLACK/METALLIC SILVER",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-165.jpeg",
+      "link": ""
+    },
+    {
+      "id": 93,
+      "name": "Strummer Before",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "304292-902",
+      "colorway": "BLACK/METALLIC ZINC",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-168.jpeg",
+      "link": ""
+    },
+    {
+      "id": 94,
+      "name": "Strummer After",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "313170-006",
+      "colorway": "BLACK/METALLIC ZINC",
+      "image": "https://www.nicekicks.com/files/2019/01/080371_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 95,
+      "name": "What The Dunk",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "318403-141",
+      "colorway": "WHITE/COLLEGE BLUE-CHROME-DEEP RED",
+      "image": "https://www.nicekicks.com/files/2019/01/080347_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 96,
+      "name": "Freddy Krueger",
+      "style": "Low",
+      "year": 2007,
+      "modelNumber": "313170-202",
+      "colorway": "TAUPE/CHROME",
+      "image": "https://www.nicekicks.com/files/2019/01/63611742943-nike-dunk-low-pro-sb-freddy-krueger-taupe-chrome-080411_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 97,
+      "name": "Gibson",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "313170-271",
+      "colorway": "LIGHT BRITISH TAN/METALLIC GOLD",
+      "image": "https://www.nicekicks.com/files/2019/01/080374_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 98,
+      "name": "Skate or Die",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "304292-073",
+      "colorway": "BLACK/NEON YELLOW",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-170.jpeg",
+      "link": ""
+    },
+    {
+      "id": 99,
+      "name": "Appetite for Destruction",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "304292 052",
+      "colorway": "ANTHRACITE/DEEP VIOLET",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-171.jpeg",
+      "link": ""
+    },
+    {
+      "id": 100,
+      "name": "720 Degrees",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "304292-062",
+      "colorway": "DARK CHARCOAL/LIGHT PINK",
+      "image": "https://www.nicekicks.com/files/2019/01/080403_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 101,
+      "name": "Newcastle",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "313170-741",
+      "colorway": "GOLD/ATLANTIC BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/080409_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 102,
+      "name": "Red Lobster",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "313170-661",
+      "colorway": "SPORT RED/PINK CLAY",
+      "image": "https://www.nicekicks.com/files/2019/01/080412_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 103,
+      "name": "Space Tiger",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "313170 071",
+      "colorway": "BLACK/YELLOW OCHRE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-178.jpeg",
+      "link": ""
+    },
+    {
+      "id": 104,
+      "name": "Poison",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "304292-033",
+      "colorway": "MAGNET/LIGHT POISON GREEN",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-181.jpeg",
+      "link": ""
+    },
+    {
+      "id": 105,
+      "name": "Gold Rail",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "304292-472",
+      "colorway": "VARSITY ROYAL/METALLIC VEGAS GOLD",
+      "image": "https://www.nicekicks.com/files/2019/01/080449_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 106,
+      "name": "Piet Mondrian",
+      "style": "Low",
+      "year": 2008,
+      "modelNumber": "304292-702",
+      "colorway": "ZEST/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/06/img01-2.jpg",
+      "link": ""
+    },
+    {
+      "id": 107,
+      "name": "Blue Lobster",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "313170-342",
+      "colorway": "NIGHTSHADE/DARK SLATE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-187.jpeg",
+      "link": ""
+    },
+    {
+      "id": 108,
+      "name": "Ms. Pac Man",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "313170-461",
+      "colorway": "CHLORINE BLUE/CERSIE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-190.jpeg",
+      "link": ""
+    },
+    {
+      "id": 109,
+      "name": "Patagonia",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "304292-042",
+      "colorway": "BLACK/ACADEMY-BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-192.jpeg",
+      "link": ""
+    },
+    {
+      "id": 110,
+      "name": "Angel & Death",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "313170-041",
+      "colorway": "BLACK/BALTIC BLUE",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-197.jpeg",
+      "link": ""
+    },
+    {
+      "id": 111,
+      "name": "Goofy Boy",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "304292-751",
+      "colorway": "CHUTNEY/ABYSS",
+      "image": "https://www.nicekicks.com/files/2019/01/iu-198.jpeg",
+      "link": ""
+    },
+    {
+      "id": 112,
+      "name": "Green Spark",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "313170-381",
+      "colorway": "GREEN SPARK/HOOP ORANGE",
+      "image": "https://www.nicekicks.com/files/2019/01/080550_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 113,
+      "name": "Top Ramen",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "313170-101",
+      "colorway": "SAIL/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/080568_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 114,
+      "name": "Asparagus",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "313170-302",
+      "colorway": "ASPARAGUS/BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/080533_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 115,
+      "name": "Toxic Avenger",
+      "style": "Low",
+      "year": 2009,
+      "modelNumber": "313170-261",
+      "colorway": "HAY/HOT RED-TERRA BROWN",
+      "image": "https://www.nicekicks.com/files/2019/01/080531_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 116,
+      "name": "Anchorman",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "3004292-672",
+      "colorway": "TEAM RED/METALLIC GOLD",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-pro-sb-anchorman-team-red-metallic-gold-080530_1.jpg",
+      "link": ""
+    },
+    {
+      "id": 117,
+      "name": "Koston",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "313170-400",
+      "colorway": "BLUE RIBBON/METALLIC VEGAS GOLD-VARSITY RED",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-premium-sb-koston-bl-rbbn-mtlc-vgs-gld-vrsty-rd-080628_1.png",
+      "link": ""
+    },
+    {
+      "id": 118,
+      "name": "Yellow Curb",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "313170-010",
+      "colorway": "MIDNIGHT FOG/BLACK-YELLOW OCHRE",
+      "image": "https://www.nicekicks.com/files/2019/01/080686_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 119,
+      "name": "Chrome Ball Incident",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "304292-012",
+      "colorway": "BLACK/RADIANT EMERALD-MEDIUM GREY",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-pro-sb-chrome-ball-incident-black-radiant-emerald-mdm-grey-080637_1.png",
+      "link": ""
+    },
+    {
+      "id": 120,
+      "name": "Loon",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "313170-011",
+      "colorway": "NEUTRAL GREY/GREEN SPARK-BLACK",
+      "image": "https://www.nicekicks.com/files/2019/01/080681_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 121,
+      "name": "Larry Perkins",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "313170-007",
+      "colorway": "BLACK/BLACK-VARSITY RED",
+      "image": "https://www.nicekicks.com/files/2019/01/080587_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 122,
+      "name": "Chun Li",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "304292-405",
+      "colorway": "ARGON BLUE/WHITE",
+      "image": "https://www.nicekicks.com/files/2019/01/080659_01.jpg",
+      "link": ""
+    },
+    {
+      "id": 123,
+      "name": "Miller High Life",
+      "style": "Low",
+      "year": 2010,
+      "modelNumber": "313170-008",
+      "colorway": "BLACK/METALLIC GOLD-PINE GREEN",
+      "image": "https://www.nicekicks.com/files/2019/01/nike-dunk-low-premium-sb-high-life-black-metallic-gold-pine-green-080611_1.png",
+      "link": ""
+    }
+  ],
+  "conditions": [
+    {
+      "id": 1,
+      "condition": "Deadstock"
+    },
+    {
+      "id": 2,
+      "condition": "Worn 1-10x"
+    },
+    {
+      "id": 3,
+      "condition": "Used"
+    },
+    {
+      "id": 4,
+      "condition": "Very Used"
+    },
+    {
+      "id": 5,
+      "condition": "Thrashed"
+    }
+  ],
+  "comments": [{}],
+  "likes": [{}],
+  "userShoe": [
+    {
+      "userId": 4,
+      "shoeId": 64,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "description",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "shoeId": 3,
+      "shoeSize": "11.5",
+      "conditionId": 1,
+      "description": "description",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "shoeId": 11,
+      "shoeSize": "7",
+      "conditionId": 4,
+      "description": "description",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "shoeId": 122,
+      "shoeSize": "6.5",
+      "conditionId": 3,
+      "description": "test",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "shoeId": 3,
+      "shoeSize": "6.5",
+      "conditionId": 3,
+      "description": "test",
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "shoeId": 3,
+      "shoeSize": "11.5",
+      "conditionId": 2,
+      "description": "Clean",
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "shoeId": 9,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Great condition for age",
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "shoeId": 10,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Great condition, a bit faded",
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "shoeId": 19,
+      "shoeSize": "11.5",
+      "conditionId": 4,
+      "description": "Needs cleaning",
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "shoeId": 24,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Soles have recently been replaced/swapped with brand new soles",
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "shoeId": 30,
+      "shoeSize": "11.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "shoeId": 36,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Good lookin shoe",
+      "id": 12
+    },
+    {
+      "userId": 5,
+      "shoeId": 38,
+      "shoeSize": "11",
+      "conditionId": 3,
+      "description": "Hard to find",
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "shoeId": 39,
+      "shoeSize": "11",
+      "conditionId": 3,
+      "description": "Great Condition, fits like an 11.5",
+      "id": 14
+    },
+    {
+      "userId": 5,
+      "shoeId": 48,
+      "shoeSize": "11.5",
+      "conditionId": 4,
+      "description": "Kick around shoe",
+      "id": 15
+    },
+    {
+      "userId": 5,
+      "shoeId": 52,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Good for everyday wear",
+      "id": 16
+    },
+    {
+      "userId": 5,
+      "shoeId": 54,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Sock Liner Tears",
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "shoeId": 66,
+      "shoeSize": "12",
+      "conditionId": 2,
+      "description": "Has 1 replacement insole from a pair of Blue Lobster",
+      "id": 18
+    },
+    {
+      "userId": 5,
+      "shoeId": 68,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Great condition!",
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "shoeId": 73,
+      "shoeSize": "11",
+      "conditionId": 3,
+      "description": "Very very faded",
+      "id": 20
+    },
+    {
+      "userId": 5,
+      "shoeId": 75,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Runs a little big",
+      "id": 21
+    },
+    {
+      "userId": 5,
+      "shoeId": 81,
+      "shoeSize": "11.5",
+      "conditionId": 2,
+      "description": "Black laces only",
+      "id": 22
+    },
+    {
+      "userId": 5,
+      "shoeId": 97,
+      "shoeSize": "11",
+      "conditionId": 4,
+      "description": "These don't look very used at all",
+      "id": 23
+    },
+    {
+      "userId": 5,
+      "shoeId": 99,
+      "shoeSize": "11.5",
+      "conditionId": 2,
+      "description": "Almost brand new",
+      "id": 24
+    },
+    {
+      "userId": 5,
+      "shoeId": 100,
+      "shoeSize": "11.5",
+      "conditionId": 3,
+      "description": "Great condition, one tongue strap falling apart",
+      "id": 25
+    },
+    {
+      "userId": 5,
+      "shoeId": 101,
+      "shoeSize": "11.5",
+      "conditionId": 2,
+      "description": "$$$$$",
+      "id": 26
+    },
+    {
+      "userId": 5,
+      "shoeId": 103,
+      "shoeSize": "11.5",
+      "conditionId": 4,
+      "description": "Everyday work shoes, sock liner tears",
+      "id": 27
+    },
+    {
+      "userId": 5,
+      "shoeId": 104,
+      "shoeSize": "12",
+      "conditionId": 2,
+      "description": "Clean. No inner tag",
+      "id": 28
+    },
+    {
+      "userId": 5,
+      "shoeId": 109,
+      "shoeSize": "11.5",
+      "conditionId": 5,
+      "description": "Old and beat!",
+      "id": 29
+    }
+  ]
+}
