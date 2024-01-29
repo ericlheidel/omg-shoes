@@ -13,6 +13,9 @@
 .shoe-img {
   max-width: 25%;
   max-height: 25%;
-  overflow: hidden;
-  border: solid 10px red;
+}
+
+.shoe {
+  border: solid 5px black;
+  border-radius: 15px;
 }

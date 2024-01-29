@@ -9,7 +9,7 @@ export const NavBar = ({ currentUser }) => {
       <div>
         <ul className="navbar">
           <li className="navbar-item">
-            <Link to={`/profile/${currentUser.id}`}>Profile</Link>
+            <Link to={`/users/${currentUser.id}`}>Profile</Link>
           </li>
           <li className="navbar-item">
             <Link to="/shoes">All Shoes</Link>

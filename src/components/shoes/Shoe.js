@@ -13,7 +13,7 @@ export const Shoe = ({ shoeObj }) => {
 
   return (
     <div className="shoe">
-      <Link to={`/shoes/shoedetails/${shoeObj.id}`}>
+      <Link to={`/shoes/${shoeObj.id}`}>
         <div className="shoe-img-div">
           <img
             src={shoeObj.image}
@@ -21,6 +21,7 @@ export const Shoe = ({ shoeObj }) => {
             className="shoe-img"
           />
         </div>
+        <div className="shoe-name">{shoeObj.name}</div>
       </Link>
     </div>
   )

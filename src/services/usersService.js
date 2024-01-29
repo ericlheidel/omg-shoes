@@ -1,3 +1,7 @@
+export const getAllUsers = () => {
+  return fetch(`http://localhost:9999/users`).then((res) => res.json())
+}
+
 export const createUser = (user) => {
   return fetch(`http://localhost:9999/users`, {
     method: "POST",

@@ -29,18 +29,18 @@ export const ProfileForm = ({ currentUser }) => {
 
     const editedUser = {
       id: user.id,
+      email: user.email,
       firstName: user.firstName,
       lastName: user.lastName,
       city: user.city,
       state: user.state,
       avatar: user.avatar,
-      email: user.email,
       bio: user.bio,
       hasEmoji: hasEmoji,
     }
 
     updateUserProfile(editedUser).then(() => {
-      navigate(`/profile/${currentUser.id}`)
+      navigate(`/users/${currentUser.id}`)
     })
   }
 
@@ -156,7 +156,7 @@ export const ProfileForm = ({ currentUser }) => {
                 type="radio"
                 name="hasEmoji"
                 value={hasEmoji}
-                checked={user?.hasEmoji}
+                // checked={user?.hasEmoji}
                 className="form-control"
                 onChange={(e) => {
                   setHasEmoji(JSON.parse(true))
@@ -169,7 +169,7 @@ export const ProfileForm = ({ currentUser }) => {
                 type="radio"
                 name="hasEmoji"
                 value={hasEmoji}
-                checked={user?.hasEmoji}
+                // checked={!user?.hasEmoji}
                 className="form-control"
                 onChange={(e) => {
                   setHasEmoji(JSON.parse(false))

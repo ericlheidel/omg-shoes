@@ -15,12 +15,12 @@ export const AllShoesList = () => {
     })
   }
 
-  // INITIAL GET ALL SHOES
+  // ! INITIAL GET ALL SHOES
   useEffect(() => {
     getAndSetAllShoes()
   }, [])
 
-  // SEARCH SHOES
+  // ! SEARCH SHOES
   useEffect(() => {
     const matchingShoes = allShoes.filter((shoe) =>
       shoe.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -28,7 +28,7 @@ export const AllShoesList = () => {
     setFilteredShoes(matchingShoes)
   }, [allShoes, searchTerm])
 
-  // SHOW POSTS WITH SPECIFIC YEAR
+  // ! SHOW POSTS WITH SPECIFIC YEAR
   useEffect(() => {
     if (filteredYear !== "") {
       const matchingShoes = allShoes.filter(
@@ -38,7 +38,7 @@ export const AllShoesList = () => {
     }
   }, [allShoes, filteredYear])
 
-  // SHOW SHOES FROM EVERY YEAR
+  // ! SHOW SHOES FROM EVERY YEAR
   useEffect(() => {
     if (filteredYear === "1") {
       setFilteredShoes(allShoes)
@@ -53,7 +53,7 @@ export const AllShoesList = () => {
       />
       <h2>All Shoes</h2>
       {filteredShoes.map((shoeObj) => {
-        return <Shoe shoeObj={shoeObj} />
+        return <Shoe shoeObj={shoeObj} key={shoeObj.id} />
       })}
     </div>
   )

@@ -41,7 +41,7 @@ export const ShoeDetailsForm = ({ currentUser }) => {
     }
 
     addShoeToUserCollection(newShoe).then(() => {
-      navigate(`/shoes`)
+      navigate(`/users/${currentUser.id}`)
     })
   }
 

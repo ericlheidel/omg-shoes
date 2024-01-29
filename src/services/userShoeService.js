@@ -8,8 +8,8 @@ export const addShoeToUserCollection = (userShoe) => {
   }).then((res) => res.json())
 }
 
-export const deleteUserShoeFromCollection = (userShoe) => {
-  return fetch(`http://localhost:9999/userShoe/${userShoe.id}`, {
+export const deleteUserShoeFromCollection = (userShoeId) => {
+  return fetch(`http://localhost:9999/userShoe/${userShoeId}`, {
     method: "DELETE",
   })
 }
@@ -23,5 +23,11 @@ export const getUserShoeCollectionByUserId = (userId) => {
 export const getAllUserShoes = () => {
   return fetch(
     `http://localhost:9999/userShoe?_expand=user&_expand=shoe&_expand=condition`
+  ).then((res) => res.json())
+}
+
+export const getUserShoeById = (userShoeId) => {
+  return fetch(
+    `http://localhost:9999/userShoe?id=${userShoeId}&_expand=user&_expand=shoe&_expand=condition`
   ).then((res) => res.json())
 }

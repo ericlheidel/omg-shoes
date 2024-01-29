@@ -4,9 +4,10 @@ import { Welcome } from "../welcome/Welcome.js"
 import { NavBar } from "../components/nav/NavBar.js"
 import { Profile } from "../components/profile/Profile.js"
 import { AllShoesList } from "../components/shoes/AllShoesList.js"
-import { ShoeDetailsForm } from "../components/shoes/ShoeDetails.js"
-import { UserShoeDetails } from "../components/shoes/UserShoeDetails.js"
+import { ShoeDetailsForm } from "../components/shoes/ShoeDetailsForm.js"
 import { ProfileForm } from "../components/profile/ProfileForm.js"
+import { UsersList } from "../components/users/UsersList.js"
+import { UserShoeDetails } from "../components/shoes/UserShoeDetails.js"
 
 export const ApplicationViews = ({ loggedInUser }) => {
   const [currentUser, setCurrentUser] = useState({})
@@ -30,24 +31,31 @@ export const ApplicationViews = ({ loggedInUser }) => {
         }
       >
         <Route index element={<Welcome currentUser={currentUser} />} />
-        <Route
-          path="profile/:userId"
-          element={<Profile currentUser={currentUser} />}
-        />
-        <Route
-          path="profile/:userId/edit"
-          element={<ProfileForm currentUser={currentUser} />}
-        />
+        <Route path="users">
+          <Route index element={<UsersList currentUser={currentUser} />} />
+          <Route
+            path=":userId"
+            element={<Profile currentUser={currentUser} />}
+          />
+          <Route
+            path=":userId"
+            element={<Profile currentUser={currentUser} />}
+          />
+          <Route
+            path=":userId/edit"
+            element={<ProfileForm currentUser={currentUser} />}
+          />
+        </Route>
         <Route path="shoes">
           <Route index element={<AllShoesList />} />
           <Route
-            path="shoedetails/:shoeId"
+            path=":shoeId"
             element={<ShoeDetailsForm currentUser={currentUser} />}
           />
         </Route>
-        <Route path="collection">
+        <Route path="usershoe">
           <Route
-            path="user/:userId/shoe/:shoeId"
+            path=":userShoeId"
             element={<UserShoeDetails currentUser={currentUser} />}
           />
         </Route>

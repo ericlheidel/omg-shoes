@@ -6,10 +6,10 @@
       "lastName": "Kelly",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "http://google.com",
+      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "email": "charlie@kelly.com",
       "bio": "Small time Shoe collector!",
-      "hasEmoji": false
+      "hasEmoji": true
     },
     {
       "email": "dennis@reynolds.com",
@@ -17,7 +17,7 @@
       "lastName": "Reynolds",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "http://google.com",
+      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "I am a five star man!!!",
       "hasEmoji": false,
       "id": 2
@@ -28,31 +28,32 @@
       "lastName": "Reynolds",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "http://google.com",
+      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "I'm gonna get real weird with it!",
-      "hasEmoji": true,
+      "hasEmoji": false,
       "id": 3
     },
     {
       "id": 4,
+      "email": "mac@mcdonald.com",
       "firstName": "Mac",
       "lastName": "McDonald",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "http://google.com",
+      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "I'm playing both sides!",
-      "hasEmoji": true
+      "hasEmoji": false
     },
     {
+      "id": 5,
       "email": "eric@heidel.com",
       "firstName": "Eric",
       "lastName": "Heidel",
       "city": "Nashville",
       "state": "TN",
-      "avatar": "http://google.com",
+      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "You can run, but you can't Heidel",
-      "hasEmoji": true,
-      "id": 5
+      "hasEmoji": ""
     }
   ],
   "shoes": [
@@ -1309,49 +1310,13 @@
       "condition": "Thrashed"
     }
   ],
-  "comments": [{}],
-  "likes": [{}],
+  "comments": [
+    {}
+  ],
+  "likes": [
+    {}
+  ],
   "userShoe": [
-    {
-      "userId": 4,
-      "shoeId": 64,
-      "shoeSize": "11.5",
-      "conditionId": 3,
-      "description": "description",
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "shoeId": 3,
-      "shoeSize": "11.5",
-      "conditionId": 1,
-      "description": "description",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "shoeId": 11,
-      "shoeSize": "7",
-      "conditionId": 4,
-      "description": "description",
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "shoeId": 122,
-      "shoeSize": "6.5",
-      "conditionId": 3,
-      "description": "test",
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "shoeId": 3,
-      "shoeSize": "6.5",
-      "conditionId": 3,
-      "description": "test",
-      "id": 5
-    },
     {
       "userId": 5,
       "shoeId": 3,
@@ -1543,6 +1508,102 @@
       "conditionId": 5,
       "description": "Old and beat!",
       "id": 29
+    },
+    {
+      "userId": 2,
+      "shoeId": 25,
+      "shoeSize": "5.5",
+      "conditionId": 1,
+      "description": "brand new",
+      "id": 31
+    },
+    {
+      "userId": 2,
+      "shoeId": 26,
+      "shoeSize": "7.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 32
+    },
+    {
+      "userId": 2,
+      "shoeId": 27,
+      "shoeSize": "12",
+      "conditionId": 1,
+      "description": "RARE",
+      "id": 33
+    },
+    {
+      "userId": 1,
+      "shoeId": 62,
+      "shoeSize": "6",
+      "conditionId": 1,
+      "description": "cracking leather",
+      "id": 34
+    },
+    {
+      "userId": 1,
+      "shoeId": 13,
+      "shoeSize": "7",
+      "conditionId": 1,
+      "description": "Faded",
+      "id": 35
+    },
+    {
+      "userId": 3,
+      "shoeId": 108,
+      "shoeSize": "14",
+      "conditionId": 5,
+      "description": "thrashed...",
+      "id": 36
+    },
+    {
+      "userId": 3,
+      "shoeId": 113,
+      "shoeSize": "7.5",
+      "conditionId": 3,
+      "description": "Great condition!",
+      "id": 37
+    },
+    {
+      "userId": 3,
+      "shoeId": 87,
+      "shoeSize": "9",
+      "conditionId": 4,
+      "description": "Need new soles",
+      "id": 38
+    },
+    {
+      "userId": 4,
+      "shoeId": 73,
+      "shoeSize": "8.5",
+      "conditionId": 3,
+      "description": "uesd!!@",
+      "id": 39
+    },
+    {
+      "userId": 5,
+      "shoeId": 123,
+      "shoeSize": "9",
+      "conditionId": 1,
+      "description": "testestest",
+      "id": 40
+    },
+    {
+      "userId": 5,
+      "shoeId": 30,
+      "shoeSize": "11.5",
+      "conditionId": 1,
+      "description": "Needs a re-glue",
+      "id": 41
+    },
+    {
+      "userId": 5,
+      "shoeId": 123,
+      "shoeSize": "10.5",
+      "conditionId": 4,
+      "description": "Too small!",
+      "id": 42
     }
   ]
 }

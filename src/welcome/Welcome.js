@@ -9,7 +9,6 @@ export const Welcome = ({ currentUser }) => {
         <span>Your Home for</span>
         <span>Vintage Dunks</span>
       </h1>
-      <button>Enter</button>
     </div>
   )
 }
