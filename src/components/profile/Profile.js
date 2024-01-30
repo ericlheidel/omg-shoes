@@ -43,18 +43,34 @@ export const Profile = ({ currentUser }) => {
     }
   }, [chosenShoeValue, collection])
 
-  // useEffect(() => {
-  //   getUserShoeCollectionByUserId(userId).then((userShoeArray) => {
-  //     setUserShoes(userShoeArray)
-  //   })
-  // }, [userId])
+  const reduceCollection = (inputArray) => {
+    const uniqueMap = new Map()
+    //:
+    //: Use Array.reduce to iterate over the inputArray
+    //:
+    const resultArray = inputArray.reduce((acc, currentItem) => {
+      const shoeId = currentItem.shoeId
+      //:
+      //: Check if the shoeId already exists in the uniqueMap
+      //:
+      if (!uniqueMap.has(shoeId)) {
+        //:
+        //: If not, add it to the uniqueMap and push the currentItem to the resultArray
+        //:
+        uniqueMap.set(shoeId, true)
+        acc.push(currentItem)
+      }
 
-  // useEffect(() => {
-  //   const sortedFilteredShoes = filteredShoes.sort(function (a, b) {
-  //     return a.shoe.name - b.shoe.name
-  //   })
-  //   console.log(sortedFilteredShoes)
-  // }, [filteredShoes])
+      return acc
+    }, [])
+
+    return resultArray
+  }
+
+  const reducedCollectionArray = reduceCollection(collection)
+  // const sortedReducedCollectionArray = reducedCollectionArray.sort(
+  //   (a, b) => parseInt(a.shoeId) - parseInt(b.shoeId)
+  // )
 
   return (
     <div className="profile">
@@ -86,7 +102,7 @@ export const Profile = ({ currentUser }) => {
             <option value={0} key={0}>
               All Shoes
             </option>
-            {collection.map((userShoe) => {
+            {reducedCollectionArray.map((userShoe) => {
               return (
                 <option value={userShoe.shoe.id} key={userShoe.shoe.id}>
                   {userShoe.shoe.name}

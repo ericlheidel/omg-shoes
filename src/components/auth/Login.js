@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { getUserByEmail } from "../../services/usersService.js"
+import "./Login.css"
 
 export const Login = () => {
   const [email, setEmail] = useState("charlie@kelly.com")
@@ -41,17 +42,18 @@ export const Login = () => {
   return (
     <main>
       <section>
-        <form onSubmit={handleLogin}>
+        <form className="form-main" onSubmit={handleLogin}>
           <h1>OMG...Shoes</h1>
           <h2>Please sign in</h2>
           <fieldset>
-            <div>
+            <div className="form-group">
               <input
                 type="email"
                 value={email}
                 placeholder="Email address"
                 required
                 autoFocus
+                className="form-control"
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
@@ -70,12 +72,14 @@ export const Login = () => {
           </fieldset> */}
           <fieldset>
             <div className="form-group">
-              <button type="submit">Sign in</button>
+              <button type="submit" className="btn-submit">
+                Sign in
+              </button>
             </div>
           </fieldset>
         </form>
       </section>
-      <section>
+      <section className="register-link">
         <Link to="/register">Not a member yet?</Link>
       </section>
     </main>

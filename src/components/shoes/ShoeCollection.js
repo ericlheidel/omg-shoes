@@ -8,21 +8,6 @@ export const ShoeCollection = ({
   filteredShoes,
   getAndSetCollectionByUserId,
 }) => {
-  // const [collection, setCollection] = useState([])
-
-  // const { shoeId } = useParams()
-  // const { userShoeId } = useParams()
-
-  // useEffect(() => {
-  //   getAndSetCollectionByUserId(userId)
-  // }, [userId])
-
-  // const getAndSetCollectionByUserId = () => {
-  //   getUserShoeCollectionByUserId(userId).then((collectionArray) =>
-  //     setCollection(collectionArray)
-  //   )
-  // }
-
   let count = 1
   return (
     <div className="collection">

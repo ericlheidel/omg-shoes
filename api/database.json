@@ -2,14 +2,14 @@
   "users": [
     {
       "id": 1,
+      "email": "charlie@kelly.com",
       "firstName": "Charlie",
       "lastName": "Kelly",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
-      "email": "charlie@kelly.com",
       "bio": "Small time Shoe collector!",
-      "hasEmoji": true
+      "hasEmoji": ""
     },
     {
       "email": "dennis@reynolds.com",
@@ -19,7 +19,7 @@
       "state": "PA",
       "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "I am a five star man!!!",
-      "hasEmoji": false,
+      "hasEmoji": "",
       "id": 2
     },
     {
@@ -30,7 +30,7 @@
       "state": "PA",
       "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "I'm gonna get real weird with it!",
-      "hasEmoji": false,
+      "hasEmoji": "",
       "id": 3
     },
     {
@@ -42,7 +42,7 @@
       "state": "PA",
       "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "I'm playing both sides!",
-      "hasEmoji": false
+      "hasEmoji": ""
     },
     {
       "id": 5,
