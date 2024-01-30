@@ -149,14 +149,14 @@ export const ProfileForm = ({ currentUser }) => {
             />
           </div>
         </fieldset>
-        <fieldset>
+        {/* <fieldset>
           <div className="form-group">
             <label>
               <input
                 type="radio"
                 name="hasEmoji"
                 value={hasEmoji}
-                // checked={user?.hasEmoji}
+                checked={user?.hasEmoji}
                 className="form-control"
                 onChange={(e) => {
                   setHasEmoji(JSON.parse(true))
@@ -178,7 +178,7 @@ export const ProfileForm = ({ currentUser }) => {
               🚫
             </label>
           </div>
-        </fieldset>
+        </fieldset> */}
         <fieldset>
           <div className="form-group">
             <button type="submit">Save Profile</button>
