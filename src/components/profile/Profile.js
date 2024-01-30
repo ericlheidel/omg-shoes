@@ -24,6 +24,7 @@ export const Profile = ({ currentUser }) => {
 
   useEffect(() => {
     getAndSetCollectionByUserId(userId)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [userId])
 
   const getAndSetCollectionByUserId = () => {
