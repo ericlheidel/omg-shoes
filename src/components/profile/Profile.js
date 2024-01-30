@@ -49,6 +49,13 @@ export const Profile = ({ currentUser }) => {
   //   })
   // }, [userId])
 
+  // useEffect(() => {
+  //   const sortedFilteredShoes = filteredShoes.sort(function (a, b) {
+  //     return a.shoe.name - b.shoe.name
+  //   })
+  //   console.log(sortedFilteredShoes)
+  // }, [filteredShoes])
+
   return (
     <div className="profile">
       <div className="avatar-div">

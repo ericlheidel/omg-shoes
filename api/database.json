@@ -1310,12 +1310,8 @@
       "condition": "Thrashed"
     }
   ],
-  "comments": [
-    {}
-  ],
-  "likes": [
-    {}
-  ],
+  "comments": [{}],
+  "likes": [{}],
   "userShoe": [
     {
       "userId": 5,
