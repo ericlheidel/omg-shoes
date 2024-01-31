@@ -73,6 +73,5 @@ h4 {
 
 .register-link {
   color: var(--color-one);
-  text-decoration: underline var(--color-one);
   font-size: 1.75rem;
 }

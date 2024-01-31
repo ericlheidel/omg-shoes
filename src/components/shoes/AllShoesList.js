@@ -47,14 +47,16 @@ export const AllShoesList = () => {
 
   return (
     <div className="shoes-container">
+      <h2>All Shoes</h2>
       <ShoesFilterBar
         setFilteredYear={setFilteredYear}
         setSearchTerm={setSearchTerm}
       />
-      <h2>All Shoes</h2>
-      {filteredShoes.map((shoeObj) => {
-        return <Shoe shoeObj={shoeObj} key={shoeObj.id} />
-      })}
+      <article className="shoes">
+        {filteredShoes.map((shoeObj) => {
+          return <Shoe shoeObj={shoeObj} key={shoeObj.id} />
+        })}
+      </article>
     </div>
   )
 }
