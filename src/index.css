@@ -5,15 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-body {
-  background-color: whitesmoke;
 }
 
 a {
@@ -25,8 +22,20 @@ a:visited {
   color: inherit;
 }
 
+a:hover {
+  color: var(--color-four);
+}
+
 input:focus {
   outline: none;
+}
+
+:root {
+  --color-one: #40798c;
+  --color-two: #021e31;
+  --color-three: #5c0029;
+  --color-four: #dd7230;
+  --color-five: #f4c95d;
 }
 
 /* ----------ROOT COLORS----------*/

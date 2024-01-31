@@ -1,4 +1,3 @@
-import "./Register.css"
 import { useState } from "react"
 import { createUser, getUserByEmail } from "../../services/usersService.js"
 import { states } from "../../utility.js"
@@ -59,9 +58,9 @@ export const Register = ({ setLoggedInUser }) => {
   }
 
   return (
-    <main>
-      <div className="form-background">
-        <form className="form-main" onSubmit={handleSubmit}>
+    <main className="center">
+      <div>
+        <form className="register-form" onSubmit={handleSubmit}>
           <h1>OMG...Shoes</h1>
           <h2>Please Register</h2>
           <fieldset>

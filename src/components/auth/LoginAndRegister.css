@@ -1,26 +1,25 @@
-.form-main {
+.register-form,
+.login-form {
   width: 50%;
   margin: 2.5rem auto 1.5rem auto;
   background-color: whitesmoke;
-}
-
-.form-main > h1 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-.form-main > h2 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-/*****FORM STYLING*****/
-
-form {
   border: 2px solid lightgray;
   border-radius: 12.5px;
-  padding: 5rem;
-  box-shadow: 5px 5px 10px lightgray;
+  box-shadow: 5px 5px 15px gray;
+  padding: 3rem;
+}
+
+.register-form > h1,
+.login-form > h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.register-form > h2,
+.login-form > h2 {
+  font-size: 2rem;
+  text-align: center;
 }
 
 fieldset {
@@ -63,7 +62,7 @@ h4 {
 } */
 
 .btn-submit {
-  background-color: #40798c;
+  background-color: var(--color-one);
   color: #fff;
   padding: 10px 15px;
   border: none;
@@ -73,6 +72,7 @@ h4 {
 }
 
 .register-link {
-  color: #40798c;
-  text-decoration: underline #40798c;
+  color: var(--color-one);
+  text-decoration: underline var(--color-one);
+  font-size: 1.75rem;
 }
