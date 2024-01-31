@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .left {
   justify-content: flex-start;
 }
@@ -12,14 +16,4 @@
 
 .center {
   text-align: center;
-}
-
-.shoe-img {
-  max-width: 25%;
-  max-height: 25%;
-}
-
-.shoe {
-  border: solid 5px black;
-  border-radius: 15px;
 }

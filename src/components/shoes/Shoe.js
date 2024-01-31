@@ -1,3 +1,4 @@
+import "./Shoes.css"
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { getAllShoes } from "../../services/shoesService.js"
