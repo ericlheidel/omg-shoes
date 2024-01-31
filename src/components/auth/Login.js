@@ -21,14 +21,8 @@ export const Login = () => {
           "shoes_user",
           JSON.stringify({
             id: user.id,
-            email: user.email,
             firstName: user.firstName,
             lastName: user.lastName,
-            city: user.city,
-            state: user.state,
-            avatar: user.avatar,
-            bio: user.bio,
-            hasEmoji: user.hasEmoji,
           })
         )
 
@@ -45,6 +39,11 @@ export const Login = () => {
         <form className="form-main" onSubmit={handleLogin}>
           <h1>OMG...Shoes</h1>
           <h2>Please sign in</h2>
+          <img
+            src="https://pbs.twimg.com/media/E25w2ORWQAMuBio?format=jpg&name=medium"
+            alt="Pile of Nike dunks"
+            className="login-img"
+          />
           <fieldset>
             <div className="form-group">
               <input
