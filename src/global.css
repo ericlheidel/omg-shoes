@@ -2,12 +2,16 @@
   display: flex;
 }
 
-.flex-left {
+.left {
   justify-content: flex-start;
 }
 
 .right {
   justify-content: flex-end;
+}
+
+.center {
+  text-align: center;
 }
 
 .shoe-img {

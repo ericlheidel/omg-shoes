@@ -1,7 +1,7 @@
+import "./LoginAndRegister.css"
 import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { getUserByEmail } from "../../services/usersService.js"
-import "./Login.css"
 
 export const Login = () => {
   const [email, setEmail] = useState("charlie@kelly.com")
@@ -34,16 +34,11 @@ export const Login = () => {
   }
 
   return (
-    <main>
+    <main className="center">
       <section>
-        <form className="form-main" onSubmit={handleLogin}>
+        <form className="login-form" onSubmit={handleLogin}>
           <h1>OMG...Shoes</h1>
           <h2>Please sign in</h2>
-          <img
-            src="https://pbs.twimg.com/media/E25w2ORWQAMuBio?format=jpg&name=medium"
-            alt="Pile of Nike dunks"
-            className="login-img"
-          />
           <fieldset>
             <div className="form-group">
               <input

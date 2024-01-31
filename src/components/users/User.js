@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
 import { Link } from "react-router-dom"
 
-export const User = ({ userObj, currentUser }) => {
+export const User = ({ userObj }) => {
   const [collectionAmount, setCollectionAmount] = useState(0)
 
   useEffect(() => {

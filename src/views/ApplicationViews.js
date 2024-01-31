@@ -9,7 +9,7 @@ import { ProfileForm } from "../components/profile/ProfileForm.js"
 import { UsersList } from "../components/users/UsersList.js"
 import { UserShoeDetails } from "../components/shoes/UserShoeDetails.js"
 
-export const ApplicationViews = ({ loggedInUser }) => {
+export const ApplicationViews = () => {
   const [currentUser, setCurrentUser] = useState({})
 
   useEffect(() => {
@@ -37,10 +37,6 @@ export const ApplicationViews = ({ loggedInUser }) => {
             path=":userId"
             element={<Profile currentUser={currentUser} />}
           />
-          {/* <Route
-            path=":userId"
-            element={<Profile currentUser={currentUser} />}
-          /> */}
           <Route
             path=":userId/edit"
             element={<ProfileForm currentUser={currentUser} />}

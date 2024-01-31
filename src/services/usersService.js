@@ -18,10 +18,8 @@ export const getUserByEmail = (email) => {
   )
 }
 
-export const getUserById = async (id) => {
-  return await fetch(`http://localhost:9999/users/${id}`).then((res) =>
-    res.json()
-  )
+export const getUserById = (id) => {
+  return fetch(`http://localhost:9999/users/${id}`).then((res) => res.json())
 }
 
 export const updateUserProfile = (user) => {

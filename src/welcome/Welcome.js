@@ -1,14 +1,18 @@
-export const Welcome = ({ currentUser }) => {
+import "./Welcome.css"
+
+export const Welcome = () => {
   return (
-    <div>
+    <div className="welcome-div center">
       <h1>
-        <span>
-          Welcome, {currentUser.firstName} {currentUser.lastName}, to
-        </span>
-        <span>OMG...Shoes</span>
-        <span>Your Home for</span>
-        <span>Vintage Dunks</span>
+        <span>Welcome to</span>
+        <span>OMG Shoes...</span>
       </h1>
+      <div>Your Home for Vintage Dunks</div>
+      <img
+        src="https://pbs.twimg.com/media/E25w2ORWQAMuBio?format=jpg&name=medium"
+        alt="Pile of Nike dunks"
+        className="welcome-img"
+      />
     </div>
   )
 }

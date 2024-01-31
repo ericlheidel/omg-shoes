@@ -72,20 +72,6 @@ export const Profile = ({ currentUser }) => {
   //!!!!!!!!!!!!LEARN THIS .reduce()!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
   const reducedCollectionArray = reduceCollection(collection)
-  // const sortedReducedCollectionArray = reducedCollectionArray.sort(
-  //   (a, b) => parseInt(a.shoeId) - parseInt(b.shoeId)
-  // )
-
-  // const createShoeNameArray = () => {
-  //   let shoeNameArray = []
-  //   reducedCollectionArray.map((shoe) => {
-  //     shoeNameArray.push(shoe.shoe.name)
-  //     return shoeNameArray
-  //   })
-  //   console.log(shoeNameArray)
-  // }
-
-  // createShoeNameArray()
 
   return (
     <div className="profile">
