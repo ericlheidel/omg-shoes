@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { useParams } from "react-router"
 import { getUserShoeById } from "../../services/userShoeService.js"
 
-export const UserShoeDetails = ({ currentUser }) => {
+export const UserShoeDetails = () => {
   const [userShoe, setUserShoe] = useState([])
   // const [allUserShoes, setAllUserShoes] = useState([])
 

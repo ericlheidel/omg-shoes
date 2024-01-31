@@ -1,4 +1,4 @@
-main {
+/* main {
   text-align: center;
 }
 
@@ -6,3 +6,7 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+.login-img {
+  display: block;
+} */

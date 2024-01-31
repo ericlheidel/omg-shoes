@@ -2,7 +2,7 @@ import { years } from "../../utility.js"
 
 export const ShoesFilterBar = ({ setFilteredYear, setSearchTerm }) => {
   return (
-    <div className="filterbar">
+    <div className="filter-bar">
       <select
         className="year-dropdown"
         onChange={(e) => setFilteredYear(e.target.value)}

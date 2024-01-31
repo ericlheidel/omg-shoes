@@ -37,10 +37,10 @@ export const ApplicationViews = ({ loggedInUser }) => {
             path=":userId"
             element={<Profile currentUser={currentUser} />}
           />
-          <Route
+          {/* <Route
             path=":userId"
             element={<Profile currentUser={currentUser} />}
-          />
+          /> */}
           <Route
             path=":userId/edit"
             element={<ProfileForm currentUser={currentUser} />}

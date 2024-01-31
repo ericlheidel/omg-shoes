@@ -43,35 +43,49 @@ export const Profile = ({ currentUser }) => {
       setFilteredShoes(collection)
     }
   }, [chosenShoeValue, collection])
-
+  //!!!!!!!!!!!!LEARN THIS .reduce()!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   const reduceCollection = (inputArray) => {
     const uniqueMap = new Map()
-    //:
-    //: Use Array.reduce to iterate over the inputArray
-    //:
-    const resultArray = inputArray.reduce((acc, currentItem) => {
+    //gg
+    //gg Use .reduce() to iterate over the inputArray
+    //gg
+    const resultArray = inputArray.reduce((accumulator, currentItem) => {
       const shoeId = currentItem.shoeId
-      //:
-      //: Check if the shoeId already exists in the uniqueMap
-      //:
+      //gg
+      //gg Check if the shoeId already exists in the uniqueMap
+      //gg
       if (!uniqueMap.has(shoeId)) {
-        //:
-        //: If not, add it to the uniqueMap and push the currentItem to the resultArray
-        //:
+        //gg
+        //gg If not, add it to the uniqueMap and push the currentItem to the resultArray
+        //gg
         uniqueMap.set(shoeId, true)
-        acc.push(currentItem)
+        accumulator.push(currentItem)
       }
 
-      return acc
+      return accumulator
     }, [])
+
+    resultArray.sort((a, b) => a.shoe.name.localeCompare(b.shoe.name))
 
     return resultArray
   }
+  //!!!!!!!!!!!!LEARN THIS .reduce()!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
   const reducedCollectionArray = reduceCollection(collection)
   // const sortedReducedCollectionArray = reducedCollectionArray.sort(
   //   (a, b) => parseInt(a.shoeId) - parseInt(b.shoeId)
   // )
+
+  // const createShoeNameArray = () => {
+  //   let shoeNameArray = []
+  //   reducedCollectionArray.map((shoe) => {
+  //     shoeNameArray.push(shoe.shoe.name)
+  //     return shoeNameArray
+  //   })
+  //   console.log(shoeNameArray)
+  // }
+
+  // createShoeNameArray()
 
   return (
     <div className="profile">

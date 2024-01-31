@@ -5,7 +5,7 @@ import { getUserById, updateUserProfile } from "../../services/usersService.js"
 
 export const ProfileForm = ({ currentUser }) => {
   const [user, setUser] = useState([])
-  const [hasEmoji, setHasEmoji] = useState("")
+  const [hasEmoji, setHasEmoji] = useState(false)
 
   const { userId } = useParams()
 
