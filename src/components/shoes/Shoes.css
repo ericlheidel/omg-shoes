@@ -20,7 +20,7 @@
   /* border: solid 5px black; */
   border-radius: 15px;
   position: relative;
-  margin: auto 5px;
+  margin: 7.5px;
 }
 
 .filter-bar {
@@ -48,9 +48,9 @@
 .shoe-name {
   position: absolute;
   top: 0;
-  padding: 0.25rem;
+  padding: 0.5rem;
   background-color: lightgray;
-  border-radius: 50px;
+  border-radius: 15px;
   color: var(--color-two);
   font-weight: 500;
   font-size: 1.25rem;
