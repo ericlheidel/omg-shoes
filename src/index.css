@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lightgray;
+  background-color: var(--color-one);
 }
 
 code {
@@ -23,11 +23,48 @@ a:visited {
 }
 
 a:hover {
-  color: var(--color-four);
+  color: var(--color-five);
 }
 
-input:focus {
+input:focus,
+select:focus,
+textarea:focus {
   outline: none;
+}
+
+.form-select {
+  background-color: var(--color-one);
+  color: var(--color-two);
+  border: none;
+  border-radius: 7.5px;
+  padding: 0.5rem;
+}
+
+.form-select:hover {
+  background-color: var(--color-four);
+}
+
+.form-btn {
+  background-color: #40798c;
+  color: #021e31;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-btn:hover {
+  background-color: var(--color-four);
+}
+
+.btn-submit {
+  background-color: var(--color-one);
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 :root {

@@ -61,8 +61,10 @@ export const Register = ({ setLoggedInUser }) => {
     <main className="center">
       <div>
         <form className="register-form" onSubmit={handleSubmit}>
-          <h1>OMG...Shoes</h1>
-          <h2>Please Register</h2>
+          <div className="text-div">
+            <h1>OMG...Shoes</h1>
+            <h2>Please Register</h2>
+          </div>
           <div className="name-div">
             <fieldset>
               <div className="form-group">
@@ -119,7 +121,7 @@ export const Register = ({ setLoggedInUser }) => {
                 id="state"
                 value={state}
                 required
-                className="form-control state-dropdown"
+                className="state-dropdown form-select"
                 onChange={(e) => {
                   setState(e.target.value)
                 }}
@@ -228,7 +230,7 @@ export const Register = ({ setLoggedInUser }) => {
           </fieldset> */}
           <fieldset>
             <div className="form-group">
-              <button type="submit" className="btn-submit">
+              <button type="submit" className="btn-submit form-btn">
                 Register
               </button>
             </div>

@@ -1,16 +1,14 @@
 .register-form,
 .login-form {
-  width: 50%;
+  width: 450px;
   margin: 2.5rem auto 1.5rem auto;
-  background-color: whitesmoke;
-  border: 2px solid lightgray;
+  background-color: var(--color-two);
   border-radius: 12.5px;
-  box-shadow: 5px 5px 15px gray;
   padding: 3rem;
 }
 
 .register-form > h1,
-.login-form > h1 {
+.login-for > h1 {
   font-size: 3rem;
   text-align: center;
   padding-bottom: 0;
@@ -22,10 +20,19 @@
   text-align: center;
 }
 
+.text-div {
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 8px;
+  width: 50%;
+  margin: 0 auto 20px auto;
+  box-shadow: 2px 2px 2px 2px lightgray;
+}
+
 fieldset {
   display: flex;
   min-width: 0;
-  padding-bottom: 0.75rem;
+
   margin: 0;
   border: 0;
 }
@@ -38,49 +45,35 @@ h4 {
 .form-group {
   display: flex;
   flex-direction: column;
+  border: none;
 }
 
 .form-control {
   padding: 0.5rem;
-  border: 2px solid lightgray;
-  border-radius: 0.375rem;
+  background-color: var(--color-one);
+  border-radius: 8px;
   font-size: 1rem;
-  width: 50rem;
+  width: 25rem;
+  border: none;
+  color: var(--color-two);
+  font-size: 20px;
+}
+
+.form-control::placeholder {
+  color: var(--color-two);
+}
+
+.form-control.text:focus {
+  color: var(--color-four);
 }
 
 .state-dropdown {
-  width: 51.15rem;
-}
-
-/* .radio-group {
-  display: inline-block;
-  background-color: whitesmoke;
-  border: 2px solid lightgray;
-  border-radius: 0.375rem;
-  font-size: 1rem;
-  width: 15rem;
-} */
-
-.btn-submit {
-  background-color: var(--color-one);
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+  width: 26rem;
+  font-size: 20px;
 }
 
 .register-link {
-  color: var(--color-one);
+  color: var(--color-two);
   font-size: 1.75rem;
+  cursor: pointer;
 }
-
-/* .name-div {
-  display: flex;
-} */
-
-/* .firstName,
-.lastName {
-  width: 2.5rem;
-} */

@@ -10,19 +10,19 @@ export const ShoeCollection = ({
 }) => {
   let count = 1
   return (
-    <div className="collection">
+    <div className="shoe-collection">
       {filteredShoes.map((userShoe) => {
         return (
-          <div className="shoe" value={userShoe.id} key={count++}>
-            <Link to={`/usershoe/${userShoe.id}`}>
-              <div>
-                <img
-                  src={userShoe.shoe.image}
-                  alt="detailed view of shoe"
-                  className="shoe-img"
-                />
-              </div>
-            </Link>
+          <div className="user-shoe" value={userShoe.id} key={count++}>
+            {/* <Link to={`/usershoe/${userShoe.id}`}> */}
+            <div className="user-shoe-img-div">
+              <img
+                src={userShoe.shoe.image}
+                alt="detailed view of shoe"
+                className="user-shoe-img"
+              />
+            </div>
+            {/* </Link> */}
             <div className="collection-shoe-name">{userShoe.shoe.name}</div>
             <div className="user-shoe-info">
               <div className="user-shoe-size">{userShoe.shoeSize}</div>
@@ -35,6 +35,7 @@ export const ShoeCollection = ({
             </div>
             {currentUser.id === parseInt(userId) && (
               <button
+                className="btn-remove"
                 onClick={(e) => {
                   deleteUserShoeFromCollection(userShoe.id).then(
                     getAndSetCollectionByUserId
