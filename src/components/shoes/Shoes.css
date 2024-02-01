@@ -1,8 +1,4 @@
 /********************  AllShoesList.js  ********************/
-.shoes-container {
-  margin: 1rem 5rem 8rem 5rem;
-}
-
 .shoes-container > h2 {
   font-size: 3rem;
   font-weight: 400;
@@ -14,15 +10,16 @@
 .shoes {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
 }
 
 /********************  Shoe.js  ********************/
 .shoe {
-  /* border: solid 5px black; */
   border-radius: 15px;
-  position: relative;
   margin: 7.5px;
+  background-color: var(--color-two);
+  padding: 15px;
 }
 
 .shoe-img {
@@ -32,16 +29,10 @@
 }
 
 .shoe-name {
-  position: absolute;
-  top: 0;
-  padding: 0.5rem;
-  background-color: lightgray;
-  border-radius: 15px;
-  color: var(--color-two);
+  color: var(--color-four);
   font-weight: 500;
   font-size: 1.25rem;
-  margin-left: 1rem;
-  margin-top: 1rem;
+  margin: 0.5rem 0 0 1rem;
 }
 
 /********************  ShoesFilterBar.js ********************/
@@ -51,27 +42,152 @@
   margin-bottom: 2.5rem;
 }
 
-.shoe-search,
-.year-dropdown {
-  padding: 0.5rem;
-  border: 2px solid gray;
-  border-radius: 10px;
-}
-
 .shoe-search {
   margin-left: auto;
   margin-right: 7rem;
   width: 15rem;
+  background-color: var(--color-two);
+  color: var(--color-four);
+  border: none;
+  border-radius: 7.5px;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+
+.shoe-search::placeholder {
+  color: var(--color-four);
 }
 
 .year-dropdown {
   width: 15rem;
   margin-right: auto;
-  margin-left: 7rem;
+  margin-left: 8rem;
+  background-color: var(--color-two);
+  color: var(--color-four);
+  border: none;
+  border-radius: 7.5px;
+  padding: 0.5rem;
+  font-size: 20px;
 }
 
 /********************  ShoeDetailsForm.js  ********************/
 
+.shoe-details-div {
+  width: 350px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-two);
+  border-radius: 15px;
+}
+
+.shoe-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
 .shoe-details-img {
   border-radius: 15px;
+}
+
+.shoe-detail-one {
+  margin-top: 10px;
+  font-size: 18px;
+  color: var(--color-four);
+}
+.shoe-detail-two {
+  margin-top: 10px;
+  font-size: 18px;
+  color: var(--color-four);
+}
+
+.add-shoe-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.condition-dropdown,
+.size-dropdown {
+  width: 100%;
+}
+
+.add-btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 75px;
+  margin-left: auto;
+  width: 100%;
+}
+
+/********************  ShoeCollection.js  *************************/
+
+/* .shoe-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.user-shoe-img-div {
+  border: 2px solid black;
+}
+.user-shoe-img {
+  width: 75%;
+} */
+
+.shoe-collection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-shoe {
+  background-color: #021e31;
+  color: #f4c95d;
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.user-shoe-img-div {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.user-shoe-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.collection-shoe-name {
+  color: #dd7230;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.user-shoe-info {
+  margin-top: 10px;
+}
+
+.user-shoe-size,
+.user-shoe-condition,
+.user-shoe-description {
+  color: #40798c;
+}
+
+.btn-remove {
+  background-color: #40798c;
+  color: #021e31;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
 }

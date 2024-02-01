@@ -48,24 +48,24 @@ export const ShoeDetailsForm = ({ currentUser }) => {
   useEffect(() => {}, [])
 
   return (
-    <div className="shoe-details-container">
-      <div className="shoe-details-img-div">
-        <img
-          src={shoe.image}
-          alt="shoe shown in detail"
-          className="shoe-details-img"
-        />
+    <div className="shoe-detail-container">
+      <div className="shoe-details-div">
         <div className="shoe-details">
-          <div className="shoe-details-name">{shoe.name}</div>
-          <div className="shoe-details-year">{shoe.year}</div>
-          <div className="shoe-details-model-number">{shoe.modelNumber}</div>
-          <div className="shoe-details-colorway">{shoe.colorway}</div>
+          <img
+            src={shoe.image}
+            alt="shoe shown in detail"
+            className="shoe-details-img"
+          />
+          <div className="shoe-detail-one">{shoe.name}</div>
+          <div className="shoe-detail-two">{shoe.year}</div>
+          <div className="shoe-detail-two">{shoe.modelNumber}</div>
+          <div className="shoe-detail-two">{shoe.colorway}</div>
         </div>
-        <div className="add-shoe-form">
-          <form onSubmit={handleAddShoeToUserCollection}>
-            <fieldset>
+        <form className="form" onSubmit={handleAddShoeToUserCollection}>
+          <fieldset>
+            <div className="form-group">
               <select
-                className="condition-dropdown"
+                className="condition-dropdown form-select"
                 required
                 onChange={(e) => setChosenCondition(e.target.value)}
               >
@@ -80,45 +80,49 @@ export const ShoeDetailsForm = ({ currentUser }) => {
                   )
                 })}
               </select>
-            </fieldset>
-            <div>
-              <fieldset>
-                <select
-                  className="size-dropdown"
-                  required
-                  onChange={(e) => setChosenSize(e.target.value)}
-                >
-                  <option value={0} key={0}>
-                    Select a Size...
-                  </option>
-                  {sizes.map((size) => {
-                    return (
-                      <option value={size.size} key={size.id}>
-                        {size.size}
-                      </option>
-                    )
-                  })}
-                </select>
-              </fieldset>
-              <fieldset>
-                <div className="shoe-description">
-                  <input
-                    type="text"
-                    required
-                    value={userShoeDescription}
-                    placeholder="Write a short description of the condition of your shoe..."
-                    onChange={(e) => setUserShoeDescription(e.target.value)}
-                  />
-                </div>
-              </fieldset>
-              <fieldset>
-                <div className="add-btn">
-                  <button type="submit">Add Shoe to Collection</button>
-                </div>
-              </fieldset>
             </div>
-          </form>
-        </div>
+          </fieldset>
+          <div>
+            <fieldset>
+              <select
+                className="size-dropdown form-select"
+                required
+                onChange={(e) => setChosenSize(e.target.value)}
+              >
+                <option value={0} key={0}>
+                  Select a Size...
+                </option>
+                {sizes.map((size) => {
+                  return (
+                    <option value={size.size} key={size.id}>
+                      {size.size}
+                    </option>
+                  )
+                })}
+              </select>
+            </fieldset>
+            <fieldset>
+              <div className="shoe-description">
+                <textarea
+                  type="text"
+                  // className="form-control"
+                  required
+                  value={userShoeDescription}
+                  placeholder="Write a short description of the condition of
+                  your shoe..."
+                  onChange={(e) => setUserShoeDescription(e.target.value)}
+                ></textarea>
+              </div>
+            </fieldset>
+            <fieldset>
+              <div className="add-btn">
+                <button type="submit" className="add-btn form-btn">
+                  Add Shoe to Collection
+                </button>
+              </div>
+            </fieldset>
+          </div>
+        </form>
       </div>
     </div>
   )
