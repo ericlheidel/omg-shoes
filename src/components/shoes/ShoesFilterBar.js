@@ -3,12 +3,6 @@ import { years } from "../../utility.js"
 export const ShoesFilterBar = ({ setFilteredYear, setSearchTerm }) => {
   return (
     <div className="filter-bar">
-      <input
-        type="text"
-        placeholder="Search..."
-        className="shoe-search"
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
       <select
         className="year-dropdown"
         onChange={(e) => setFilteredYear(e.target.value)}
@@ -27,6 +21,12 @@ export const ShoesFilterBar = ({ setFilteredYear, setSearchTerm }) => {
           )
         })}
       </select>
+      <input
+        type="text"
+        placeholder="Search..."
+        className="shoe-search"
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
     </div>
   )
 }

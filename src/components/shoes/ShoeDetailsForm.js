@@ -49,8 +49,12 @@ export const ShoeDetailsForm = ({ currentUser }) => {
 
   return (
     <div className="shoe-details-container">
-      <div className="shoe-details-img">
-        <img src={shoe.image} alt="shoe shown in detail" className="shoe-img" />
+      <div className="shoe-details-img-div">
+        <img
+          src={shoe.image}
+          alt="shoe shown in detail"
+          className="shoe-details-img"
+        />
         <div className="shoe-details">
           <div className="shoe-details-name">{shoe.name}</div>
           <div className="shoe-details-year">{shoe.year}</div>
