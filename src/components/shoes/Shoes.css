@@ -1,3 +1,4 @@
+/********************  AllShoesList.js  ********************/
 .shoes-container {
   margin: 1rem 5rem 8rem 5rem;
 }
@@ -16,27 +17,12 @@
   justify-content: center;
 }
 
+/********************  Shoe.js  ********************/
 .shoe {
   /* border: solid 5px black; */
   border-radius: 15px;
   position: relative;
   margin: 7.5px;
-}
-
-.filter-bar {
-  display: flex;
-  flex-direction: column;
-}
-
-.shoe-search,
-.year-dropdown {
-  padding: 0.5rem;
-  border: 2px solid gray;
-  width: 25%;
-}
-
-.year-dropdown {
-  width: 20rem;
 }
 
 .shoe-img {
@@ -56,4 +42,36 @@
   font-size: 1.25rem;
   margin-left: 1rem;
   margin-top: 1rem;
+}
+
+/********************  ShoesFilterBar.js ********************/
+
+.filter-bar {
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+
+.shoe-search,
+.year-dropdown {
+  padding: 0.5rem;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.shoe-search {
+  margin-left: auto;
+  margin-right: 7rem;
+  width: 15rem;
+}
+
+.year-dropdown {
+  width: 15rem;
+  margin-right: auto;
+  margin-left: 7rem;
+}
+
+/********************  ShoeDetailsForm.js  ********************/
+
+.shoe-details-img {
+  border-radius: 15px;
 }

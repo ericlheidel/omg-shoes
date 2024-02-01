@@ -63,38 +63,40 @@ export const Register = ({ setLoggedInUser }) => {
         <form className="register-form" onSubmit={handleSubmit}>
           <h1>OMG...Shoes</h1>
           <h2>Please Register</h2>
-          <fieldset>
-            <div className="form-group">
-              <input
-                type="text"
-                id="firstName"
-                value={firstName}
-                placeholder="Enter your first name..."
-                required
-                autoFocus
-                className="form-control"
-                onChange={(e) => {
-                  setFirstName(e.target.value)
-                }}
-              />
-            </div>
-          </fieldset>
-          <fieldset>
-            <div className="form-group">
-              <input
-                type="text"
-                id="lastName"
-                value={lastName}
-                placeholder="Enter your last name..."
-                required
-                autoFocus
-                className="form-control"
-                onChange={(e) => {
-                  setLastName(e.target.value)
-                }}
-              />
-            </div>
-          </fieldset>
+          <div className="name-div">
+            <fieldset>
+              <div className="form-group">
+                <input
+                  type="text"
+                  id="firstName"
+                  value={firstName}
+                  placeholder="Enter your first name..."
+                  required
+                  autoFocus
+                  className="form-control"
+                  onChange={(e) => {
+                    setFirstName(e.target.value)
+                  }}
+                />
+              </div>
+            </fieldset>
+            <fieldset>
+              <div className="form-group">
+                <input
+                  type="text"
+                  id="lastName"
+                  value={lastName}
+                  placeholder="Enter your last name..."
+                  required
+                  autoFocus
+                  className="form-control"
+                  onChange={(e) => {
+                    setLastName(e.target.value)
+                  }}
+                />
+              </div>
+            </fieldset>
+          </div>
           <fieldset>
             <div className="form-group">
               <input
