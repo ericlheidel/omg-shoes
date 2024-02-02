@@ -17,10 +17,10 @@ export const UsersList = () => {
   }, [])
 
   useEffect(() => {
-    const matchingUsers = allUsers.filter(
-      (user) =>
-        user.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        user.lastName.toLowerCase().includes(searchTerm.toLowerCase())
+    const matchingUsers = allUsers.filter((user) =>
+      // user.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      // user.lastName.toLowerCase().includes(searchTerm.toLowerCase())
+      user.name.toLowerCase().includes(searchTerm.toLowerCase())
     )
     setFilteredUsers(matchingUsers)
   }, [allUsers, searchTerm])

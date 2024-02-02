@@ -19,7 +19,8 @@ export const User = ({ userObj }) => {
       <div className="user-info">
         <Link to={`/users/${userObj.id}`}>
           <div className="user-name">
-            {userObj.firstName} {userObj.lastName}{" "}
+            {/* {userObj.firstName} {userObj.lastName} */}
+            {userObj.name}
             {userObj.hasEmoji ? "👟" : ""}
           </div>
         </Link>

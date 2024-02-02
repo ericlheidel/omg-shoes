@@ -1,3 +1,4 @@
+import "./Profile.css"
 import { useEffect, useState } from "react"
 import { useParams } from "react-router"
 import { getUserById } from "../../services/usersService.js"
@@ -75,31 +76,36 @@ export const Profile = ({ currentUser }) => {
 
   return (
     <div className="profile">
-      <div className="avatar-div">
-        <img src={user.avatar} alt="User Avatar" />
-      </div>
-      <div className="name-div">
+      <div className="profile-div">
+        <div className="profile-img-div">
+          <img src={user.avatar} alt="User Avatar" className="profile-img" />
+        </div>
+        <div className="user-name">{user.name}</div>
+        {/* <div className="name-div">
         {user.firstName} {user.lastName}
-      </div>
-      <div className="bio-div">
-        {user.bio} {user.hasEmoji && "👟"}
-      </div>
-      <div className="location-div">
-        {user.city}, {user.state}
-      </div>
-      <div className="edit-btn">
+      </div> */}
+        <div className="user-info-div">
+          {/* <div className="user-bio">
+            {user.bio} {user.hasEmoji && "👟"}
+          </div> */}
+          <div className="user-location">
+            {user.city}, {user.state}
+          </div>
+        </div>
+        <div className="edit-btn-div"></div>
         {user.id === currentUser.id && (
           <Link to={`/users/${userId}/edit`}>
-            <button>Edit Profile</button>
+            <button className="btn-edit btn-submit">Edit Profile</button>
           </Link>
         )}
         <div className="dropdown-div">
           <select
-            className="dropdown"
+            className="form-select profile-dropdown"
             onChange={(e) => {
               setChosenShoeValue(parseInt(e.target.value))
             }}
           >
+            <option value={"0"}>Filter Shoes...</option>
             <option value={0} key={0}>
               All Shoes
             </option>

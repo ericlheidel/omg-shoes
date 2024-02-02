@@ -2,33 +2,36 @@
   "users": [
     {
       "id": 1,
-      "email": "charlie@kelly.com",
-      "firstName": "Charlie",
-      "lastName": "Kelly",
-      "city": "Philadelphia",
-      "state": "PA",
+      "email": "eric@heidel.com",
+      "name": "Eric Heidel",
+      "firstName": "Eric",
+      "lastName": "Heidel",
+      "city": "Nashville",
+      "state": "TN",
       "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
       "bio": "Small time Shoe collector!",
       "hasEmoji": ""
     },
     {
       "email": "dennis@reynolds.com",
+      "name": "Dennis Reynolds",
       "firstName": "Dennis",
       "lastName": "Reynolds",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
+      "avatar": "/avatars/dennis-reynolds.jpg",
       "bio": "I am a five star man!!!",
       "hasEmoji": "",
       "id": 2
     },
     {
       "email": "frank@reynolds.com",
+      "name": "Frank Reynolds",
       "firstName": "Frank",
       "lastName": "Reynolds",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
+      "avatar": "/avatars/frank-reynolds.jpg",
       "bio": "I'm gonna get real weird with it!",
       "hasEmoji": "",
       "id": 3
@@ -36,24 +39,35 @@
     {
       "id": 4,
       "email": "mac@mcdonald.com",
+      "name": "Mac MCDonald",
       "firstName": "Mac",
       "lastName": "McDonald",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
+      "avatar": "/avatars/mac-mcdonald.jpg",
       "bio": "I'm playing both sides!",
       "hasEmoji": ""
     },
     {
       "id": 5,
-      "email": "eric@heidel.com",
-      "firstName": "Eric",
-      "lastName": "Heidel",
-      "city": "Nashville",
-      "state": "TN",
-      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
-      "bio": "You can run, but you can't Heidel",
+      "email": "charlie@kelly.com",
+      "name": "Charlie Kelly",
+      "firstName": "Charlie",
+      "lastName": "Kelly",
+      "city": "Philadelphia",
+      "state": "PA",
+      "avatar": "/avatars/charlie-kelly.jpg",
+      "bio": "I hate Charlie work!",
       "hasEmoji": ""
+    },
+    {
+      "email": "dee@reynolds.com",
+      "name": "Dee Reynolds",
+      "city": "Philadelphia",
+      "state": "PA",
+      "avatar": "/avatars/dee-reynolds.jpg",
+      "bio": "I'm a bird!",
+      "id": 6
     }
   ],
   "shoes": [
@@ -64,8 +78,7 @@
       "year": 2002,
       "modelNumber": "304292-141",
       "colorway": "WHITE/ORION BLUE-WHITE",
-      "image": "/shoes/mulder.jpg",
-      "link": ""
+      "image": "/shoes/mulder.jpg"
     },
     {
       "id": 2,
@@ -74,8 +87,7 @@
       "year": 2002,
       "modelNumber": "304292-841",
       "colorway": "SAFETY ORANGE/HYPER BLUE-WHITE",
-      "image": "/shoes/danny-supa.jpg",
-      "link": ""
+      "image": "/shoes/danny-supa.jpg"
     },
     {
       "id": 3,
@@ -84,8 +96,7 @@
       "year": 2002,
       "modelNumber": "304292-731",
       "colorway": "WHEAT/TWIG-DUNE",
-      "image": "/shoes/reese-forbes-wheat.jpg",
-      "link": ""
+      "image": "/shoes/reese-forbes-wheat.jpg"
     },
     {
       "id": 4,
@@ -94,8 +105,7 @@
       "year": 2002,
       "modelNumber": "304292_401",
       "colorway": "OBSIDIAN/LIGHT GRAPHITE-BLACK",
-      "image": "/shoes/gino-iannucci.jpg",
-      "link": ""
+      "image": "/shoes/gino-iannucci.jpg"
     },
     {
       "id": 5,
@@ -104,8 +114,7 @@
       "year": 2002,
       "modelNumber": "305162-201",
       "colorway": "PAUL BROWN/BLACK",
-      "image": "/shoes/zoo-york.jpg",
-      "link": ""
+      "image": "/shoes/zoo-york.jpg"
     },
     {
       "id": 6,
@@ -114,8 +123,7 @@
       "year": 2002,
       "modelNumber": "305162-001",
       "colorway": "ANTHRACITE/BLACK",
-      "image": "/shoes/chocolate.jpg",
-      "link": ""
+      "image": "/shoes/chocolate.jpg"
     },
     {
       "id": 7,
@@ -124,8 +132,7 @@
       "year": 2002,
       "modelNumber": "304292-131",
       "colorway": "BLACK/BLACK-CEMENT GREY",
-      "image": "/shoes/supreme-black.jpg",
-      "link": ""
+      "image": "/shoes/supreme-black.jpg"
     },
     {
       "id": 8,
@@ -134,8 +141,7 @@
       "year": 2002,
       "modelNumber": "304292-001",
       "colorway": "WHITE/BLACK-CEMENT GREY",
-      "image": "/shoes/supreme-white.jpg",
-      "link": ""
+      "image": "/shoes/supreme-white.jpg"
     },
     {
       "id": 9,
@@ -144,8 +150,7 @@
       "year": 2002,
       "modelNumber": "304292-301",
       "colorway": "DARK LODEN/BLACK",
-      "image": "/shoes/loden.jpg",
-      "link": ""
+      "image": "/shoes/loden.jpg"
     },
     {
       "id": 10,
@@ -154,8 +159,7 @@
       "year": 2002,
       "modelNumber": "304292-361",
       "colorway": "NIGHTSHADE/TEAM RED-SHARK",
-      "image": "/shoes/shark.jpg",
-      "link": ""
+      "image": "/shoes/shark.jpg"
     },
     {
       "id": 11,
@@ -164,8 +168,7 @@
       "year": 2002,
       "modelNumber": "304292-801",
       "colorway": "ORANGE FLASH/BLACK",
-      "image": "/shoes/flash.jpg",
-      "link": ""
+      "image": "/shoes/flash.jpg"
     },
     {
       "id": 12,
@@ -174,8 +177,7 @@
       "year": 2002,
       "modelNumber": "304292-441",
       "colorway": "DENIM/DENIM",
-      "image": "/shoes/reese-forbes-denim.jpg",
-      "link": ""
+      "image": "/shoes/reese-forbes-denim.jpg"
     },
     {
       "id": 13,
@@ -184,8 +186,7 @@
       "year": 2003,
       "modelNumber": "304292-226",
       "colorway": "DARK CINDER/BISON/SPORT RED",
-      "image": "/shoes/bison.jpg",
-      "link": ""
+      "image": "/shoes/bison.jpg"
     },
     {
       "id": 14,
@@ -194,8 +195,7 @@
       "year": 2003,
       "modelNumber": "304292-072",
       "colorway": "BLACK/METALLIC GOLD/BLACK",
-      "image": "/shoes/takashi.jpg",
-      "link": ""
+      "image": "/shoes/takashi.jpg"
     },
     {
       "id": 15,
@@ -204,8 +204,7 @@
       "year": 2003,
       "modelNumber": "304292-013",
       "colorway": "BLACK/WHITE-NIGHTSHADE-SHARK",
-      "image": "/shoes/futura.jpg",
-      "link": ""
+      "image": "/shoes/futura.jpg"
     },
     {
       "id": 16,
@@ -214,8 +213,7 @@
       "year": 2003,
       "modelNumber": "304292-302",
       "colorway": "CLASSIC GREEN/BLACK-WHITE-RED",
-      "image": "/shoes/heineken.jpg",
-      "link": ""
+      "image": "/shoes/heineken.jpg"
     },
     {
       "id": 17,
@@ -224,8 +222,7 @@
       "year": 2003,
       "modelNumber": "304292-601",
       "colorway": "TRUE RED/BLACK",
-      "image": "/shoes/true-red.jpg",
-      "link": ""
+      "image": "/shoes/true-red.jpg"
     },
     {
       "id": 18,
@@ -234,8 +231,7 @@
       "year": 2003,
       "modelNumber": "304292-061",
       "colorway": "BLACK/TRUE RED",
-      "image": "/shoes/true-black.jpg",
-      "link": ""
+      "image": "/shoes/true-black.jpg"
     },
     {
       "id": 19,
@@ -244,8 +240,7 @@
       "year": 2003,
       "modelNumber": "304292-184",
       "colorway": "WHITE/ORANGE BLAZE-MIDNIGHT NAVY",
-      "image": "/shoes/bronco.jpg",
-      "link": ""
+      "image": "/shoes/bronco.jpg"
     },
     {
       "id": 20,
@@ -254,8 +249,7 @@
       "year": 2003,
       "modelNumber": "304292-431",
       "colorway": "NAVY/OUTDOOR GREEN/LIGHT CHOCOLATE",
-      "image": "/shoes/barf.jpg",
-      "link": ""
+      "image": "/shoes/barf.jpg"
     },
     {
       "id": 21,
@@ -264,8 +258,7 @@
       "year": 2003,
       "modelNumber": "304292-003",
       "colorway": "BLACK/BLACK",
-      "image": "/shoes/ostrich.jpg",
-      "link": ""
+      "image": "/shoes/ostrich.jpg"
     },
     {
       "id": 22,
@@ -274,8 +267,7 @@
       "year": 2003,
       "modelNumber": "304292-221",
       "colorway": "BAROQUE BROWN/HAY/MAPLE",
-      "image": "/shoes/brown-pack-low.jpg",
-      "link": ""
+      "image": "/shoes/brown-pack-low.jpg"
     },
     {
       "id": 23,
@@ -284,8 +276,7 @@
       "year": 2003,
       "modelNumber": "308270-111",
       "colorway": "ROPE/SPECIAL CARDINAL",
-      "image": "/shoes/paris.jpg",
-      "link": ""
+      "image": "/shoes/paris.jpg"
     },
     {
       "id": 24,
@@ -294,8 +285,7 @@
       "year": 2003,
       "modelNumber": "304292-132",
       "colorway": "WHITE/CLASSIC GREEN-DEL SOL",
-      "image": "/shoes/buck.jpg",
-      "link": ""
+      "image": "/shoes/buck.jpg"
     },
     {
       "id": 25,
@@ -304,8 +294,7 @@
       "year": 2004,
       "modelNumber": "304292-741",
       "colorway": "JERSEY GOLD/CASCADE BLUE",
-      "image": "/shoes/blue-hemp.jpg",
-      "link": ""
+      "image": "/shoes/blue-hemp.jpg"
     },
     {
       "id": 26,
@@ -314,8 +303,7 @@
       "year": 2004,
       "modelNumber": "304292-761",
       "colorway": "JERSEY GOLD/RED MAHOGANY",
-      "image": "/shoes/burgundy-hemp.jpg",
-      "link": ""
+      "image": "/shoes/burgundy-hemp.jpg"
     },
     {
       "id": 27,
@@ -324,8 +312,7 @@
       "year": 2004,
       "modelNumber": "304292-732",
       "colorway": "JERSEY GOLD/BONSAI",
-      "image": "/shoes/green-hemp.jpg",
-      "link": ""
+      "image": "/shoes/green-hemp.jpg"
     },
     {
       "id": 28,
@@ -334,8 +321,7 @@
       "year": 2004,
       "modelNumber": "304292-173",
       "colorway": "WHITE/MEDIUM YELLOW-UNIVERSITY BLUE",
-      "image": "/shoes/homer.jpg",
-      "link": ""
+      "image": "/shoes/homer.jpg"
     },
     {
       "id": 29,
@@ -344,8 +330,7 @@
       "year": 2004,
       "modelNumber": "304292-222",
       "colorway": "KHAKI/BAROQUE BROWN-SAFARI",
-      "image": "/shoes/jedi.jpg",
-      "link": ""
+      "image": "/shoes/jedi.jpg"
     },
     {
       "id": 30,
@@ -354,8 +339,7 @@
       "year": 2004,
       "modelNumber": "304292-224",
       "colorway": "SHALE/SHALE",
-      "image": "/shoes/carhartt-shale.jpg",
-      "link": ""
+      "image": "/shoes/carhartt-shale.jpg"
     },
     {
       "id": 31,
@@ -364,8 +348,7 @@
       "year": 2004,
       "modelNumber": "304292-004",
       "colorway": "BLACK/BLACK",
-      "image": "/shoes/carhartt-black.jpg",
-      "link": ""
+      "image": "/shoes/carhartt-black.jpg"
     },
     {
       "id": 32,
@@ -374,8 +357,7 @@
       "year": 2004,
       "modelNumber": "304292-142",
       "colorway": "WHITE/COLLEGE BLUE",
-      "image": "/shoes/medicom-1.jpg",
-      "link": ""
+      "image": "/shoes/medicom-1.jpg"
     },
     {
       "id": 33,
@@ -384,8 +366,7 @@
       "year": 2004,
       "modelNumber": "304292-211",
       "colorway": "PECAN/WHITE",
-      "image": "/shoes/cali.jpg",
-      "link": ""
+      "image": "/shoes/cali.jpg"
     },
     {
       "id": 34,
@@ -394,8 +375,7 @@
       "year": 2004,
       "modelNumber": "308268-111",
       "colorway": "MUSLIN/MUSLIN",
-      "image": "/shoes/tokyo.jpg",
-      "link": ""
+      "image": "/shoes/tokyo.jpg"
     },
     {
       "id": 35,
@@ -404,8 +384,7 @@
       "year": 2004,
       "modelNumber": "308269-111",
       "colorway": "SOFT GREY/MAGNET",
-      "image": "/shoes/london.jpg",
-      "link": ""
+      "image": "/shoes/london.jpg"
     },
     {
       "id": 36,
@@ -414,8 +393,7 @@
       "year": 2004,
       "modelNumber": "304292-223",
       "colorway": "BAROQUE BROWN/MUSHROOM/TWEED",
-      "image": "/shoes/tweed.jpg",
-      "link": ""
+      "image": "/shoes/tweed.jpg"
     },
     {
       "id": 37,
@@ -424,8 +402,7 @@
       "year": 2004,
       "modelNumber": "304292-281",
       "colorway": "NATURAL BURALAP/ORANGE BLAZE",
-      "image": "/shoes/reese-forbes-hunter.jpg",
-      "link": ""
+      "image": "/shoes/reese-forbes-hunter.jpg"
     },
     {
       "id": 38,
@@ -434,8 +411,7 @@
       "year": 2004,
       "modelNumber": "304292-112",
       "colorway": "WHITE/METALLIC GOLD0-REDWOOD",
-      "image": "/shoes/shanghai-1.jpg",
-      "link": ""
+      "image": "/shoes/shanghai-1.jpg"
     },
     {
       "id": 39,
@@ -444,8 +420,7 @@
       "year": 2004,
       "modelNumber": "304292-261",
       "colorway": "GRIT/TEAM RED",
-      "image": "/shoes/grits.jpg",
-      "link": ""
+      "image": "/shoes/grits.jpg"
     },
     {
       "id": 40,
@@ -454,8 +429,7 @@
       "year": 2004,
       "modelNumber": "304292-225",
       "colorway": "DARK MOCHA/CHINO",
-      "image": "/shoes/mocha.jpg",
-      "link": ""
+      "image": "/shoes/mocha.jpg"
     },
     {
       "id": 41,
@@ -464,8 +438,7 @@
       "year": 2005,
       "modelNumber": "304292-011",
       "colorway": "MEDIUM GREY/WHITE-DARK GREY",
-      "image": "/shoes/nyc-pigeon.jpg",
-      "link": ""
+      "image": "/shoes/nyc-pigeon.jpg"
     },
     {
       "id": 42,
@@ -474,8 +447,7 @@
       "year": 2005,
       "modelNumber": "304292-041",
       "colorway": "BLACK/BLACK-GAME ROYAL",
-      "image": "/shoes/j-pack-blue.jpg",
-      "link": ""
+      "image": "/shoes/j-pack-blue.jpg"
     },
     {
       "id": 43,
@@ -484,8 +456,7 @@
       "year": 2005,
       "modelNumber": "304292-803",
       "colorway": "ORANGE FLASH/BLACK-BLACK",
-      "image": "/shoes/raygun-home-black.jpg",
-      "link": ""
+      "image": "/shoes/raygun-home-black.jpg"
     },
     {
       "id": 44,
@@ -494,8 +465,7 @@
       "year": 2005,
       "modelNumber": "304292-802",
       "colorway": "ORANGE FLASH/BLACK-WHITE",
-      "image": "/shoes/raygun-away-white.jpg",
-      "link": ""
+      "image": "/shoes/raygun-away-white.jpg"
     },
     {
       "id": 45,
@@ -504,8 +474,7 @@
       "year": 2005,
       "modelNumber": "304292-228",
       "colorway": "LIGHT CHOCOLATE/WHITE",
-      "image": "/shoes/oompa-loompa.jpg",
-      "link": ""
+      "image": "/shoes/oompa-loompa.jpg"
     },
     {
       "id": 46,
@@ -514,8 +483,7 @@
       "year": 2005,
       "modelNumber": "304292-133",
       "colorway": "WHITE/CLASSIC GREEN",
-      "image": "/shoes/st-patricks-day.jpg",
-      "link": ""
+      "image": "/shoes/st-patricks-day.jpg"
     },
     {
       "id": 47,
@@ -524,8 +492,7 @@
       "year": 2005,
       "modelNumber": "304292-471",
       "colorway": "VARSITY ROYAL/LIGHTNING",
-      "image": "/shoes/boca.jpg",
-      "link": ""
+      "image": "/shoes/boca.jpg"
     },
     {
       "id": 48,
@@ -534,8 +501,7 @@
       "year": 2005,
       "modelNumber": "304292-006",
       "colorway": "LIGHT BONE/FLINT GREY",
-      "image": "/shoes/band-aid.jpg",
-      "link": ""
+      "image": "/shoes/band-aid.jpg"
     },
     {
       "id": 49,
@@ -544,8 +510,7 @@
       "year": 2005,
       "modelNumber": "304292-113",
       "colorway": "WHITE/WHITE",
-      "image": "/shoes/cinco-de-mayo.jpg",
-      "link": ""
+      "image": "/shoes/cinco-de-mayo.jpg"
     },
     {
       "id": 50,
@@ -554,8 +519,7 @@
       "year": 2005,
       "modelNumber": "304292-671",
       "colorway": "SHY PINK/VANILLA",
-      "image": "/shoes/stussy-cherry.jpg",
-      "link": ""
+      "image": "/shoes/stussy-cherry.jpg"
     },
     {
       "id": 51,
@@ -564,8 +528,7 @@
       "year": 2005,
       "modelNumber": "304292-402",
       "colorway": "AQUA/CHROME",
-      "image": "/shoes/tiffany.jpg",
-      "link": ""
+      "image": "/shoes/tiffany.jpg"
     },
     {
       "id": 52,
@@ -574,8 +537,7 @@
       "year": 2005,
       "modelNumber": "304292-271",
       "colorway": "VAPOR/MINERAL YELLOW",
-      "image": "/shoes/vapor.jpg",
-      "link": ""
+      "image": "/shoes/vapor.jpg"
     },
     {
       "id": 53,
@@ -584,8 +546,7 @@
       "year": 2005,
       "modelNumber": "304292-201",
       "colorway": "LIGHT TAUPE/BLACK",
-      "image": "/shoes/slam-city.jpg",
-      "link": ""
+      "image": "/shoes/slam-city.jpg"
     },
     {
       "id": 54,
@@ -594,8 +555,7 @@
       "year": 2005,
       "modelNumber": "304292-721",
       "colorway": "LIGHT TAUPE/BLACK",
-      "image": "/shoes/shanghai-2.jpg",
-      "link": ""
+      "image": "/shoes/shanghai-2.jpg"
     },
     {
       "id": 55,
@@ -604,8 +564,7 @@
       "year": 2005,
       "modelNumber": "304292-007",
       "colorway": "BLACK/BLACK",
-      "image": "/shoes/halloween.jpg",
-      "link": ""
+      "image": "/shoes/halloween.jpg"
     },
     {
       "id": 56,
@@ -614,8 +573,7 @@
       "year": 2005,
       "modelNumber": "304292-005",
       "colorway": "BLACK/BLACK",
-      "image": "/shoes/medicom-2.jpg",
-      "link": ""
+      "image": "/shoes/medicom-2.jpg"
     },
     {
       "id": 57,
@@ -624,8 +582,7 @@
       "year": 2005,
       "modelNumber": "304292-171",
       "colorway": "WHITE/YELLOW",
-      "image": "/shoes/de-la-soul.jpg",
-      "link": ""
+      "image": "/shoes/de-la-soul.jpg"
     },
     {
       "id": 58,
@@ -634,8 +591,7 @@
       "year": 2005,
       "modelNumber": "304292-008",
       "colorway": "SILVER/CHROME",
-      "image": "/shoes/medicom-3.jpg",
-      "link": ""
+      "image": "/shoes/medicom-3.jpg"
     },
     {
       "id": 59,
@@ -644,8 +600,7 @@
       "year": 2005,
       "modelNumber": "304292-143",
       "colorway": "WHITE/MIDNIGHT NAVY-BLUE REEF",
-      "image": "/shoes/avenger-blue.jpg",
-      "link": ""
+      "image": "/shoes/avenger-blue.jpg"
     },
     {
       "id": 60,
@@ -654,8 +609,7 @@
       "year": 2005,
       "modelNumber": "304292-101",
       "colorway": "WHITE/BLACK-HYACINTH",
-      "image": "/shoes/avenger-purple.jpg",
-      "link": ""
+      "image": "/shoes/avenger-purple.jpg"
     },
     {
       "id": 61,
@@ -664,8 +618,7 @@
       "year": 2005,
       "modelNumber": "313233-001",
       "colorway": "BLACK/BLACK-BLACK",
-      "image": "/shoes/pushead.jpg",
-      "link": ""
+      "image": "/shoes/pushead.jpg"
     },
     {
       "id": 62,
@@ -674,8 +627,7 @@
       "year": 2006,
       "modelNumber": "313170-003",
       "colorway": "BLACK/BLACK-DEEP ORANGE",
-      "image": "/shoes/hawaii.jpg",
-      "link": ""
+      "image": "/shoes/hawaii.jpg"
     },
     {
       "id": 63,
@@ -684,8 +636,7 @@
       "year": 2006,
       "modelNumber": "313170-142",
       "colorway": "WHITE/AQUA",
-      "image": "/shoes/high-hair.jpg",
-      "link": ""
+      "image": "/shoes/high-hair.jpg"
     },
     {
       "id": 64,
@@ -694,8 +645,7 @@
       "year": 2006,
       "modelNumber": "313170-001",
       "colorway": "LIGHT GRAPHITE/ANTHRACITE",
-      "image": "/shoes/lunar-eclipse-east.jpg",
-      "link": ""
+      "image": "/shoes/lunar-eclipse-east.jpg"
     },
     {
       "id": 65,
@@ -704,8 +654,7 @@
       "year": 2006,
       "modelNumber": "313170-002",
       "colorway": "STEALTH/BLACK",
-      "image": "/shoes/lunar-eclipse-west.jpg",
-      "link": ""
+      "image": "/shoes/lunar-eclipse-west.jpg"
     },
     {
       "id": 66,
@@ -714,8 +663,7 @@
       "year": 2006,
       "modelNumber": "304292-321",
       "colorway": "SPANISH MOSS/SANDALWOOD",
-      "image": "/shoes/spanish-moss.jpg",
-      "link": ""
+      "image": "/shoes/spanish-moss.jpg"
     },
     {
       "id": 67,
@@ -724,8 +672,7 @@
       "year": 2006,
       "modelNumber": "304292-161",
       "colorway": "WHITE/VARSITY CRIMSON",
-      "image": "/shoes/crimson.jpg",
-      "link": ""
+      "image": "/shoes/crimson.jpg"
     },
     {
       "id": 68,
@@ -734,8 +681,7 @@
       "year": 2006,
       "modelNumber": "304292-185",
       "colorway": "NET/DEEP ORANGE",
-      "image": "/shoes/eire.jpg",
-      "link": ""
+      "image": "/shoes/eire.jpg"
     },
     {
       "id": 69,
@@ -744,8 +690,7 @@
       "year": 2006,
       "modelNumber": "313170-171",
       "colorway": "NET/MAIZE-BAROQUE BROWN",
-      "image": "/shoes/brown-golf.jpg",
-      "link": ""
+      "image": "/shoes/brown-golf.jpg"
     },
     {
       "id": 70,
@@ -754,8 +699,7 @@
       "year": 2006,
       "modelNumber": "313170-141",
       "colorway": "WHITE/MIDNIGHT NAVY-BLUE ICE",
-      "image": "/shoes/blue-golf.jpg",
-      "link": ""
+      "image": "/shoes/blue-golf.jpg"
     },
     {
       "id": 71,
@@ -764,8 +708,7 @@
       "year": 2006,
       "modelNumber": "304292-144",
       "colorway": "WHITE/NEPTUNE BLUE",
-      "image": "/shoes/neptune.jpg",
-      "link": ""
+      "image": "/shoes/neptune.jpg"
     },
     {
       "id": 72,
@@ -774,8 +717,7 @@
       "year": 2006,
       "modelNumber": "304292-014",
       "colorway": "BLACK/WHITE",
-      "image": "/shoes/weiger.jpg",
-      "link": ""
+      "image": "/shoes/weiger.jpg"
     },
     {
       "id": 73,
@@ -784,8 +726,7 @@
       "year": 2006,
       "modelNumber": "313170-341",
       "colorway": "OIL GREEN/INTERNATIONAL BLUE",
-      "image": "/shoes/puff-n-stuf.jpg",
-      "link": ""
+      "image": "/shoes/puff-n-stuf.jpg"
     },
     {
       "id": 74,
@@ -794,8 +735,7 @@
       "year": 2006,
       "modelNumber": "313170-201",
       "colorway": "SABLE GREEN/METALLIC GOLD",
-      "image": "/shoes/sbtg.jpg",
-      "link": ""
+      "image": "/shoes/sbtg.jpg"
     },
     {
       "id": 75,
@@ -804,8 +744,7 @@
       "year": 2006,
       "modelNumber": "304292-701",
       "colorway": "VARSITY MAIZE/BLACK",
-      "image": "/shoes/bic.jpg",
-      "link": ""
+      "image": "/shoes/bic.jpg"
     },
     {
       "id": 76,
@@ -814,8 +753,7 @@
       "year": 2006,
       "modelNumber": "304292-032",
       "colorway": "ASH/AQUA CHALK",
-      "image": "/shoes/aqua-chalk.jpg",
-      "link": ""
+      "image": "/shoes/aqua-chalk.jpg"
     },
     {
       "id": 77,
@@ -824,8 +762,7 @@
       "year": 2006,
       "modelNumber": "313170-801",
       "colorway": "ORANGE BLAZE/BLACK-WHITE",
-      "image": "/shoes/day-of-the-dead.jpg",
-      "link": ""
+      "image": "/shoes/day-of-the-dead.jpg"
     },
     {
       "id": 78,
@@ -834,8 +771,7 @@
       "year": 2006,
       "modelNumber": "313170-731",
       "colorway": "LIGHT UMBER/GRASSHOPPER TERSIE/STRELL",
-      "image": "/shoes/baby-bear.jpg",
-      "link": ""
+      "image": "/shoes/baby-bear.jpg"
     },
     {
       "id": 79,
@@ -844,8 +780,7 @@
       "year": 2006,
       "modelNumber": "304292-051",
       "colorway": "LIGHT GRAPHITE/PRISM VIOLET",
-      "image": "/shoes/purple-pigeon.jpg",
-      "link": ""
+      "image": "/shoes/purple-pigeon.jpg"
     },
     {
       "id": 80,
@@ -854,8 +789,7 @@
       "year": 2006,
       "modelNumber": "313170-004",
       "colorway": "BLACK/BLACK-TEAM RED",
-      "image": "/shoes/mafia.jpg",
-      "link": ""
+      "image": "/shoes/mafia.jpg"
     },
     {
       "id": 81,
@@ -864,8 +798,7 @@
       "year": 2006,
       "modelNumber": "304292-311",
       "colorway": "GRASS GREEN/WHITE",
-      "image": "/shoes/tokyo-taxi-green.jpg",
-      "link": ""
+      "image": "/shoes/tokyo-taxi-green.jpg"
     },
     {
       "id": 82,
@@ -874,8 +807,7 @@
       "year": 2006,
       "modelNumber": "313170-411",
       "colorway": "CHLORINE BLUE/WHITE",
-      "image": "/shoes/tokyo-taxi-blue.jpg",
-      "link": ""
+      "image": "/shoes/tokyo-taxi-blue.jpg"
     },
     {
       "id": 83,
@@ -884,8 +816,7 @@
       "year": 2006,
       "modelNumber": "316164-222",
       "colorway": "DARK COFFEE/DARK COFFEE",
-      "image": "/shoes/michael-lau.jpg",
-      "link": ""
+      "image": "/shoes/michael-lau.jpg"
     },
     {
       "id": 84,
@@ -894,8 +825,7 @@
       "year": 2007,
       "modelNumber": "304292-229",
       "colorway": "DARK MOCHA/TWEED",
-      "image": "/shoes/tweed-2.jpg",
-      "link": ""
+      "image": "/shoes/tweed-2.jpg"
     },
     {
       "id": 85,
@@ -904,8 +834,7 @@
       "year": 2007,
       "modelNumber": "304292-602",
       "colorway": "VARSITY CRIMSON/BLACK",
-      "image": "/shoes/milli-vanilli.jpg",
-      "link": ""
+      "image": "/shoes/milli-vanilli.jpg"
     },
     {
       "id": 86,
@@ -914,8 +843,7 @@
       "year": 2007,
       "modelNumber": "304292-411",
       "colorway": "BORDER BLUE/WHITE",
-      "image": "/shoes/border-blue.jpg",
-      "link": ""
+      "image": "/shoes/border-blue.jpg"
     },
     {
       "id": 87,
@@ -924,8 +852,7 @@
       "year": 2007,
       "modelNumber": "304292-771",
       "colorway": "GOLD DUST/METALLIC GOLD",
-      "image": "/shoes/money-cat.jpg",
-      "link": ""
+      "image": "/shoes/money-cat.jpg"
     },
     {
       "id": 88,
@@ -934,8 +861,7 @@
       "year": 2007,
       "modelNumber": "304292-102",
       "colorway": "WHITE/BLACK-TRAIL END BROWN",
-      "image": "/shoes/trail-end.jpg",
-      "link": ""
+      "image": "/shoes/trail-end.jpg"
     },
     {
       "id": 89,
@@ -944,8 +870,7 @@
       "year": 2007,
       "modelNumber": "313170-031",
       "colorway": "BLACK/ACID",
-      "image": "/shoes/c-and-k.jpg",
-      "link": ""
+      "image": "/shoes/c-and-k.jpg"
     },
     {
       "id": 90,
@@ -954,8 +879,7 @@
       "year": 2007,
       "modelNumber": "304292-272",
       "colorway": "BUFF/METALLIC GOLD",
-      "image": "/shoes/old-spice.jpg",
-      "link": ""
+      "image": "/shoes/old-spice.jpg"
     },
     {
       "id": 91,
@@ -964,8 +888,7 @@
       "year": 2007,
       "modelNumber": "313170-701",
       "colorway": "BRIGHT GOLDENROD/BLACK",
-      "image": "/shoes/coral-snake.jpg",
-      "link": ""
+      "image": "/shoes/coral-snake.jpg"
     },
     {
       "id": 92,
@@ -974,8 +897,7 @@
       "year": 2007,
       "modelNumber": "313170-005",
       "colorway": "BLACK/METALLIC SILVER",
-      "image": "/shoes/takashi-2.jpg",
-      "link": ""
+      "image": "/shoes/takashi-2.jpg"
     },
     {
       "id": 93,
@@ -984,8 +906,7 @@
       "year": 2007,
       "modelNumber": "304292-902",
       "colorway": "BLACK/METALLIC ZINC",
-      "image": "/shoes/strummer-before.jpg",
-      "link": ""
+      "image": "/shoes/strummer-before.jpg"
     },
     {
       "id": 94,
@@ -994,8 +915,7 @@
       "year": 2007,
       "modelNumber": "313170-006",
       "colorway": "BLACK/METALLIC ZINC",
-      "image": "/shoes/strummer-after.jpg",
-      "link": ""
+      "image": "/shoes/strummer-after.jpg"
     },
     {
       "id": 95,
@@ -1004,8 +924,7 @@
       "year": 2007,
       "modelNumber": "318403-141",
       "colorway": "WHITE/COLLEGE BLUE-CHROME-DEEP RED",
-      "image": "/shoes/what-the-dunk.jpg",
-      "link": ""
+      "image": "/shoes/what-the-dunk.jpg"
     },
     {
       "id": 96,
@@ -1014,8 +933,7 @@
       "year": 2007,
       "modelNumber": "313170-202",
       "colorway": "TAUPE/CHROME",
-      "image": "/shoes/freddy-krueger.jpg",
-      "link": ""
+      "image": "/shoes/freddy-krueger.jpg"
     },
     {
       "id": 97,
@@ -1024,8 +942,7 @@
       "year": 2008,
       "modelNumber": "313170-271",
       "colorway": "LIGHT BRITISH TAN/METALLIC GOLD",
-      "image": "/shoes/gibson.jpg",
-      "link": ""
+      "image": "/shoes/gibson.jpg"
     },
     {
       "id": 98,
@@ -1034,8 +951,7 @@
       "year": 2008,
       "modelNumber": "304292-073",
       "colorway": "BLACK/NEON YELLOW",
-      "image": "/shoes/skate-or-die.jpg",
-      "link": ""
+      "image": "/shoes/skate-or-die.jpg"
     },
     {
       "id": 99,
@@ -1044,8 +960,7 @@
       "year": 2008,
       "modelNumber": "304292 052",
       "colorway": "ANTHRACITE/DEEP VIOLET",
-      "image": "/shoes/appetite-for-destruction.jpg",
-      "link": ""
+      "image": "/shoes/appetite-for-destruction.jpg"
     },
     {
       "id": 100,
@@ -1054,8 +969,7 @@
       "year": 2008,
       "modelNumber": "304292-062",
       "colorway": "DARK CHARCOAL/LIGHT PINK",
-      "image": "/shoes/720-degrees.jpg",
-      "link": ""
+      "image": "/shoes/720-degrees.jpg"
     },
     {
       "id": 101,
@@ -1064,8 +978,7 @@
       "year": 2008,
       "modelNumber": "313170-741",
       "colorway": "GOLD/ATLANTIC BLUE",
-      "image": "/shoes/newcastle.jpg",
-      "link": ""
+      "image": "/shoes/newcastle.jpg"
     },
     {
       "id": 102,
@@ -1074,8 +987,7 @@
       "year": 2008,
       "modelNumber": "313170-661",
       "colorway": "SPORT RED/PINK CLAY",
-      "image": "/shoes/red-lobster.jpg",
-      "link": ""
+      "image": "/shoes/red-lobster.jpg"
     },
     {
       "id": 103,
@@ -1084,8 +996,7 @@
       "year": 2008,
       "modelNumber": "313170 071",
       "colorway": "BLACK/YELLOW OCHRE",
-      "image": "/shoes/space-tiger.jpg",
-      "link": ""
+      "image": "/shoes/space-tiger.jpg"
     },
     {
       "id": 104,
@@ -1094,8 +1005,7 @@
       "year": 2008,
       "modelNumber": "304292-033",
       "colorway": "MAGNET/LIGHT POISON GREEN",
-      "image": "/shoes/poison.jpg",
-      "link": ""
+      "image": "/shoes/poison.jpg"
     },
     {
       "id": 105,
@@ -1104,8 +1014,7 @@
       "year": 2008,
       "modelNumber": "304292-472",
       "colorway": "VARSITY ROYAL/METALLIC VEGAS GOLD",
-      "image": "/shoes/gold-rail.jpg",
-      "link": ""
+      "image": "/shoes/gold-rail.jpg"
     },
     {
       "id": 106,
@@ -1114,8 +1023,7 @@
       "year": 2008,
       "modelNumber": "304292-702",
       "colorway": "ZEST/BLACK",
-      "image": "/shoes/piet-mondrian.jpg",
-      "link": ""
+      "image": "/shoes/piet-mondrian.jpg"
     },
     {
       "id": 107,
@@ -1124,8 +1032,7 @@
       "year": 2009,
       "modelNumber": "313170-342",
       "colorway": "NIGHTSHADE/DARK SLATE",
-      "image": "/shoes/blue-lobster.jpg",
-      "link": ""
+      "image": "/shoes/blue-lobster.jpg"
     },
     {
       "id": 108,
@@ -1134,8 +1041,7 @@
       "year": 2009,
       "modelNumber": "313170-461",
       "colorway": "CHLORINE BLUE/CERSIE",
-      "image": "/shoes/ms-pac-man.jpg",
-      "link": ""
+      "image": "/shoes/ms-pac-man.jpg"
     },
     {
       "id": 109,
@@ -1144,8 +1050,7 @@
       "year": 2009,
       "modelNumber": "304292-042",
       "colorway": "BLACK/ACADEMY-BLUE",
-      "image": "/shoes/patagonia.jpg",
-      "link": ""
+      "image": "/shoes/patagonia.jpg"
     },
     {
       "id": 110,
@@ -1154,8 +1059,7 @@
       "year": 2009,
       "modelNumber": "313170-041",
       "colorway": "BLACK/BALTIC BLUE",
-      "image": "/shoes/angel-and-death.jpg",
-      "link": ""
+      "image": "/shoes/angel-and-death.jpg"
     },
     {
       "id": 111,
@@ -1164,8 +1068,7 @@
       "year": 2009,
       "modelNumber": "304292-751",
       "colorway": "CHUTNEY/ABYSS",
-      "image": "/shoes/goofy-boy.jpg",
-      "link": ""
+      "image": "/shoes/goofy-boy.jpg"
     },
     {
       "id": 112,
@@ -1174,8 +1077,7 @@
       "year": 2009,
       "modelNumber": "313170-381",
       "colorway": "GREEN SPARK/HOOP ORANGE",
-      "image": "/shoes/green-spark.jpg",
-      "link": ""
+      "image": "/shoes/green-spark.jpg"
     },
     {
       "id": 113,
@@ -1184,8 +1086,7 @@
       "year": 2009,
       "modelNumber": "313170-101",
       "colorway": "SAIL/BLACK",
-      "image": "/shoes/top-ramen.jpg",
-      "link": ""
+      "image": "/shoes/top-ramen.jpg"
     },
     {
       "id": 114,
@@ -1194,8 +1095,7 @@
       "year": 2009,
       "modelNumber": "313170-302",
       "colorway": "ASPARAGUS/BLACK",
-      "image": "/shoes/asparagus.jpg",
-      "link": ""
+      "image": "/shoes/asparagus.jpg"
     },
     {
       "id": 115,
@@ -1204,8 +1104,7 @@
       "year": 2009,
       "modelNumber": "313170-261",
       "colorway": "HAY/HOT RED-TERRA BROWN",
-      "image": "/shoes/toxic-avenger.jpg",
-      "link": ""
+      "image": "/shoes/toxic-avenger.jpg"
     },
     {
       "id": 116,
@@ -1214,8 +1113,7 @@
       "year": 2009,
       "modelNumber": "3004292-672",
       "colorway": "TEAM RED/METALLIC GOLD",
-      "image": "/shoes/anchorman.jpg",
-      "link": ""
+      "image": "/shoes/anchorman.jpg"
     },
     {
       "id": 117,
@@ -1224,8 +1122,7 @@
       "year": 2010,
       "modelNumber": "313170-400",
       "colorway": "BLUE RIBBON/METALLIC VEGAS GOLD-VARSITY RED",
-      "image": "/shoes/koston.jpg",
-      "link": ""
+      "image": "/shoes/koston.jpg"
     },
     {
       "id": 118,
@@ -1234,8 +1131,7 @@
       "year": 2010,
       "modelNumber": "313170-010",
       "colorway": "MIDNIGHT FOG/BLACK-YELLOW OCHRE",
-      "image": "/shoes/yellow-curb.jpg",
-      "link": ""
+      "image": "/shoes/yellow-curb.jpg"
     },
     {
       "id": 119,
@@ -1244,8 +1140,7 @@
       "year": 2010,
       "modelNumber": "304292-012",
       "colorway": "BLACK/RADIANT EMERALD-MEDIUM GREY",
-      "image": "/shoes/chrome-ball-incident.jpg",
-      "link": ""
+      "image": "/shoes/chrome-ball-incident.jpg"
     },
     {
       "id": 120,
@@ -1254,8 +1149,7 @@
       "year": 2010,
       "modelNumber": "313170-011",
       "colorway": "NEUTRAL GREY/GREEN SPARK-BLACK",
-      "image": "/shoes/loon.jpg",
-      "link": ""
+      "image": "/shoes/loon.jpg"
     },
     {
       "id": 121,
@@ -1264,8 +1158,7 @@
       "year": 2010,
       "modelNumber": "313170-007",
       "colorway": "BLACK/BLACK-VARSITY RED",
-      "image": "/shoes/larry-perkins.jpg",
-      "link": ""
+      "image": "/shoes/larry-perkins.jpg"
     },
     {
       "id": 122,
@@ -1274,8 +1167,7 @@
       "year": 2010,
       "modelNumber": "304292-405",
       "colorway": "ARGON BLUE/WHITE",
-      "image": "/shoes/chun-li.jpg",
-      "link": ""
+      "image": "/shoes/chun-li.jpg"
     },
     {
       "id": 123,
@@ -1284,8 +1176,7 @@
       "year": 2010,
       "modelNumber": "313170-008",
       "colorway": "BLACK/METALLIC GOLD-PINE GREEN",
-      "image": "/shoes/miller-high-life.jpg",
-      "link": ""
+      "image": "/shoes/miller-high-life.jpg"
     }
   ],
   "conditions": [
