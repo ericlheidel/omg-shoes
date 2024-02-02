@@ -1,12 +1,12 @@
 .welcome-div {
   margin: 2rem auto;
   width: 75%;
-  background-color: whitesmoke;
-  border: 2px solid lightgray;
+  border: 2px solid var(--color-two);
   border-radius: 35px;
-  box-shadow: 5px 5px 15px var(--color-two);
+  box-shadow: 7.5px 7.5px 15px var(--color-two);
+  background-color: var(--color-two);
   width: 55%;
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .welcome-div > h1 {

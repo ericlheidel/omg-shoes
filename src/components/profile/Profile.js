@@ -81,13 +81,11 @@ export const Profile = ({ currentUser }) => {
           <img src={user.avatar} alt="User Avatar" className="profile-img" />
         </div>
         <div className="user-name">{user.name}</div>
-        {/* <div className="name-div">
-        {user.firstName} {user.lastName}
-      </div> */}
         <div className="user-info-div">
-          {/* <div className="user-bio">
-            {user.bio} {user.hasEmoji && "👟"}
-          </div> */}
+          <div className="user-bio">{user.bio}</div>
+        </div>
+
+        <div className="user-info-div">
           <div className="user-location">
             {user.city}, {user.state}
           </div>

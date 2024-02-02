@@ -4,9 +4,9 @@
 
 .profile-div {
   background-color: var(--color-two);
+  box-shadow: 5px 5px 15px var(--color-two);
   flex-shrink: 0;
   width: 250px;
-  height: 502.5px;
   padding: 15px;
   border-radius: 8px;
   margin: 25px;

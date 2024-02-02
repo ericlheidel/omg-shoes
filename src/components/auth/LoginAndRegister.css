@@ -1,5 +1,6 @@
 .register-form,
-.login-form {
+.login-form,
+.edit-profile-form {
   width: 450px;
   margin: 2.5rem auto 1.5rem auto;
   background-color: var(--color-two);
@@ -8,10 +9,15 @@
 }
 
 .register-form > h1,
-.login-for > h1 {
+.login-form > h1 {
   font-size: 3rem;
   text-align: center;
   padding-bottom: 0;
+}
+
+.register-form,
+.login-form {
+  background-image: url("https://pbs.twimg.com/media/E25w2ORWQAMuBio?format=jpg&name=medium");
 }
 
 .register-form > h2,
@@ -32,7 +38,6 @@
 fieldset {
   display: flex;
   min-width: 0;
-
   margin: 0;
   border: 0;
 }
@@ -76,4 +81,11 @@ h4 {
   color: var(--color-two);
   font-size: 1.75rem;
   cursor: pointer;
+}
+
+.sign-in,
+.register-in {
+  background-color: lightgray;
+  padding: 20px 10px 20px 10px;
+  border-radius: 8px;
 }

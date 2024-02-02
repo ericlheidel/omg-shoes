@@ -1,0 +1,23 @@
+.edit-profile-form {
+  box-shadow: 5px 5px 15px var(--color-two);
+}
+
+.location-div {
+  margin-top: 10px;
+}
+
+.state-select {
+  width: 110%;
+}
+
+.city {
+  width: 75%;
+}
+
+.state {
+  width: 35%;
+}
+
+.edit-profile-btn {
+  margin-top: 7.5px;
+}

@@ -1,3 +1,4 @@
+import "./ProfileForm.css"
 import { useNavigate, useParams } from "react-router-dom"
 import { states } from "../../utility.js"
 import { useEffect, useState } from "react"
@@ -30,8 +31,7 @@ export const ProfileForm = ({ currentUser }) => {
     const editedUser = {
       id: user.id,
       email: user.email,
-      firstName: user.firstName,
-      lastName: user.lastName,
+      name: user.name,
       city: user.city,
       state: user.state,
       avatar: user.avatar,
@@ -46,107 +46,119 @@ export const ProfileForm = ({ currentUser }) => {
 
   return (
     <div className="profile-edit">
-      <form onSubmit={handleSubmit}>
+      <form className="edit-profile-form color-four" onSubmit={handleSubmit}>
         <h2>Edit Profile</h2>
         <fieldset>
           <div className="form-group">
-            <input
-              type="text"
-              name="firstName"
-              value={user?.firstName ? user?.firstName : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            />
+            <label>
+              Name:
+              <input
+                type="text"
+                name="name"
+                spellCheck={false}
+                value={user?.name ? user?.name : ""}
+                required
+                autoFocus
+                className="form-control"
+                onChange={handleInputChange}
+              />
+            </label>
           </div>
         </fieldset>
-        <fieldset>
-          <div className="form-group">
-            <input
-              type="text"
-              name="lastName"
-              value={user?.lastName ? user?.lastName : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            />
-          </div>
-        </fieldset>
-        <fieldset>
-          <div className="form-group">
-            <input
-              type="text"
-              name="city"
-              value={user?.city ? user?.city : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            />
-          </div>
-        </fieldset>
-        <fieldset>
-          <div className="form-group">
-            <select
-              name="state"
-              value={user?.state ? user?.state : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            >
-              <option value={0} key={0}>
-                Select a state...
-              </option>
-              {states.map((state) => {
-                return (
-                  <option value={state.state} key={state.id}>
-                    {state.state}
+        <div className="location-div flex">
+          <fieldset>
+            <div className="form-group">
+              <label>
+                City:
+                <input
+                  type="text"
+                  name="city"
+                  spellCheck={false}
+                  value={user?.city ? user?.city : ""}
+                  required
+                  autoFocus
+                  className="form-control city"
+                  onChange={handleInputChange}
+                />
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div className="form-group">
+              <label>
+                State:
+                <select
+                  name="state"
+                  spellCheck={false}
+                  value={user?.state ? user?.state : ""}
+                  required
+                  autoFocus
+                  className="form-control state-select state"
+                  onChange={handleInputChange}
+                >
+                  <option value={0} key={0}>
+                    Select a state...
                   </option>
-                )
-              })}
-            </select>
+                  {states.map((state) => {
+                    return (
+                      <option value={state.state} key={state.id}>
+                        {state.state}
+                      </option>
+                    )
+                  })}
+                </select>
+              </label>
+            </div>
+          </fieldset>
+        </div>
+        <fieldset>
+          <div className="form-group">
+            <label>
+              Avatar Url:
+              <input
+                type="text"
+                name="avatar"
+                spellCheck={false}
+                value={user?.avatar ? user.avatar : ""}
+                required
+                autoFocus
+                className="form-control"
+                onChange={handleInputChange}
+              />
+            </label>
           </div>
         </fieldset>
         <fieldset>
           <div className="form-group">
-            <input
-              type="text"
-              name="avatar"
-              value={user?.avatar ? user.avatar : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            />
+            <label>
+              Email:
+              <input
+                type="text"
+                name="email"
+                spellCheck={false}
+                value={user?.email ? user?.email : ""}
+                required
+                autoFocus
+                className="form-control"
+                onChange={handleInputChange}
+              />
+            </label>
           </div>
         </fieldset>
         <fieldset>
           <div className="form-group">
-            <input
-              type="text"
-              name="email"
-              value={user?.email ? user?.email : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            />
-          </div>
-        </fieldset>
-        <fieldset>
-          <div className="form-group">
-            <input
-              type="text"
-              name="bio"
-              value={user?.bio ? user?.bio : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            />
+            <label>
+              Bio:
+              <input
+                type="text"
+                name="bio"
+                value={user?.bio ? user?.bio : ""}
+                required
+                autoFocus
+                className="form-control"
+                onChange={handleInputChange}
+              />
+            </label>
           </div>
         </fieldset>
         {/* <fieldset>
@@ -181,7 +193,9 @@ export const ProfileForm = ({ currentUser }) => {
         </fieldset> */}
         <fieldset>
           <div className="form-group">
-            <button type="submit">Save Profile</button>
+            <button type="submit" className="btn-submit edit-profile-btn">
+              Save Profile
+            </button>
           </div>
         </fieldset>
       </form>

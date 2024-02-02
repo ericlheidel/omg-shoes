@@ -41,20 +41,21 @@ export const Login = () => {
             <h1>OMG...Shoes</h1>
             <h2>Please sign in</h2>
           </div>
-          <fieldset>
-            <div className="form-group">
-              <input
-                type="email"
-                value={email}
-                placeholder="Email address"
-                required
-                autoFocus
-                className="form-control"
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-          </fieldset>
-          {/* <fieldset>
+          <div className="sign-in">
+            <fieldset>
+              <div className="form-group">
+                <input
+                  type="email"
+                  value={email}
+                  placeholder="Email address"
+                  required
+                  autoFocus
+                  className="form-control"
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+            </fieldset>
+            {/* <fieldset>
             <div className="form-group">
               <input
                 type="password"
@@ -66,13 +67,14 @@ export const Login = () => {
               />
             </div>
           </fieldset> */}
-          <fieldset>
-            <div className="form-group">
-              <button type="submit" className="btn-submit form-btn btn-login">
-                Sign in
-              </button>
-            </div>
-          </fieldset>
+            <fieldset>
+              <div className="form-group">
+                <button type="submit" className="btn-submit form-btn btn-login">
+                  Sign in
+                </button>
+              </div>
+            </fieldset>
+          </div>
         </form>
       </section>
       <section className="register-link">

@@ -1,3 +1,4 @@
+import "./Users.css"
 import { useEffect, useState } from "react"
 import { getAllUsers } from "../../services/usersService.js"
 import { User } from "./User.js"
@@ -18,20 +19,20 @@ export const UsersList = () => {
 
   useEffect(() => {
     const matchingUsers = allUsers.filter((user) =>
-      // user.firstName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      // user.lastName.toLowerCase().includes(searchTerm.toLowerCase())
       user.name.toLowerCase().includes(searchTerm.toLowerCase())
     )
     setFilteredUsers(matchingUsers)
   }, [allUsers, searchTerm])
 
   return (
-    <div className="users-list-container">
+    <div className="users-container">
+      <h2>All Users</h2>
       <UsersFilterBar setSearchTerm={setSearchTerm} />
-
-      {filteredUsers.map((userObj) => {
-        return <User userObj={userObj} />
-      })}
+      <article className="users">
+        {filteredUsers.map((userObj) => {
+          return <User userObj={userObj} />
+        })}
+      </article>
     </div>
   )
 }

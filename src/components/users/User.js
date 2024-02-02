@@ -12,22 +12,18 @@ export const User = ({ userObj }) => {
   }, [userObj])
 
   return (
-    <div className="user-container">
-      <div className="user-avatar">
-        <img src={userObj.avatar} alt="User" />
-      </div>
-      <div className="user-info">
+    <div className="user">
+      <div className="user-img-div">
         <Link to={`/users/${userObj.id}`}>
-          <div className="user-name">
-            {/* {userObj.firstName} {userObj.lastName} */}
-            {userObj.name}
-            {userObj.hasEmoji ? "👟" : ""}
-          </div>
+          <img src={userObj.avatar} alt="User" className="user-img" />
         </Link>
-        <div className="user-location">
+      </div>
+      <div className="user-name">{userObj.name}</div>
+      <div className="user-list-info-div">
+        <div className="user-list-location">
           {userObj.city}, {userObj.state}
         </div>
-        <div className="user-collection-amount">
+        <div className="user-amount">
           Shoes in Collection: {collectionAmount.length}
         </div>
       </div>
