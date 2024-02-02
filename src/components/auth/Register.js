@@ -11,7 +11,7 @@ export const Register = ({ setLoggedInUser }) => {
   const [city, setCity] = useState("")
   const [state, setState] = useState("")
   const [avatar, setAvatar] = useState("")
-  // const [bio, setBio] = useState("")
+  const [bio, setBio] = useState("")
   // const [hasEmoji, setHasEmoji] = useState(false)
   // const [password, setPassword] = useState("")
 
@@ -26,7 +26,7 @@ export const Register = ({ setLoggedInUser }) => {
       city,
       state,
       avatar,
-      // bio,
+      bio,
       // hasEmoji,
       /* password, */
     }
@@ -84,38 +84,6 @@ export const Register = ({ setLoggedInUser }) => {
                 />
               </div>
             </fieldset>
-            {/* <fieldset>
-              <div className="form-group">
-                <input
-                  type="text"
-                  id="firstName"
-                  value={firstName}
-                  placeholder="Enter your first name..."
-                  required
-                  autoFocus
-                  className="form-control"
-                  onChange={(e) => {
-                    setFirstName(e.target.value)
-                  }}
-                />
-              </div>
-            </fieldset>
-            <fieldset>
-              <div className="form-group">
-                <input
-                  type="text"
-                  id="lastName"
-                  value={lastName}
-                  placeholder="Enter your last name..."
-                  required
-                  autoFocus
-                  className="form-control"
-                  onChange={(e) => {
-                    setLastName(e.target.value)
-                  }}
-                />
-              </div>
-            </fieldset> */}
           </div>
           <fieldset>
             <div className="form-group">
@@ -201,7 +169,7 @@ export const Register = ({ setLoggedInUser }) => {
             />
           </div>
         </fieldset> */}
-          {/* <fieldset>
+          <fieldset>
             <div className="form-group">
               <input
                 type="text"
@@ -214,7 +182,7 @@ export const Register = ({ setLoggedInUser }) => {
                 onChange={(e) => setBio(e.target.value)}
               />
             </div>
-          </fieldset> */}
+          </fieldset>
           {/* <fieldset>
             <div className="form-group radio-group">
               <h4>Would you like to add shoe emoji to your profile?</h4>

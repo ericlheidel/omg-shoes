@@ -1,5 +1,14 @@
+/**********  FLEX  **********/
 .flex {
   display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
 }
 
 .wrap {
@@ -16,4 +25,25 @@
 
 .center {
   text-align: center;
+}
+
+/**********  COLORS  **********/
+.color-one {
+  color: #40798c;
+}
+
+.color-two {
+  color: #021e31;
+}
+
+.color-three {
+  color: #5c0029;
+}
+
+.color-four {
+  color: #dd7230;
+}
+
+.color-five {
+  color: #f4c95d;
 }
