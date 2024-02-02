@@ -26,10 +26,31 @@ a:hover {
   color: var(--color-five);
 }
 
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 14px;
+}
+
 input:focus,
 select:focus,
 textarea:focus {
   outline: none;
+}
+
+.form-textarea {
+  color: var(--color-two);
+  background-color: var(--color-one);
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-textarea::placeholder {
+  color: var(--color-two);
 }
 
 .form-select {
@@ -38,6 +59,8 @@ textarea:focus {
   border: none;
   border-radius: 7.5px;
   padding: 0.5rem;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .form-select:hover {
@@ -73,6 +96,26 @@ textarea:focus {
   --color-three: #5c0029;
   --color-four: #dd7230;
   --color-five: #f4c95d;
+}
+
+.color-one {
+  color: #40798c;
+}
+
+.color-two {
+  color: #021e31;
+}
+
+.color-three {
+  color: #5c0029;
+}
+
+.color-four {
+  color: #dd7230;
+}
+
+.color-five {
+  color: #f4c95d;
 }
 
 /* ----------ROOT COLORS----------*/

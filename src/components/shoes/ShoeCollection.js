@@ -1,6 +1,6 @@
 // import { useEffect, useState } from "react"
 import { deleteUserShoeFromCollection } from "../../services/userShoeService.js"
-import { Link /* useParams */ } from "react-router-dom"
+import { Link /* useParams */, useNavigate } from "react-router-dom"
 
 export const ShoeCollection = ({
   userId,
@@ -8,21 +8,23 @@ export const ShoeCollection = ({
   filteredShoes,
   getAndSetCollectionByUserId,
 }) => {
+  const navigate = useNavigate()
+
   let count = 1
   return (
     <div className="shoe-collection">
       {filteredShoes.map((userShoe) => {
         return (
           <div className="user-shoe" value={userShoe.id} key={count++}>
-            {/* <Link to={`/usershoe/${userShoe.id}`}> */}
-            <div className="user-shoe-img-div">
-              <img
-                src={userShoe.shoe.image}
-                alt="detailed view of shoe"
-                className="user-shoe-img"
-              />
-            </div>
-            {/* </Link> */}
+            <Link to={`/usershoe/${userShoe.id}`}>
+              <div className="user-shoe-img-div">
+                <img
+                  src={userShoe.shoe.image}
+                  alt="detailed view of shoe"
+                  className="user-shoe-img"
+                />
+              </div>
+            </Link>
             <div className="collection-shoe-name">{userShoe.shoe.name}</div>
             <div className="user-shoe-info">
               <div className="user-shoe-size">{userShoe.shoeSize}</div>
@@ -46,7 +48,12 @@ export const ShoeCollection = ({
                   >
                     Remove Shoe
                   </button>
-                  <button className="btn-edit-shoe">Edit Shoe</button>
+                  <button
+                    className="btn-edit-shoe"
+                    onClick={(e) => navigate(`/usershoe/${userShoe.id}`)}
+                  >
+                    Edit Shoe
+                  </button>
                 </div>
               </>
             )}

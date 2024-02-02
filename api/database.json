@@ -1201,24 +1201,28 @@
       "condition": "Thrashed"
     }
   ],
-  "comments": [{}],
-  "likes": [{}],
+  "comments": [
+    {}
+  ],
+  "likes": [
+    {}
+  ],
   "userShoe": [
     {
+      "id": 6,
       "userId": 5,
       "shoeId": 3,
       "shoeSize": "11.5",
-      "conditionId": 2,
-      "description": "Clean",
-      "id": 6
+      "conditionId": 5,
+      "description": "Completely unwearable!"
     },
     {
+      "id": 7,
       "userId": 5,
       "shoeId": 9,
       "shoeSize": "11.5",
-      "conditionId": 3,
-      "description": "Great condition for age",
-      "id": 7
+      "conditionId": 2,
+      "description": "Great condition for age"
     },
     {
       "userId": 5,
@@ -1229,12 +1233,12 @@
       "id": 8
     },
     {
+      "id": 9,
       "userId": 5,
       "shoeId": 19,
       "shoeSize": "11.5",
       "conditionId": 4,
-      "description": "Needs cleaning",
-      "id": 9
+      "description": "FOR SALE!!!"
     },
     {
       "userId": 5,
