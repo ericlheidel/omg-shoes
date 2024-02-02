@@ -70,7 +70,7 @@
   font-size: 20px;
 }
 
-/********************  ShoeDetailsForm.js  ********************/
+/********************  ShoeDetailsForm.js & UserShoeDetails.js   ********************/
 
 .shoe-details-div {
   width: 350px;
@@ -94,13 +94,20 @@
 
 .shoe-detail-one {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 700;
   color: var(--color-four);
 }
 .shoe-detail-two {
   margin-top: 10px;
   font-size: 18px;
+  font-weight: 500;
   color: var(--color-four);
+}
+
+.btn-toggle {
+  margin: 15px 0 0 12.5px;
+  width: 25%;
 }
 
 .add-shoe-form {
@@ -126,20 +133,31 @@ textarea {
   width: 100%;
 }
 
+.edit-shoe-form {
+  margin-top: 10px;
+}
+
+.edit-label-one {
+  color: var(--color-one);
+  font-weight: 700;
+  width: 100%;
+}
+.edit-label-two {
+  color: var(--color-one);
+  font-weight: 700;
+  width: 94.5%;
+}
+
+.edit-select {
+  width: 100%;
+}
+
+.save-btn,
+.save-btn-div {
+  width: 100%;
+}
+
 /********************  ShoeCollection.js  *************************/
-
-/* .shoe-collection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.user-shoe-img-div {
-  border: 2px solid black;
-}
-.user-shoe-img {
-  width: 75%;
-} */
 
 .shoe-collection {
   display: flex;
@@ -201,6 +219,7 @@ textarea {
   margin-top: 10px;
 }
 
-.btn-remove:hover {
+.btn-remove:hover,
+.btn-edit-shoe:hover {
   background-color: var(--color-four);
 }

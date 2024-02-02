@@ -31,3 +31,13 @@ export const getUserShoeById = (userShoeId) => {
     `http://localhost:9999/userShoe?id=${userShoeId}&_expand=user&_expand=shoe&_expand=condition`
   ).then((res) => res.json())
 }
+
+export const editUserShoe = (userShoe) => {
+  return fetch(`http://localhost:9999/userShoe/${userShoe.id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(userShoe),
+  })
+}

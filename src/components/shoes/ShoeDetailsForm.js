@@ -48,7 +48,7 @@ export const ShoeDetailsForm = ({ currentUser }) => {
   useEffect(() => {}, [])
 
   return (
-    <div className="shoe-detail-container">
+    <div className="shoe-details-container">
       <div className="shoe-details-div">
         <div className="shoe-details">
           <img
@@ -105,7 +105,7 @@ export const ShoeDetailsForm = ({ currentUser }) => {
               <div className="shoe-description">
                 <textarea
                   type="text"
-                  // className="form-control"
+                  className="form-textarea"
                   required
                   value={userShoeDescription}
                   placeholder="Write a short description of the condition of
@@ -115,7 +115,7 @@ export const ShoeDetailsForm = ({ currentUser }) => {
               </div>
             </fieldset>
             <fieldset>
-              <div className="add-btn">
+              <div className="add-btn-div">
                 <button type="submit" className="add-btn form-btn">
                   Add Shoe to Collection
                 </button>
