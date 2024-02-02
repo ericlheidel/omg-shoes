@@ -31,8 +31,7 @@ export const ProfileForm = ({ currentUser }) => {
     const editedUser = {
       id: user.id,
       email: user.email,
-      firstName: user.firstName,
-      lastName: user.lastName,
+      name: user.name,
       city: user.city,
       state: user.state,
       avatar: user.avatar,
@@ -55,7 +54,7 @@ export const ProfileForm = ({ currentUser }) => {
               Name:
               <input
                 type="text"
-                name="firstName"
+                name="name"
                 spellCheck={false}
                 value={user?.name ? user?.name : ""}
                 required
@@ -148,15 +147,18 @@ export const ProfileForm = ({ currentUser }) => {
         </fieldset>
         <fieldset>
           <div className="form-group">
-            <input
-              type="text"
-              name="bio"
-              value={user?.bio ? user?.bio : ""}
-              required
-              autoFocus
-              className="form-control"
-              onChange={handleInputChange}
-            />
+            <label>
+              Bio:
+              <input
+                type="text"
+                name="bio"
+                value={user?.bio ? user?.bio : ""}
+                required
+                autoFocus
+                className="form-control"
+                onChange={handleInputChange}
+              />
+            </label>
           </div>
         </fieldset>
         {/* <fieldset>
@@ -191,7 +193,9 @@ export const ProfileForm = ({ currentUser }) => {
         </fieldset> */}
         <fieldset>
           <div className="form-group">
-            <button type="submit">Save Profile</button>
+            <button type="submit" className="btn-submit edit-profile-btn">
+              Save Profile
+            </button>
           </div>
         </fieldset>
       </form>

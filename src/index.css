@@ -90,6 +90,10 @@ textarea:focus {
   font-size: 16px;
 }
 
+/* input:focus::placeholder {
+  color: transparent;
+} */
+
 :root {
   --color-one: #40798c;
   --color-two: #021e31;

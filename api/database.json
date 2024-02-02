@@ -2,71 +2,56 @@
   "users": [
     {
       "id": 1,
-      "email": "eric@heidel.com",
-      "name": "Eric Heidel",
-      "firstName": "Eric",
-      "lastName": "Heidel",
-      "city": "Nashville",
-      "state": "TN",
-      "avatar": "http://www.brightestyoungthings.com/wp-content/uploads/2008/04/snuggler.jpg",
-      "bio": "Small time Shoe collector!",
-      "hasEmoji": ""
+      "email": "dee@reynolds.com",
+      "name": "Dee Reynolds",
+      "city": "Philadelphia",
+      "state": "PA",
+      "avatar": "/avatars/dee-reynolds.jpg",
+      "bio": "I'm a bird!"
     },
     {
       "email": "dennis@reynolds.com",
       "name": "Dennis Reynolds",
-      "firstName": "Dennis",
-      "lastName": "Reynolds",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/dennis-reynolds.jpg",
       "bio": "I am a five star man!!!",
-      "hasEmoji": "",
       "id": 2
     },
     {
       "email": "frank@reynolds.com",
       "name": "Frank Reynolds",
-      "firstName": "Frank",
-      "lastName": "Reynolds",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/frank-reynolds.jpg",
       "bio": "I'm gonna get real weird with it!",
-      "hasEmoji": "",
       "id": 3
     },
     {
       "id": 4,
       "email": "mac@mcdonald.com",
       "name": "Mac MCDonald",
-      "firstName": "Mac",
-      "lastName": "McDonald",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/mac-mcdonald.jpg",
-      "bio": "I'm playing both sides!",
-      "hasEmoji": ""
+      "bio": "I'm playing both sides!"
     },
     {
       "id": 5,
       "email": "charlie@kelly.com",
       "name": "Charlie Kelly",
-      "firstName": "Charlie",
-      "lastName": "Kelly",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/charlie-kelly.jpg",
-      "bio": "I hate Charlie work!",
-      "hasEmoji": ""
+      "bio": "I hate Charlie work!"
     },
     {
-      "email": "dee@reynolds.com",
-      "name": "Dee Reynolds",
+      "email": "the@waitress.com",
+      "name": "The Waitress",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "/avatars/dee-reynolds.jpg",
-      "bio": "I'm a bird!",
+      "avatar": "/avatars/the-waitress.jpg",
+      "bio": "Nobody knows my name!",
       "id": 6
     }
   ],
@@ -1423,22 +1408,6 @@
       "conditionId": 1,
       "description": "RARE",
       "id": 33
-    },
-    {
-      "userId": 1,
-      "shoeId": 62,
-      "shoeSize": "6",
-      "conditionId": 1,
-      "description": "cracking leather",
-      "id": 34
-    },
-    {
-      "userId": 1,
-      "shoeId": 13,
-      "shoeSize": "7",
-      "conditionId": 1,
-      "description": "Faded",
-      "id": 35
     },
     {
       "userId": 3,

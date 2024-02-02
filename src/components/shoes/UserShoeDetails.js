@@ -116,6 +116,16 @@ export const UserShoeDetails = ({ currentUser }) => {
               >
                 Edit Shoe
               </button>
+              <button
+                className="form-btn btn-toggle"
+                hidden={!isHidden}
+                onClick={(e) => {
+                  setIsChecked(false)
+                  setIsHidden(false)
+                }}
+              >
+                Don't Edit
+              </button>
               <div className="edit-shoe-div" hidden={!isHidden}>
                 <form className="edit-shoe-form">
                   <fieldset>
