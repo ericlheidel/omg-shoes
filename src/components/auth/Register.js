@@ -5,13 +5,14 @@ import { useNavigate } from "react-router-dom"
 
 export const Register = ({ setLoggedInUser }) => {
   const [email, setEmail] = useState("")
-  const [firstName, setFirstName] = useState("")
-  const [lastName, setLastName] = useState("")
+  const [name, setName] = useState("")
+  // const [firstName, setFirstName] = useState("")
+  // const [lastName, setLastName] = useState("")
   const [city, setCity] = useState("")
   const [state, setState] = useState("")
   const [avatar, setAvatar] = useState("")
-  const [bio, setBio] = useState("")
-  const [hasEmoji, setHasEmoji] = useState(false)
+  // const [bio, setBio] = useState("")
+  // const [hasEmoji, setHasEmoji] = useState(false)
   // const [password, setPassword] = useState("")
 
   const navigate = useNavigate()
@@ -19,13 +20,14 @@ export const Register = ({ setLoggedInUser }) => {
   const registerNewUser = () => {
     const user = {
       email,
-      firstName,
-      lastName,
+      name,
+      // firstName,
+      // lastName,
       city,
       state,
       avatar,
-      bio,
-      hasEmoji,
+      // bio,
+      // hasEmoji,
       /* password, */
     }
     createUser(user).then((createdUser) => {
@@ -34,8 +36,8 @@ export const Register = ({ setLoggedInUser }) => {
           "shoes_user",
           JSON.stringify({
             id: createdUser.id,
-            firstName: createdUser.firstName,
-            lastName: createdUser.lastName,
+            // firstName: createdUser.firstName,
+            // lastName: createdUser.lastName,
           })
         )
 
@@ -70,6 +72,22 @@ export const Register = ({ setLoggedInUser }) => {
               <div className="form-group">
                 <input
                   type="text"
+                  id="name"
+                  value={name}
+                  placeholder="Enter your name..."
+                  required
+                  autoFocus
+                  className="form-control"
+                  onChange={(e) => {
+                    setName(e.target.value)
+                  }}
+                />
+              </div>
+            </fieldset>
+            {/* <fieldset>
+              <div className="form-group">
+                <input
+                  type="text"
                   id="firstName"
                   value={firstName}
                   placeholder="Enter your first name..."
@@ -97,7 +115,7 @@ export const Register = ({ setLoggedInUser }) => {
                   }}
                 />
               </div>
-            </fieldset>
+            </fieldset> */}
           </div>
           <fieldset>
             <div className="form-group">
@@ -183,7 +201,7 @@ export const Register = ({ setLoggedInUser }) => {
             />
           </div>
         </fieldset> */}
-          <fieldset>
+          {/* <fieldset>
             <div className="form-group">
               <input
                 type="text"
@@ -196,7 +214,7 @@ export const Register = ({ setLoggedInUser }) => {
                 onChange={(e) => setBio(e.target.value)}
               />
             </div>
-          </fieldset>
+          </fieldset> */}
           {/* <fieldset>
             <div className="form-group radio-group">
               <h4>Would you like to add shoe emoji to your profile?</h4>

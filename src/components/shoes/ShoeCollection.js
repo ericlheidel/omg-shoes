@@ -34,16 +34,21 @@ export const ShoeCollection = ({
               </div>
             </div>
             {currentUser.id === parseInt(userId) && (
-              <button
-                className="btn-remove"
-                onClick={(e) => {
-                  deleteUserShoeFromCollection(userShoe.id).then(
-                    getAndSetCollectionByUserId
-                  )
-                }}
-              >
-                Remove Shoe
-              </button>
+              <>
+                <div className="btn-div">
+                  <button
+                    className="btn-remove"
+                    onClick={(e) => {
+                      deleteUserShoeFromCollection(userShoe.id).then(
+                        getAndSetCollectionByUserId
+                      )
+                    }}
+                  >
+                    Remove Shoe
+                  </button>
+                  <button className="btn-edit-shoe">Edit Shoe</button>
+                </div>
+              </>
             )}
           </div>
         )

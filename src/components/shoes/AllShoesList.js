@@ -40,7 +40,7 @@ export const AllShoesList = () => {
 
   // ! SHOW SHOES FROM EVERY YEAR
   useEffect(() => {
-    if (filteredYear === "1") {
+    if (filteredYear === "1" || filteredYear === "0") {
       setFilteredShoes(allShoes)
     }
   }, [allShoes, filteredYear])
