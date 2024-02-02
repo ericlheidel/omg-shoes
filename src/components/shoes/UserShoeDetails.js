@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react"
 import { useParams, useNavigate } from "react-router"
 import {
+  deleteUserShoeFromCollection,
   editUserShoe,
   getUserShoeById,
 } from "../../services/userShoeService.js"
-import { getUserById } from "../../services/usersService.js"
 import { getAllConditions } from "../../services/conditionsService.js"
 
 export const UserShoeDetails = ({ currentUser }) => {
@@ -125,6 +125,17 @@ export const UserShoeDetails = ({ currentUser }) => {
                 }}
               >
                 Don't Edit
+              </button>
+              <button
+                className="form-btn btn-toggle"
+                hidden={!isHidden}
+                onClick={() => {
+                  deleteUserShoeFromCollection(userShoe.id).then(() =>
+                    navigate(`/users/${currentUser.id}`)
+                  )
+                }}
+              >
+                Remove Shoe
               </button>
               <div className="edit-shoe-div" hidden={!isHidden}>
                 <form className="edit-shoe-form">

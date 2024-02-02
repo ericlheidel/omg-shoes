@@ -14,14 +14,14 @@
   flex-direction: column;
   font-size: 2rem;
   font-weight: 500;
-  color: var(--color-two);
+  color: var(--color-four);
 }
 
 .welcome-div > div {
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 1.5rem;
-  color: var(--color-three);
+  color: var(--color-four);
 }
 
 .welcome-img {

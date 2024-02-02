@@ -40,7 +40,7 @@ export const ShoeCollection = ({
                 <div className="btn-div">
                   <button
                     className="btn-remove"
-                    onClick={(e) => {
+                    onClick={() => {
                       deleteUserShoeFromCollection(userShoe.id).then(
                         getAndSetCollectionByUserId
                       )
