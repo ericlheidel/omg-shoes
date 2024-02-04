@@ -103,7 +103,6 @@ export const Profile = ({ currentUser }) => {
               setChosenShoeValue(parseInt(e.target.value))
             }}
           >
-            <option value={"0"}>Filter Shoes...</option>
             <option value={0} key={0}>
               All Shoes
             </option>
