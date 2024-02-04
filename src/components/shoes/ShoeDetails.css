@@ -1,0 +1,81 @@
+/********************  ShoeDetailsForm.js  ********************/
+/********************  UserShoeDetails.js  ********************/
+
+.shoe-details-div {
+  width: 350px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-two);
+  box-shadow: 5px 5px 15px var(--color-two);
+  border-radius: 15px;
+}
+
+.shoe-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
+.shoe-details-img {
+  border-radius: 15px;
+}
+
+.shoe-detail-one {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-four);
+}
+.shoe-detail-two {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-four);
+}
+
+.btn-toggle {
+  margin: 15px 0 0 12.5px;
+  width: 25%;
+}
+
+.add-shoe-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .condition-dropdown,
+.size-dropdown {
+  width: 100%;
+} */
+
+.add-btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.edit-shoe-form {
+  margin-top: 10px;
+}
+
+.edit-label-one {
+  color: var(--color-one);
+  font-weight: 700;
+  width: 100%;
+}
+.edit-label-two {
+  color: var(--color-one);
+  font-weight: 700;
+  width: 94.5%;
+}
+
+.edit-select {
+  width: 100%;
+}
+
+.save-btn,
+.save-btn-div {
+  width: 100%;
+}

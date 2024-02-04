@@ -1,3 +1,4 @@
+import "./LoginAndRegister.css"
 import { useState } from "react"
 import { createUser, getUserByEmail } from "../../services/usersService.js"
 import { states } from "../../utility.js"

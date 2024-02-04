@@ -1,8 +1,8 @@
-import "./Users.css"
+import "./UsersFilterBar.css"
 
 export const UsersFilterBar = ({ setSearchTerm }) => {
   return (
-    <div className="filter-bar">
+    <div className="user-filter-bar">
       <input
         type="text"
         placeholder="Search..."

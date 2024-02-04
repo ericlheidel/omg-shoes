@@ -1,0 +1,33 @@
+.user {
+  border-radius: 8px;
+  margin: 7.5px;
+  background-color: var(--color-two);
+  box-shadow: 5px 5px 15px var(--color-two);
+  padding: 15px;
+}
+
+.user-img {
+  width: 20rem;
+  overflow: auto;
+  border-radius: 8px;
+}
+
+.user-list-info-div {
+  margin-top: 10px;
+  background-color: var(--color-one);
+  border-radius: 8px;
+}
+
+.user-list-location {
+  color: var(--color-two);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.user-amount {
+  color: var(--color-two);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 10px 10px 10px;
+}

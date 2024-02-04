@@ -30,7 +30,7 @@
     {
       "id": 4,
       "email": "mac@mcdonald.com",
-      "name": "Mac MCDonald",
+      "name": "Ronald McDonald",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/mac-mcdonald.jpg",
@@ -43,8 +43,7 @@
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/charlie-kelly.jpg",
-      "bio": "I hate Charlie work!!!",
-      "hasEmoji": false
+      "bio": "I hate Charlie work!!!"
     },
     {
       "email": "the@waitress.com",
@@ -1187,12 +1186,8 @@
       "condition": "Thrashed"
     }
   ],
-  "comments": [
-    {}
-  ],
-  "likes": [
-    {}
-  ],
+  "comments": [{}],
+  "likes": [{}],
   "userShoe": [
     {
       "id": 6,

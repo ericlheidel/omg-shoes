@@ -1,4 +1,4 @@
-import "./Shoes.css"
+import "./Shoe.css"
 import { Link } from "react-router-dom"
 // import { getAllShoes } from "../../services/shoesService.js"
 

@@ -1,3 +1,4 @@
+import "./AllShoesList.css"
 import { useEffect, useState } from "react"
 import { getAllShoes } from "../../services/shoesService.js"
 import { ShoesFilterBar } from "./ShoesFilterBar.js"
@@ -9,27 +10,6 @@ export const AllShoesList = () => {
   const [searchTerm, setSearchTerm] = useState("")
   const [filteredYear, setFilteredYear] = useState("")
   const [sortedShoes, setSortedShoes] = useState([])
-
-  //mm Here I created a useEffect to sort filtered shoes
-  // prettier-ignore
-  useEffect(() => {
-
-    //mm setter function
-    setSortedShoes(
-
-      //mm take [filteredShoes] and sort through it
-      filteredShoes.sort(function (a, b) {
-
-        //mm if years don't match, return "a" year first
-        if (a.year !== b.year) {
-          return a.year - b.year
-        }
-        
-        //mm return the sorted array with an additional sort by name
-        return a.name.localeCompare(b.name)
-      })
-    )
-  }, [filteredShoes])
 
   const getAndSetAllShoes = () => {
     getAllShoes().then((shoesArray) => {
@@ -67,6 +47,27 @@ export const AllShoesList = () => {
       setFilteredShoes(allShoes)
     }
   }, [allShoes, filteredYear])
+
+  //mm Here I created a useEffect to sort filtered shoes
+  // prettier-ignore
+  useEffect(() => {
+
+    //mm setter function
+    setSortedShoes(
+
+      //mm take [filteredShoes] and sort through it
+      filteredShoes.sort(function (a, b) {
+
+        //mm if years don't match, return "a" year first
+        if (a.year !== b.year) {
+          return a.year - b.year
+        }
+        
+        //mm return the sorted array with an additional sort by name
+        return a.name.localeCompare(b.name)
+      })
+    )
+  }, [filteredShoes])
 
   return (
     <div className="shoes-container">

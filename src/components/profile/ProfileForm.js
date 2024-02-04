@@ -36,7 +36,7 @@ export const ProfileForm = ({ currentUser }) => {
       state: user.state,
       avatar: user.avatar,
       bio: user.bio,
-      hasEmoji: hasEmoji,
+      // hasEmoji: hasEmoji,
     }
 
     updateUserProfile(editedUser).then(() => {
