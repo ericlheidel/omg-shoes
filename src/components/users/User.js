@@ -1,3 +1,4 @@
+import "./User.css"
 import { useEffect, useState } from "react"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
 import { Link } from "react-router-dom"

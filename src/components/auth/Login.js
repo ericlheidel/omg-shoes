@@ -1,7 +1,7 @@
 import "./LoginAndRegister.css"
-import { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { getUserByEmail } from "../../services/usersService.js"
+import { useState } from "react"
 
 export const Login = () => {
   const [email, setEmail] = useState("charlie@kelly.com")
@@ -34,7 +34,7 @@ export const Login = () => {
   }
 
   return (
-    <main className="center">
+    <main className="login-main center">
       <section>
         <form className="login-form" onSubmit={handleLogin}>
           <div className="text-div">

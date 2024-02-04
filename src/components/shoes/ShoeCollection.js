@@ -1,3 +1,4 @@
+import "./ShoeCollection.css"
 // import { useEffect, useState } from "react"
 import { deleteUserShoeFromCollection } from "../../services/userShoeService.js"
 import { Link /* useParams */, useNavigate } from "react-router-dom"

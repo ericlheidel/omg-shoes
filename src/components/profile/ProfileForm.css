@@ -1,4 +1,9 @@
 .edit-profile-form {
+  width: 450px;
+  margin: 2.5rem auto 1.5rem auto;
+  background-color: var(--color-two);
+  border-radius: 12.5px;
+  padding: 3rem;
   box-shadow: 5px 5px 15px var(--color-two);
 }
 
