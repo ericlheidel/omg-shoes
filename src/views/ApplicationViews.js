@@ -8,6 +8,7 @@ import { ShoeDetailsForm } from "../components/shoes/ShoeDetailsForm.js"
 import { ProfileForm } from "../components/profile/ProfileForm.js"
 import { UsersList } from "../components/users/UsersList.js"
 import { UserShoeDetails } from "../components/shoes/UserShoeDetails.js"
+import { AddShoe } from "../components/shoes/AddShoe.js"
 
 export const ApplicationViews = () => {
   const [currentUser, setCurrentUser] = useState({})
@@ -55,6 +56,12 @@ export const ApplicationViews = () => {
             element={<UserShoeDetails currentUser={currentUser} />}
           />
         </Route>
+        {currentUser.isAdmin && (
+          <Route
+            path="addshoe"
+            element={<AddShoe currentUser={currentUser} />}
+          ></Route>
+        )}
       </Route>
     </Routes>
   )

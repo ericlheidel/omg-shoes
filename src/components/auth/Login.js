@@ -21,6 +21,7 @@ export const Login = () => {
           "shoes_user",
           JSON.stringify({
             id: user.id,
+            isAdmin: user.isAdmin,
             // firstName: user.firstName,
             // lastName: user.lastName,
           })

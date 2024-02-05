@@ -7,25 +7,28 @@
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/dee-reynolds.jpg",
-      "bio": "I'm a bird!"
+      "bio": "I'm a bird!",
+      "isAdmin": false
     },
     {
+      "id": 2,
       "email": "dennis@reynolds.com",
       "name": "Dennis Reynolds",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/dennis-reynolds.jpg",
       "bio": "I am a five star man!!!",
-      "id": 2
+      "isAdmin": false
     },
     {
+      "id": 3,
       "email": "frank@reynolds.com",
       "name": "Frank Reynolds",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/frank-reynolds.jpg",
       "bio": "I'm gonna get real weird with it!",
-      "id": 3
+      "isAdmin": false
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/mac-mcdonald.jpg",
-      "bio": "I'm playing both sides!"
+      "bio": "I'm playing both sides!",
+      "isAdmin": false
     },
     {
       "id": 5,
@@ -43,16 +47,18 @@
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/charlie-kelly.jpg",
-      "bio": "I hate Charlie work!!!"
+      "bio": "I hate Charlie work!!!",
+      "isAdmin": false
     },
     {
+      "id": 6,
       "email": "the@waitress.com",
       "name": "The Waitress",
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/the-waitress.jpg",
       "bio": "Nobody knows my name!",
-      "id": 6
+      "isAdmin": true
     }
   ],
   "shoes": [
