@@ -34,16 +34,17 @@ export const Login = () => {
   }
 
   return (
-    <main className="login-main center">
+    <main>
       <section>
-        <form className="login-form" onSubmit={handleLogin}>
+        <form className="login-form color-four" onSubmit={handleLogin}>
           <div className="text-div">
             <h1>OMG...Shoes</h1>
             <h2>Please sign in</h2>
           </div>
-          <div className="sign-in">
-            <fieldset>
-              <div className="form-group">
+          <fieldset>
+            <div className="form-group">
+              <label>
+                Email:
                 <input
                   type="email"
                   value={email}
@@ -53,9 +54,10 @@ export const Login = () => {
                   className="form-control"
                   onChange={(e) => setEmail(e.target.value)}
                 />
-              </div>
-            </fieldset>
-            {/* <fieldset>
+              </label>
+            </div>
+          </fieldset>
+          {/* <fieldset>
             <div className="form-group">
               <input
                 type="password"
@@ -67,14 +69,13 @@ export const Login = () => {
               />
             </div>
           </fieldset> */}
-            <fieldset>
-              <div className="form-group">
-                <button type="submit" className="btn-submit form-btn btn-login">
-                  Sign in
-                </button>
-              </div>
-            </fieldset>
-          </div>
+          <fieldset>
+            <div className="form-group">
+              <button type="submit" className="btn-submit form-btn btn-login">
+                Sign in
+              </button>
+            </div>
+          </fieldset>
         </form>
       </section>
       <section className="register-link">

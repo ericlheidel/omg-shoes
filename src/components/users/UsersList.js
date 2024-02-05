@@ -35,7 +35,7 @@ export const UsersList = () => {
       <UsersFilterBar setSearchTerm={setSearchTerm} />
       <article className="users">
         {sortedUsers.map((userObj) => {
-          return <User userObj={userObj} />
+          return <User userObj={userObj} key={userObj.id} />
         })}
       </article>
     </div>
