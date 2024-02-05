@@ -1192,13 +1192,18 @@
       "condition": "Thrashed"
     }
   ],
-  "comments": [{}],
-  "likes": [{}],
+  "comments": [
+    {}
+  ],
+  "likes": [
+    {}
+  ],
   "userShoe": [
     {
       "id": 6,
       "userId": 5,
       "shoeId": 3,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 5,
       "description": "Completely unwearable!"
@@ -1207,6 +1212,7 @@
       "id": 7,
       "userId": 5,
       "shoeId": 9,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 2,
       "description": "Great condition for age"
@@ -1214,6 +1220,7 @@
     {
       "userId": 5,
       "shoeId": 10,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Great condition, a bit faded",
@@ -1223,6 +1230,7 @@
       "id": 9,
       "userId": 5,
       "shoeId": 19,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 4,
       "description": "FOR SALE!!!"
@@ -1230,6 +1238,7 @@
     {
       "userId": 5,
       "shoeId": 24,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Soles have recently been replaced/swapped with brand new soles",
@@ -1238,6 +1247,7 @@
     {
       "userId": 5,
       "shoeId": 30,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 1,
       "description": "Brand New",
@@ -1246,6 +1256,7 @@
     {
       "userId": 5,
       "shoeId": 36,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Good lookin shoe",
@@ -1254,6 +1265,7 @@
     {
       "userId": 5,
       "shoeId": 38,
+      "style": "Low",
       "shoeSize": "11",
       "conditionId": 3,
       "description": "Hard to find",
@@ -1262,6 +1274,7 @@
     {
       "userId": 5,
       "shoeId": 39,
+      "style": "Low",
       "shoeSize": "11",
       "conditionId": 3,
       "description": "Great Condition, fits like an 11.5",
@@ -1270,6 +1283,7 @@
     {
       "userId": 5,
       "shoeId": 48,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 4,
       "description": "Kick around shoe",
@@ -1278,6 +1292,7 @@
     {
       "userId": 5,
       "shoeId": 52,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Good for everyday wear",
@@ -1286,6 +1301,7 @@
     {
       "userId": 5,
       "shoeId": 54,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Sock Liner Tears",
@@ -1294,6 +1310,7 @@
     {
       "userId": 5,
       "shoeId": 66,
+      "style": "Low",
       "shoeSize": "12",
       "conditionId": 2,
       "description": "Has 1 replacement insole from a pair of Blue Lobster",
@@ -1302,6 +1319,7 @@
     {
       "userId": 5,
       "shoeId": 68,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Great condition!",
@@ -1310,6 +1328,7 @@
     {
       "userId": 5,
       "shoeId": 73,
+      "style": "Low",
       "shoeSize": "11",
       "conditionId": 3,
       "description": "Very very faded",
@@ -1318,6 +1337,7 @@
     {
       "userId": 5,
       "shoeId": 75,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Runs a little big",
@@ -1326,6 +1346,7 @@
     {
       "userId": 5,
       "shoeId": 81,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 2,
       "description": "Black laces only",
@@ -1334,6 +1355,7 @@
     {
       "userId": 5,
       "shoeId": 97,
+      "style": "Low",
       "shoeSize": "11",
       "conditionId": 4,
       "description": "These don't look very used at all",
@@ -1342,6 +1364,7 @@
     {
       "userId": 5,
       "shoeId": 99,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 2,
       "description": "Almost brand new",
@@ -1350,6 +1373,7 @@
     {
       "userId": 5,
       "shoeId": 100,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 3,
       "description": "Great condition, one tongue strap falling apart",
@@ -1358,6 +1382,7 @@
     {
       "userId": 5,
       "shoeId": 101,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 2,
       "description": "$$$$$",
@@ -1366,6 +1391,7 @@
     {
       "userId": 5,
       "shoeId": 103,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 4,
       "description": "Everyday work shoes, sock liner tears",
@@ -1374,6 +1400,7 @@
     {
       "userId": 5,
       "shoeId": 104,
+      "style": "Low",
       "shoeSize": "12",
       "conditionId": 2,
       "description": "Clean. No inner tag",
@@ -1382,6 +1409,7 @@
     {
       "userId": 5,
       "shoeId": 109,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 5,
       "description": "Old and beat!",
@@ -1390,6 +1418,7 @@
     {
       "userId": 2,
       "shoeId": 25,
+      "style": "Low",
       "shoeSize": "5.5",
       "conditionId": 1,
       "description": "brand new",
@@ -1398,6 +1427,7 @@
     {
       "userId": 2,
       "shoeId": 26,
+      "style": "Low",
       "shoeSize": "7.5",
       "conditionId": 1,
       "description": "Brand New",
@@ -1406,6 +1436,7 @@
     {
       "userId": 2,
       "shoeId": 27,
+      "style": "Low",
       "shoeSize": "12",
       "conditionId": 1,
       "description": "RARE",
@@ -1414,6 +1445,7 @@
     {
       "userId": 3,
       "shoeId": 108,
+      "style": "Low",
       "shoeSize": "14",
       "conditionId": 5,
       "description": "thrashed...",
@@ -1422,6 +1454,7 @@
     {
       "userId": 3,
       "shoeId": 113,
+      "style": "Low",
       "shoeSize": "7.5",
       "conditionId": 3,
       "description": "Great condition!",
@@ -1430,6 +1463,7 @@
     {
       "userId": 3,
       "shoeId": 87,
+      "style": "Low",
       "shoeSize": "9",
       "conditionId": 4,
       "description": "Need new soles",
@@ -1438,6 +1472,7 @@
     {
       "userId": 4,
       "shoeId": 73,
+      "style": "Low",
       "shoeSize": "8.5",
       "conditionId": 3,
       "description": "uesd!!@",
@@ -1446,6 +1481,7 @@
     {
       "userId": 5,
       "shoeId": 123,
+      "style": "Low",
       "shoeSize": "9",
       "conditionId": 1,
       "description": "testestest",
@@ -1454,6 +1490,7 @@
     {
       "userId": 5,
       "shoeId": 30,
+      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 1,
       "description": "Needs a re-glue",
@@ -1462,10 +1499,27 @@
     {
       "userId": 5,
       "shoeId": 123,
+      "style": "Low",
       "shoeSize": "10.5",
       "conditionId": 4,
       "description": "Too small!",
       "id": 42
+    },
+    {
+      "id": 43,
+      "userId": 6,
+      "shoeId": 11,
+      "shoeSize": "6.5",
+      "conditionId": 3,
+      "description": "Kick arounds!"
+    },
+    {
+      "userId": 6,
+      "shoeId": 23,
+      "shoeSize": "7.5",
+      "conditionId": 1,
+      "description": "1 of 202 ever made.",
+      "id": 44
     }
   ]
 }

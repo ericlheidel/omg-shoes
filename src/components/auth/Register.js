@@ -58,11 +58,20 @@ export const Register = ({ setLoggedInUser }) => {
     })
   }
 
+  const fillOutForm = () => {
+    setName("Eric Heidel")
+    setCity("Nashville")
+    setState("TN")
+    setAvatar("/avatar/eric-heidel.jpg")
+    setEmail("eric@heidel.com")
+    setBio("You can run, but you can't Heidel")
+  }
+
   return (
     <main>
       <div>
         <form className="register-form color-four" onSubmit={handleSubmit}>
-          <div className="text-div">
+          <div className="text-div" onClick={fillOutForm}>
             <h1>OMG...Shoes</h1>
             <h2>Please Register</h2>
           </div>

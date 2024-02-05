@@ -5,12 +5,12 @@ import { createShoe } from "../../services/shoesService.js"
 import { useNavigate } from "react-router-dom"
 
 export const AddShoe = () => {
-  const [name, setName] = useState("Mosquito")
-  const [style, setStyle] = useState("Low")
-  const [year, setYear] = useState(2008)
-  const [modelNumber, setModelNumber] = useState("313170-761")
-  const [colorway, setColorway] = useState("vanilla/vermilion red-black frost")
-  const [image, setImage] = useState("/shoes/mosquito.jpg")
+  const [name, setName] = useState("")
+  const [style, setStyle] = useState("")
+  const [year, setYear] = useState(0)
+  const [modelNumber, setModelNumber] = useState("")
+  const [colorway, setColorway] = useState("")
+  const [image, setImage] = useState("")
 
   const navigate = useNavigate()
 
@@ -31,10 +31,19 @@ export const AddShoe = () => {
     })
   }
 
+  const fillOutForm = () => {
+    setName("Mosquito")
+    setStyle("Low")
+    setYear("2008")
+    setModelNumber("313170-761")
+    setColorway("vanilla/vermilion red-black frost")
+    setImage("/shoes/mosquito.jpg")
+  }
+
   return (
     <div className="add-shoe">
       <form className="add-shoe-form color-four">
-        <h2>Add a Shoe to the Database</h2>
+        <h2 onClick={fillOutForm}>Add a Shoe to the Database</h2>
         <div className="form-group">
           <fieldset>
             <label>

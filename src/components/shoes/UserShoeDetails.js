@@ -90,6 +90,9 @@ export const UserShoeDetails = ({ currentUser }) => {
                 className="shoe-details-img"
               />
               <div className="shoe-detail-one">{userShoe.shoe?.name}</div>
+              <div className="shoe-detail-two">
+                Style: {userShoe.shoe?.style}
+              </div>
               <div className="shoe-detail-two">{userShoe.shoe?.year}</div>
               <div className="shoe-detail-two">
                 {userShoe.shoe?.modelNumber}
@@ -202,6 +205,9 @@ export const UserShoeDetails = ({ currentUser }) => {
                 className="shoe-details-img"
               />
               <div className="shoe-detail-one">{userShoe.shoe?.name}</div>
+              <div className="shoe-detail-two">
+                Style: {userShoe.shoe?.style}
+              </div>
               <div className="shoe-detail-two">Size: {userShoe?.shoeSize}</div>
               <div className="shoe-detail-two">
                 Condition: {userShoe.condition?.condition}

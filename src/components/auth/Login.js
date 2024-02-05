@@ -4,7 +4,7 @@ import { getUserByEmail } from "../../services/usersService.js"
 import { useState } from "react"
 
 export const Login = () => {
-  const [email, setEmail] = useState("charlie@kelly.com")
+  const [email, setEmail] = useState("")
   // const [password, setPassword] = useState("password")
 
   const navigate = useNavigate()
@@ -39,8 +39,8 @@ export const Login = () => {
       <section>
         <form className="login-form color-four" onSubmit={handleLogin}>
           <div className="text-div">
-            <h1>OMG...Shoes</h1>
-            <h2>Please sign in</h2>
+            <h1 onClick={() => setEmail("charlie@kelly.com")}>OMG...Shoes</h1>
+            <h2 onClick={() => setEmail("the@waitress.com")}>Please sign in</h2>
           </div>
           <fieldset>
             <div className="form-group">

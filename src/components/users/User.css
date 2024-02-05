@@ -43,8 +43,8 @@
   font-size: 20px;
   margin-top: 15px;
   cursor: pointer;
-}
 
-.admin-btn:hover {
-  background-color: var(--color-four);
+  &:hover {
+    background-color: var(--color-four);
+  }
 }
