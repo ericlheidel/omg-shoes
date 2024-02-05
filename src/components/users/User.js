@@ -2,8 +2,9 @@ import "./User.css"
 import { useEffect, useState } from "react"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
 import { Link } from "react-router-dom"
+import { updateUserProfile } from "../../services/usersService.js"
 
-export const User = ({ userObj }) => {
+export const User = ({ userObj, currentUser, getAndSetAllUsers }) => {
   const [collectionAmount, setCollectionAmount] = useState(0)
 
   useEffect(() => {
@@ -11,6 +12,21 @@ export const User = ({ userObj }) => {
       setCollectionAmount(collectionArray)
     })
   }, [userObj])
+
+  const handleAdminChange = (isAdmin) => {
+    const editedUser = {
+      id: userObj.id,
+      email: userObj.email,
+      name: userObj.name,
+      city: userObj.city,
+      state: userObj.state,
+      avatar: userObj.avatar,
+      bio: userObj.bio,
+      isAdmin,
+    }
+
+    updateUserProfile(editedUser).then(() => getAndSetAllUsers())
+  }
 
   return (
     <div className="user">
@@ -28,6 +44,26 @@ export const User = ({ userObj }) => {
           Shoes in Collection: {collectionAmount.length}
         </div>
       </div>
+      {currentUser.isAdmin && !userObj.isAdmin && (
+        <button
+          className="admin-btn"
+          onClick={() => {
+            handleAdminChange(true)
+          }}
+        >
+          Make Admin
+        </button>
+      )}
+      {userObj.isAdmin && userObj.id !== 6 && (
+        <button
+          className="admin-btn"
+          onClick={() => {
+            handleAdminChange(false)
+          }}
+        >
+          Remove Admin
+        </button>
+      )}
     </div>
   )
 }

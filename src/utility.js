@@ -1,3 +1,9 @@
+export const getCurrentYear = () => {
+  const getYear = new Date()
+  const thisYear = getYear.getFullYear()
+  return thisYear
+}
+
 export const states = [
   { id: 1, state: "AL" },
   { id: 2, state: "AK" },

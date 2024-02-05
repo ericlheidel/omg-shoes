@@ -4,7 +4,7 @@ import { getAllUsers } from "../../services/usersService.js"
 import { User } from "./User.js"
 import { UsersFilterBar } from "./UsersFilterBar.js"
 
-export const UsersList = () => {
+export const UsersList = ({ currentUser }) => {
   const [allUsers, setAllUsers] = useState([])
   const [filteredUsers, setFilteredUsers] = useState([])
   const [searchTerm, setSearchTerm] = useState("")
@@ -35,7 +35,14 @@ export const UsersList = () => {
       <UsersFilterBar setSearchTerm={setSearchTerm} />
       <article className="users">
         {sortedUsers.map((userObj) => {
-          return <User userObj={userObj} key={userObj.id} />
+          return (
+            <User
+              userObj={userObj}
+              key={userObj.id}
+              currentUser={currentUser}
+              getAndSetAllUsers={getAndSetAllUsers}
+            />
+          )
         })}
       </article>
     </div>

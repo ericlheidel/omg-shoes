@@ -6,7 +6,7 @@ import { getUserById, updateUserProfile } from "../../services/usersService.js"
 
 export const ProfileForm = ({ currentUser }) => {
   const [user, setUser] = useState([])
-  const [hasEmoji, setHasEmoji] = useState(false)
+  // const [hasEmoji, setHasEmoji] = useState(false)
 
   const { userId } = useParams()
 
@@ -36,6 +36,7 @@ export const ProfileForm = ({ currentUser }) => {
       state: user.state,
       avatar: user.avatar,
       bio: user.bio,
+      isAdmin: user.isAdmin,
       // hasEmoji: hasEmoji,
     }
 
@@ -89,7 +90,6 @@ export const ProfileForm = ({ currentUser }) => {
                 State:
                 <select
                   name="state"
-                  spellCheck={false}
                   value={user?.state ? user?.state : ""}
                   required
                   autoFocus

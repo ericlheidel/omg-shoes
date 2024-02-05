@@ -26,6 +26,7 @@ export const Register = ({ setLoggedInUser }) => {
       state,
       avatar,
       bio,
+      isAdmin: false,
       // hasEmoji,
       /* password, */
     }
@@ -35,6 +36,7 @@ export const Register = ({ setLoggedInUser }) => {
           "shoes_user",
           JSON.stringify({
             id: createdUser.id,
+            isAdmin: createdUser.isAdmin,
           })
         )
 
