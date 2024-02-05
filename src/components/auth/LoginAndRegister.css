@@ -34,6 +34,7 @@
   margin: 0 auto 20px auto;
   /* box-shadow: 2px 2px 2px 2px lightgray; */
   text-align: center;
+  cursor: default;
 }
 
 .text-div > h1 {
@@ -55,10 +56,3 @@
   cursor: pointer;
   text-align: center;
 }
-
-/* .sign-in,
-.register-in {
-  background-color: lightgray;
-  padding: 20px 10px 20px 10px;
-  border-radius: 8px;
-} */

@@ -19,7 +19,7 @@ export const NavBar = ({ currentUser }) => {
           </li>
           {currentUser.isAdmin && (
             <li className="navbar-item">
-              <Link to={"/addshoe"}>Add Shoe</Link>
+              <Link to={"/addshoe"}>Add Shoe to DB</Link>
             </li>
           )}
           <li className="navbar-item">
