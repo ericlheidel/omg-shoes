@@ -27,12 +27,21 @@
 }
 
 .text-div {
-  background-color: lightgray;
-  padding: 5px;
+  /* background-color: lightgray; */
+  /* padding: 5px; */
   border-radius: 8px;
   width: 50%;
   margin: 0 auto 20px auto;
-  box-shadow: 2px 2px 2px 2px lightgray;
+  /* box-shadow: 2px 2px 2px 2px lightgray; */
+  text-align: center;
+}
+
+.text-div > h1 {
+  font-size: 2.5rem;
+}
+
+.text-div > h2 {
+  font-size: 1.75rem;
 }
 
 .state-dropdown {
@@ -44,11 +53,12 @@
   color: var(--color-two);
   font-size: 1.75rem;
   cursor: pointer;
+  text-align: center;
 }
 
-.sign-in,
+/* .sign-in,
 .register-in {
   background-color: lightgray;
   padding: 20px 10px 20px 10px;
   border-radius: 8px;
-}
+} */

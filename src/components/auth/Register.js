@@ -57,17 +57,18 @@ export const Register = ({ setLoggedInUser }) => {
   }
 
   return (
-    <main className="center">
+    <main>
       <div>
-        <form className="register-form" onSubmit={handleSubmit}>
+        <form className="register-form color-four" onSubmit={handleSubmit}>
           <div className="text-div">
             <h1>OMG...Shoes</h1>
             <h2>Please Register</h2>
           </div>
-          <div className="register-in">
-            <div className="name-div">
-              <fieldset>
-                <div className="form-group">
+          <div className="name-div">
+            <fieldset>
+              <div className="form-group">
+                <label>
+                  Name:
                   <input
                     type="text"
                     id="name"
@@ -81,53 +82,62 @@ export const Register = ({ setLoggedInUser }) => {
                       setName(e.target.value)
                     }}
                   />
-                </div>
-              </fieldset>
-            </div>
+                </label>
+              </div>
+            </fieldset>
+          </div>
+          <div className="location-div flex">
             <fieldset>
               <div className="form-group">
-                <input
-                  type="text"
-                  id="city"
-                  value={city}
-                  placeholder="Enter your city..."
-                  required
-                  autoFocus
-                  spellCheck={false}
-                  className="form-control"
-                  onChange={(e) => {
-                    setCity(e.target.value)
-                  }}
-                />
+                <label>
+                  City:
+                  <input
+                    type="text"
+                    id="city"
+                    value={city}
+                    placeholder="Enter your city..."
+                    required
+                    autoFocus
+                    spellCheck={false}
+                    className="form-control city"
+                    onChange={(e) => {
+                      setCity(e.target.value)
+                    }}
+                  />
+                </label>
               </div>
             </fieldset>
             <fieldset>
               <div className="form-group">
-                <select
-                  id="state"
-                  value={state}
-                  required
-                  spellCheck={false}
-                  className="state-dropdown form-select"
-                  onChange={(e) => {
-                    setState(e.target.value)
-                  }}
-                >
-                  <option value={0} key={0}>
-                    Select a state...
-                  </option>
-                  {states.map((state) => {
-                    return (
-                      <option value={state.state} key={state.id}>
-                        {state.state}
-                      </option>
-                    )
-                  })}
-                </select>
+                <label>
+                  State:
+                  <select
+                    id="state"
+                    value={state}
+                    required
+                    spellCheck={false}
+                    className="state-dropdown form-select state-two"
+                    onChange={(e) => {
+                      setState(e.target.value)
+                    }}
+                  >
+                    <option value={0} key={0}></option>
+                    {states.map((state) => {
+                      return (
+                        <option value={state.state} key={state.id}>
+                          {state.state}
+                        </option>
+                      )
+                    })}
+                  </select>
+                </label>
               </div>
             </fieldset>
-            <fieldset>
-              <div className="form-group">
+          </div>
+          <fieldset>
+            <div className="form-group">
+              <label>
+                Avatar Url:
                 <input
                   type="text"
                   id="avatar"
@@ -141,24 +151,28 @@ export const Register = ({ setLoggedInUser }) => {
                     setAvatar(e.target.value)
                   }}
                 />
-              </div>
-            </fieldset>
-            <fieldset>
-              <div className="form-group">
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div className="form-group">
+              <label>
+                Email:
                 <input
                   type="email"
                   id="email"
                   value={email}
-                  placeholder="enter your email..."
+                  placeholder="Enter your email..."
                   required
                   autoFocus
                   spellCheck={false}
                   className="form-control"
                   onChange={(e) => setEmail(e.target.value)}
                 />
-              </div>
-            </fieldset>
-            {/* <fieldset>
+              </label>
+            </div>
+          </fieldset>
+          {/* <fieldset>
           <div className="form-group">
             <input
               type="password"
@@ -172,8 +186,10 @@ export const Register = ({ setLoggedInUser }) => {
             />
           </div>
         </fieldset> */}
-            <fieldset>
-              <div className="form-group">
+          <fieldset>
+            <div className="form-group">
+              <label>
+                Bio:
                 <input
                   type="text"
                   id="bio"
@@ -184,9 +200,10 @@ export const Register = ({ setLoggedInUser }) => {
                   className="form-control"
                   onChange={(e) => setBio(e.target.value)}
                 />
-              </div>
-            </fieldset>
-            {/* <fieldset>
+              </label>
+            </div>
+          </fieldset>
+          {/* <fieldset>
             <div className="form-group radio-group">
               <h4>Would you like to add shoe emoji to your profile?</h4>
               <label>
@@ -217,14 +234,13 @@ export const Register = ({ setLoggedInUser }) => {
               </label>
             </div>
           </fieldset> */}
-            <fieldset>
-              <div className="form-group">
-                <button type="submit" className="btn-submit form-btn">
-                  Register
-                </button>
-              </div>
-            </fieldset>
-          </div>
+          <fieldset>
+            <div className="form-group">
+              <button type="submit" className="btn-submit form-btn">
+                Register
+              </button>
+            </div>
+          </fieldset>
         </form>
       </div>
     </main>
