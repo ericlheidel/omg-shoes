@@ -1,12 +1,6 @@
 import { useEffect, useState } from "react"
 import "./LikesDiv.css"
-import {
-  getAllLikes,
-  getLikesByUserShoeId,
-  postLike,
-  removeLikeById,
-} from "../../services/likesService.js"
-import { getUserShoeById } from "../../services/userShoeService.js"
+import { postLike, removeLikeById } from "../../services/likesService.js"
 
 export const LikesDiv = ({ currentUser, userShoe }) => {
   const [currentUserShoe, setCurrentUserShoe] = useState([])
