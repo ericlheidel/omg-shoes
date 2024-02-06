@@ -27,12 +27,9 @@
 }
 
 .text-div {
-  /* background-color: lightgray; */
-  /* padding: 5px; */
   border-radius: 8px;
   width: 50%;
   margin: 0 auto 20px auto;
-  /* box-shadow: 2px 2px 2px 2px lightgray; */
   text-align: center;
   cursor: default;
 }

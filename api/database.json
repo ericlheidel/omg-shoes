@@ -1196,7 +1196,21 @@
     {}
   ],
   "likes": [
-    {}
+    {
+      "id": 1,
+      "userId": 6,
+      "userShoeId": 11
+    },
+    {
+      "userId": 6,
+      "userShoeId": 12,
+      "id": 2
+    },
+    {
+      "userId": 6,
+      "userShoeId": 13,
+      "id": 3
+    }
   ],
   "userShoe": [
     {
@@ -1520,6 +1534,14 @@
       "conditionId": 1,
       "description": "1 of 202 ever made.",
       "id": 44
+    },
+    {
+      "userId": 1,
+      "shoeId": 38,
+      "shoeSize": "5.5",
+      "conditionId": 3,
+      "description": "dfdssdadaccd",
+      "id": 45
     }
   ]
 }

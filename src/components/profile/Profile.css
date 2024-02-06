@@ -47,10 +47,10 @@
   width: 100%;
   text-align: left;
   margin-top: 5px;
-}
 
-.btn-edit:hover {
-  background-color: var(--color-four);
+  &:hover {
+    background-color: var(--color-four);
+  }
 }
 
 .dropdown-div {

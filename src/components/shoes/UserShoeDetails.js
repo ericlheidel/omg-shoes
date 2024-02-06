@@ -7,6 +7,7 @@ import {
   getUserShoeById,
 } from "../../services/userShoeService.js"
 import { getAllConditions } from "../../services/conditionsService.js"
+import { LikesDiv } from "../likes/LikesDiv.js"
 
 export const UserShoeDetails = ({ currentUser }) => {
   const [userShoe, setUserShoe] = useState([])
@@ -34,12 +35,6 @@ export const UserShoeDetails = ({ currentUser }) => {
       setUserShoe(data[0])
     })
   }, [userShoeId])
-
-  // useEffect(() => {
-  //   getUserById(currentUser.id).then((userObj) => {
-  //     setUser(userObj)
-  //   })
-  // }, [currentUser])
 
   useEffect(() => {
     getAllConditions().then((conditionsArray) => {
@@ -215,6 +210,9 @@ export const UserShoeDetails = ({ currentUser }) => {
               <div className="shoe-detail-two">
                 Description: {userShoe?.description}
               </div>
+              {currentUser.id !== userShoe.userId && (
+                <LikesDiv currentUser={currentUser} userShoe={userShoe} />
+              )}
             </div>
           </div>
         </div>

@@ -9,6 +9,7 @@ import { ProfileForm } from "../components/profile/ProfileForm.js"
 import { UsersList } from "../components/users/UsersList.js"
 import { UserShoeDetails } from "../components/shoes/UserShoeDetails.js"
 import { AddShoe } from "../components/shoes/AddShoe.js"
+import { LikesDiv } from "../components/likes/LikesDiv.js"
 
 export const ApplicationViews = () => {
   const [currentUser, setCurrentUser] = useState({})
@@ -56,6 +57,7 @@ export const ApplicationViews = () => {
             element={<UserShoeDetails currentUser={currentUser} />}
           />
         </Route>
+        <Route path="likes" element={<LikesDiv />} />
         {currentUser.isAdmin && (
           <Route
             path="addshoe"
