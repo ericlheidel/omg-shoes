@@ -39,8 +39,15 @@ export const Login = () => {
       <section>
         <form className="login-form color-four" onSubmit={handleLogin}>
           <div className="text-div">
-            <h1 onClick={() => setEmail("charlie@kelly.com")}>OMG...Shoes</h1>
-            <h2 onClick={() => setEmail("the@waitress.com")}>Please sign in</h2>
+            <h1>
+              <span onClick={() => setEmail("charlie@kelly.com")}>OMG</span>...
+              <span onClick={() => setEmail("the@waitress.com")}>Shoes</span>
+            </h1>
+            <h2>
+              <span onClick={() => setEmail("dee@reynolds.com")}>Please</span>{" "}
+              <span onClick={() => setEmail("dennis@reynolds.com")}>sign</span>{" "}
+              <span onClick={() => setEmail("frank@reynolds.com")}>in</span>
+            </h2>
           </div>
           <fieldset>
             <div className="form-group">
