@@ -7,6 +7,7 @@
   box-shadow: 5px 5px 15px var(--color-two);
   flex-shrink: 0;
   width: 250px;
+  height: fit-content;
   padding: 15px;
   border-radius: 8px;
   margin: 25px;
@@ -42,16 +43,20 @@
   margin-bottom: 10px;
   font-weight: 500;
   padding: 10px;
+
+  &.user-location {
+    margin-bottom: 0;
+  }
 }
 
 .btn-edit {
   width: 100%;
   text-align: left;
   margin-top: 5px;
-}
 
-.btn-edit:hover {
-  background-color: var(--color-four);
+  &:hover {
+    background-color: var(--color-four);
+  }
 }
 
 .dropdown-div {

@@ -95,12 +95,13 @@ export const Profile = ({ currentUser }) => {
             Shoes in Collection: {reducedCollectionArray.length}
           </div>
         </div>
-        <div className="edit-btn-div"></div>
-        {user.id === currentUser.id && (
-          <Link to={`/users/${userId}/edit`}>
-            <button className="btn-edit btn-submit">Edit Profile</button>
-          </Link>
-        )}
+        <div className="edit-btn-div">
+          {user.id === currentUser.id && (
+            <Link to={`/users/${userId}/edit`}>
+              <button className="btn-edit btn-submit">Edit Profile</button>
+            </Link>
+          )}
+        </div>
         <div className="dropdown-div">
           <select
             className="form-select profile-dropdown"

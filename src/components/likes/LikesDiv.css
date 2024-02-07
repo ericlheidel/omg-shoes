@@ -1,0 +1,26 @@
+.likes-div {
+  background-color: var(--color-two);
+  padding: 15px;
+  margin-bottom: -10px;
+}
+
+.like-btn {
+  width: 3rem;
+  font-size: 2rem;
+  background-color: transparent;
+  color: var(--color-four);
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid var(--color-four);
+    border-radius: 5px;
+    background-color: trans;
+  }
+}
+
+.likes {
+  margin-left: 12.5px;
+  margin-top: 2px;
+  font-size: 2rem;
+}

@@ -28,7 +28,7 @@ export const getAllUserShoes = () => {
 
 export const getUserShoeById = (userShoeId) => {
   return fetch(
-    `http://localhost:9999/userShoe?id=${userShoeId}&_expand=user&_expand=shoe&_expand=condition`
+    `http://localhost:9999/userShoe?id=${userShoeId}&_expand=user&_expand=shoe&_expand=condition&_embed=likes`
   ).then((res) => res.json())
 }
 

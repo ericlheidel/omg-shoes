@@ -57,9 +57,8 @@
   cursor: pointer;
   border-radius: 5px;
   margin-top: 10px;
-}
 
-.btn-remove:hover,
-.btn-edit-shoe:hover {
-  background-color: var(--color-four);
+  &:hover {
+    background-color: var(--color-four);
+  }
 }

@@ -25,8 +25,8 @@
   border-radius: 8px;
   padding: 0.5rem;
   font-size: 20px;
-}
 
-.shoe-search::placeholder {
-  color: var(--color-four);
+  &::placeholder {
+    color: var(--color-four);
+  }
 }

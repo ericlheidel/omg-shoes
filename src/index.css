@@ -16,14 +16,14 @@ code {
 a {
   text-decoration: none;
   color: inherit;
-}
 
-a:visited {
-  color: inherit;
-}
+  &:visited {
+    color: inherit;
+  }
 
-a:hover {
-  color: var(--color-five);
+  &:hover {
+    color: var(--color-five);
+  }
 }
 
 textarea {
@@ -73,14 +73,14 @@ h4 {
   border: none;
   color: var(--color-two);
   font-size: 20px;
-}
 
-.form-control.text:focus {
-  color: var(--color-four);
-}
+  &.text:focus {
+    color: var(--color-four);
+  }
 
-.form-control::placeholder {
-  color: var(--color-two);
+  &::placeholder {
+    color: var(--color-two);
+  }
 }
 
 .form-textarea {
@@ -91,10 +91,10 @@ h4 {
   padding: 8px;
   font-size: 16px;
   font-weight: 500;
-}
 
-.form-textarea::placeholder {
-  color: var(--color-two);
+  &::placeholder {
+    color: var(--color-two);
+  }
 }
 
 .form-select {
@@ -105,10 +105,10 @@ h4 {
   padding: 0.5rem;
   font-size: 16px;
   font-weight: 500;
-}
 
-.form-select:hover {
-  background-color: var(--color-four);
+  &:hover {
+    background-color: var(--color-four);
+  }
 }
 
 .form-btn {
@@ -118,10 +118,10 @@ h4 {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-}
 
-.form-btn:hover {
-  background-color: var(--color-four);
+  &:hover {
+    background-color: var(--color-four);
+  }
 }
 
 .btn-submit {
