@@ -74,3 +74,6 @@
 .save-btn-div {
   width: 100%;
 }
+.condition-dropdown {
+  width: fit-content;
+}
