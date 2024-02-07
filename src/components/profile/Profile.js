@@ -90,6 +90,11 @@ export const Profile = ({ currentUser }) => {
             {user.city}, {user.state}
           </div>
         </div>
+        <div className="user-info-div">
+          <div className="user-collection-amount">
+            Shoes in Collection: {reducedCollectionArray.length}
+          </div>
+        </div>
         <div className="edit-btn-div"></div>
         {user.id === currentUser.id && (
           <Link to={`/users/${userId}/edit`}>
