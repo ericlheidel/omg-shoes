@@ -218,6 +218,7 @@ export const UserShoeDetails = ({ currentUser }) => {
             </div>
           </div>
         )}
+        <div className="comments-div">COMMENTS SECTION</div>
       </div>
     </>
   )
