@@ -47,7 +47,7 @@
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/charlie-kelly.jpg",
-      "bio": "I hate Charlie work!!!",
+      "bio": "I hate Charlie work!!!!!",
       "isAdmin": false
     },
     {
@@ -57,7 +57,7 @@
       "city": "Philadelphia",
       "state": "PA",
       "avatar": "/avatars/the-waitress.jpg",
-      "bio": "Nobody knows my name!",
+      "bio": "Nobody knows my name!!!",
       "isAdmin": true
     }
   ],
@@ -1430,33 +1430,6 @@
       "id": 29
     },
     {
-      "userId": 2,
-      "shoeId": 25,
-      "style": "Low",
-      "shoeSize": "5.5",
-      "conditionId": 1,
-      "description": "brand new",
-      "id": 31
-    },
-    {
-      "userId": 2,
-      "shoeId": 26,
-      "style": "Low",
-      "shoeSize": "7.5",
-      "conditionId": 1,
-      "description": "Brand New",
-      "id": 32
-    },
-    {
-      "userId": 2,
-      "shoeId": 27,
-      "style": "Low",
-      "shoeSize": "12",
-      "conditionId": 1,
-      "description": "RARE",
-      "id": 33
-    },
-    {
       "userId": 3,
       "shoeId": 108,
       "style": "Low",
@@ -1542,6 +1515,110 @@
       "conditionId": 3,
       "description": "dfdssdadaccd",
       "id": 45
+    },
+    {
+      "userId": 6,
+      "shoeId": 35,
+      "shoeSize": "7",
+      "conditionId": 1,
+      "description": "Willing to trade",
+      "id": 46
+    },
+    {
+      "userId": 6,
+      "shoeId": 120,
+      "shoeSize": "7.5",
+      "conditionId": 5,
+      "description": "Heavily Skated",
+      "id": 47
+    },
+    {
+      "id": 48,
+      "userId": 6,
+      "shoeId": 23,
+      "shoeSize": "7",
+      "conditionId": 1,
+      "description": "Another 1 of 202 ever made."
+    },
+    {
+      "userId": 2,
+      "shoeId": 25,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 49
+    },
+    {
+      "id": 50,
+      "userId": 2,
+      "shoeId": 26,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New"
+    },
+    {
+      "userId": 2,
+      "shoeId": 27,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 51
+    },
+    {
+      "userId": 2,
+      "shoeId": 7,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 52
+    },
+    {
+      "userId": 2,
+      "shoeId": 8,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 53
+    },
+    {
+      "userId": 2,
+      "shoeId": 59,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 54
+    },
+    {
+      "userId": 2,
+      "shoeId": 60,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 55
+    },
+    {
+      "userId": 2,
+      "shoeId": 44,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 56
+    },
+    {
+      "userId": 2,
+      "shoeId": 43,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 57
+    },
+    {
+      "userId": 6,
+      "shoeId": 34,
+      "shoeSize": "6.5",
+      "conditionId": 3,
+      "description": "Needs a scrubbing",
+      "id": 58
     }
   ]
 }
