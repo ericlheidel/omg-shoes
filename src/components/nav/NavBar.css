@@ -13,4 +13,12 @@
   list-style-type: none;
   padding: 1rem;
   color: var(--color-four);
+  margin: auto 0;
+}
+
+.navbar-user-img {
+  height: 5rem;
+  margin: 10px 0;
+  border: 5px solid var(--color-one);
+  border-radius: 100%;
 }

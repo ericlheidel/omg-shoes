@@ -5,8 +5,8 @@
 
 .year-dropdown {
   width: 15rem;
-  margin-right: auto;
-  margin-left: 8rem;
+  margin-left: auto;
+  margin-right: 15rem;
   background-color: var(--color-two);
   color: var(--color-four);
   border: none;
@@ -16,9 +16,9 @@
 }
 
 .shoe-search {
-  margin-left: auto;
-  margin-right: 7rem;
   width: 15rem;
+  margin-left: 14rem;
+  margin-right: auto;
   background-color: var(--color-two);
   color: var(--color-four);
   border: none;

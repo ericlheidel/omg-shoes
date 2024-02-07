@@ -1,11 +1,13 @@
 import "./User.css"
 import { useEffect, useState } from "react"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { updateUserProfile } from "../../services/usersService.js"
 
 export const User = ({ userObj, currentUser, getAndSetAllUsers }) => {
   const [collectionAmount, setCollectionAmount] = useState(0)
+
+  const navigate = useNavigate()
 
   useEffect(() => {
     getUserShoeCollectionByUserId(userObj.id).then((collectionArray) => {
@@ -26,6 +28,11 @@ export const User = ({ userObj, currentUser, getAndSetAllUsers }) => {
     }
 
     updateUserProfile(editedUser).then(() => getAndSetAllUsers())
+  }
+
+  const logoutNonMainAdmin = () => {
+    localStorage.removeItem("shoes_user")
+    navigate("/", { replace: true })
   }
 
   return (
@@ -59,6 +66,7 @@ export const User = ({ userObj, currentUser, getAndSetAllUsers }) => {
           className="admin-btn"
           onClick={() => {
             handleAdminChange(false)
+            logoutNonMainAdmin()
           }}
         >
           Remove Admin
