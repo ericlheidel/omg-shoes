@@ -41,6 +41,7 @@ export const UsersList = ({ currentUser }) => {
               key={userObj.id}
               currentUser={currentUser}
               getAndSetAllUsers={getAndSetAllUsers}
+              setSortedUsers={setSortedUsers}
             />
           )
         })}

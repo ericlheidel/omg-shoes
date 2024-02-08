@@ -22,6 +22,10 @@
   border-radius: 8px;
 }
 
+.user {
+  height: fit-content;
+}
+
 .user-name {
   color: var(--color-four);
   font-size: 24px;

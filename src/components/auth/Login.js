@@ -13,17 +13,13 @@ export const Login = () => {
     e.preventDefault()
 
     getUserByEmail(email).then((foundUsers) => {
-      if (
-        foundUsers.length === 1 /*  && foundUsers[0].password === password */
-      ) {
+      if (foundUsers.length === 1) {
         const user = foundUsers[0]
         localStorage.setItem(
           "shoes_user",
           JSON.stringify({
             id: user.id,
             isAdmin: user.isAdmin,
-            // firstName: user.firstName,
-            // lastName: user.lastName,
           })
         )
 

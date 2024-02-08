@@ -36,7 +36,7 @@
       "name": "Ronald McDonald",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "/avatars/mac-mcdonald.jpg",
+      "avatar": "/avatars/ronald-mcdonald.jpg",
       "bio": "I'm playing both sides!",
       "isAdmin": false
     },
@@ -59,6 +59,26 @@
       "avatar": "/avatars/the-waitress.jpg",
       "bio": "Nobody knows my name!!!",
       "isAdmin": true
+    },
+    {
+      "email": "early@cuyler.com",
+      "name": "Early Cuyler",
+      "city": "Ringgold",
+      "state": "GA",
+      "avatar": "/avatars/early-cuyler.jpg",
+      "bio": "Mmmmmhmmm....",
+      "isAdmin": false,
+      "id": 7
+    },
+    {
+      "email": "rusty@cuyler.com",
+      "name": "Rusty Cuyler",
+      "city": "Ringgold",
+      "state": "GA",
+      "avatar": "/avatars/rusty-cuyler.jpg",
+      "bio": "It's me!",
+      "isAdmin": false,
+      "id": 8
     }
   ],
   "shoes": [
@@ -1294,6 +1314,26 @@
       "userId": 4,
       "userShoeId": 6,
       "id": 4
+    }
+  ],
+  "friendships": [
+    {
+      "id": 1,
+      "userId": 2,
+      "friendName": "Ronald McDonald",
+      "friendAvatar": "/avatars/ronald-mcdonald.jpg"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg"
     }
   ],
   "userShoe": [

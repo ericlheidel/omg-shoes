@@ -2,9 +2,18 @@ import "./User.css"
 import { useEffect, useState } from "react"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
 import { Link, useNavigate } from "react-router-dom"
-import { updateUserProfile } from "../../services/usersService.js"
+import {
+  getAllUsers,
+  removeUserById,
+  updateUserProfile,
+} from "../../services/usersService.js"
 
-export const User = ({ userObj, currentUser, getAndSetAllUsers }) => {
+export const User = ({
+  userObj,
+  currentUser,
+  getAndSetAllUsers,
+  setSortedUsers,
+}) => {
   const [collectionAmount, setCollectionAmount] = useState(0)
 
   const navigate = useNavigate()
@@ -26,13 +35,19 @@ export const User = ({ userObj, currentUser, getAndSetAllUsers }) => {
       bio: userObj.bio,
       isAdmin,
     }
-
-    updateUserProfile(editedUser).then(() => getAndSetAllUsers())
   }
 
   const logoutNonMainAdmin = () => {
     localStorage.removeItem("shoes_user")
     navigate("/", { replace: true })
+  }
+
+  const handleRemoveUser = () => {
+    removeUserById(userObj.id).then(() => {
+      getAllUsers().then((usersArray) => {
+        setSortedUsers(usersArray)
+      })
+    })
   }
 
   return (
@@ -52,14 +67,19 @@ export const User = ({ userObj, currentUser, getAndSetAllUsers }) => {
         </div>
       </div>
       {currentUser.isAdmin && !userObj.isAdmin && (
-        <button
-          className="admin-btn"
-          onClick={() => {
-            handleAdminChange(true)
-          }}
-        >
-          Make Admin
-        </button>
+        <>
+          <button
+            className="admin-btn"
+            onClick={() => {
+              handleAdminChange(true)
+            }}
+          >
+            Make Admin
+          </button>
+          <button className="admin-btn" onClick={() => handleRemoveUser()}>
+            Remove User
+          </button>
+        </>
       )}
       {userObj.isAdmin && userObj.id !== 6 && (
         <button
