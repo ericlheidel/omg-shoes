@@ -13,14 +13,11 @@ import { Comments } from "../profile/Comments.js"
 
 export const UserShoeDetails = ({ currentUser }) => {
   const [userShoe, setUserShoe] = useState([])
-  // const [user, setUser] = useState([])
   const [conditions, setConditions] = useState([])
   const [editedCondition, setEditedCondition] = useState(0)
   const [editedDescription, setEditedDescription] = useState("")
   const [isChecked, setIsChecked] = useState(false)
   const [isHidden, setIsHidden] = useState(false)
-
-  // const [allUserShoes, setAllUserShoes] = useState([])
 
   const { userShoeId } = useParams()
 
