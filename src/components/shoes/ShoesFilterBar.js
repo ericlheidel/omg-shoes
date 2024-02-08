@@ -15,14 +15,11 @@ export const ShoesFilterBar = ({ setFilteredYear, setSearchTerm }) => {
         onChange={(e) => setFilteredYear(e.target.value)}
       >
         <option value={0} key={0}>
-          Filter by year...
-        </option>
-        <option value={1} key={1}>
           All Years
         </option>
         {years.map((year) => {
           return (
-            <option value={year.year} key={year.id + 1}>
+            <option value={year.year} key={year.id}>
               {year.year}
             </option>
           )

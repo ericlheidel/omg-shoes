@@ -5,7 +5,7 @@ export const Welcome = () => {
     <div className="welcome-div center">
       <h1>
         <span>Welcome to</span>
-        <span>OMG Shoes...</span>
+        <span>OMG, Shoes...</span>
       </h1>
       <div>Your Home for Vintage Dunks</div>
       <img

@@ -40,8 +40,9 @@ export const Login = () => {
         <form className="login-form color-four" onSubmit={handleLogin}>
           <div className="text-div">
             <h1>
-              <span onClick={() => setEmail("charlie@kelly.com")}>OMG</span>...
-              <span onClick={() => setEmail("the@waitress.com")}>Shoes</span>
+              <span onClick={() => setEmail("charlie@kelly.com")}>OMG,</span>
+              <span onClick={() => setEmail("the@waitress.com")}> Shoes</span>
+              ...
             </h1>
             <h2>
               <span onClick={() => setEmail("dee@reynolds.com")}>Please</span>{" "}
@@ -52,7 +53,9 @@ export const Login = () => {
           <fieldset>
             <div className="form-group">
               <label>
-                Email:
+                <span onClick={() => setEmail("ronald@macdonald.com")}>
+                  Email:
+                </span>
                 <input
                   type="email"
                   value={email}
