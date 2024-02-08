@@ -37,7 +37,8 @@
 
 .user-bio,
 .user-location,
-.user-collection-amount {
+.user-collection-amount,
+.friends-list {
   color: var(--color-two);
   font-size: 18px;
   margin-bottom: 10px;
