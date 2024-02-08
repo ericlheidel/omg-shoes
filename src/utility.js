@@ -4,6 +4,19 @@ export const getCurrentYear = () => {
   return thisYear
 }
 
+export const getTodaysDateAndTime = () => {
+  const options = {
+    month: "2-digit",
+    day: "2-digit",
+    year: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true,
+  }
+  const now = new Date().toLocaleString("en-US", options)
+  return now
+}
+
 export const states = [
   { id: 1, state: "AL" },
   { id: 2, state: "AK" },

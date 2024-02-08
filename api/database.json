@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "email": "mac@mcdonald.com",
+      "email": "ronald@macdonald.com",
       "name": "Ronald McDonald",
       "city": "Philadelphia",
       "state": "PA",
@@ -1193,7 +1193,86 @@
     }
   ],
   "comments": [
-    {}
+    {
+      "userId": 5,
+      "userShoeId": 43,
+      "comment": "I love you!!",
+      "timeStamp": "05/07/2022, 3:33 PM",
+      "isEdited": false,
+      "id": 1
+    },
+    {
+      "userId": 5,
+      "userShoeId": 43,
+      "comment": "WAITRESS!!!",
+      "timeStamp": "05/16/2022, 1:16 PM",
+      "isEdited": false,
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "userShoeId": 6,
+      "comment": "I AM THE RAT KING",
+      "timeStamp": "09/28/2022, 8:57 AM",
+      "isEdited": false,
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "userShoeId": 6,
+      "comment": "bustin rats is my gig",
+      "timeStamp": "12/25/2022, 3:27 PM",
+      "isEdited": false,
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "userShoeId": 6,
+      "comment": "did you seriously put nair in my shampoo?! screw you charlie!\n",
+      "timeStamp": "08/15/2023, 12:24 AM",
+      "isEdited": false,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "userShoeId": 6,
+      "comment": "I'm playing both sides!!!!",
+      "timeStamp": "10/14/2023, 8:50 PM",
+      "isEdited": false,
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "userShoeId": 6,
+      "comment": "Mac, you son of a bitch!!!",
+      "timeStamp": "12/25/2023, 2:21 PM",
+      "isEdited": false,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "userId": 6,
+      "userShoeId": 43,
+      "comment": "LEAVE ME ALONE CHARLIE!!!",
+      "timeStamp": "02/08/2024, 11:26 AM",
+      "isEdited": true
+    },
+    {
+      "userId": 2,
+      "userShoeId": 49,
+      "comment": "I am a 5 ⭐️ man!!!",
+      "timeStamp": "02/08/2024, 11:30 AM",
+      "isEdited": false,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "userShoeId": 39,
+      "comment": "I'm playing both sides...",
+      "timeStamp": "02/08/2024, 11:32 AM",
+      "isEdited": false,
+      "id": 10
+    }
   ],
   "likes": [
     {
@@ -1205,6 +1284,16 @@
       "userId": 6,
       "userShoeId": 12,
       "id": 2
+    },
+    {
+      "userId": 6,
+      "userShoeId": 6,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "userShoeId": 6,
+      "id": 4
     }
   ],
   "userShoe": [
