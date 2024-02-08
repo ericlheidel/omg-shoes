@@ -9,7 +9,7 @@ import {
 import { getAllConditions } from "../../services/conditionsService.js"
 import { LikesDiv } from "../likes/LikesDiv.js"
 import { ProfileColumn } from "../profile/ProfileColumn.js"
-import { Comments } from "../comments/Comments.js"
+import { Comments } from "../comment/Comments.js"
 
 export const UserShoeDetails = ({ currentUser }) => {
   const [userShoe, setUserShoe] = useState([])
