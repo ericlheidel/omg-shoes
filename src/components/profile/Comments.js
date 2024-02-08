@@ -12,9 +12,6 @@ export const Comments = ({ currentUser, userShoeId }) => {
   const [commentText, setCommentText] = useState("")
 
   useEffect(() => {
-    // getCommentsByUserShoeId(userShoeId).then((data) => {
-    //   setUserShoeComments(data)
-    // })
     getAndSetCommentsByUserShoeId(userShoeId)
   }, [userShoeId])
 
