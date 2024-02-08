@@ -25,7 +25,6 @@ export const Profile = ({ currentUser }) => {
 
   useEffect(() => {
     getAndSetCollectionByUserId(userId)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [userId])
 
   const getAndSetCollectionByUserId = () => {
@@ -84,7 +83,6 @@ export const Profile = ({ currentUser }) => {
         <div className="user-info-div">
           <div className="user-bio">{user.bio}</div>
         </div>
-
         <div className="user-info-div">
           <div className="user-location">
             {user.city}, {user.state}
