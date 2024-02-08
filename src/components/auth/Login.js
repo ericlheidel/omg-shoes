@@ -2,6 +2,7 @@ import "./LoginAndRegister.css"
 import { Link, useNavigate } from "react-router-dom"
 import { getUserByEmail } from "../../services/usersService.js"
 import { useState } from "react"
+import { handleClick } from "../../utility.js"
 
 export const Login = () => {
   const [email, setEmail] = useState("")
@@ -49,9 +50,7 @@ export const Login = () => {
           <fieldset>
             <div className="form-group">
               <label>
-                <span onClick={() => setEmail("ronald@macdonald.com")}>
-                  Email:
-                </span>
+                <span onClick={() => setEmail(handleClick)}>Email:</span>
                 <input
                   type="email"
                   value={email}

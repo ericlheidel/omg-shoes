@@ -1,26 +1,16 @@
 import { useEffect, useState } from "react"
-import { getAllFriendships } from "../../services/friendsService.js"
+import { getFriendsByUserId } from "../../services/friendsService.js"
 import "./FriendsList.css"
 import { Friend } from "./Friend.js"
 
 export const FriendsList = ({ userId }) => {
-  const [friendships, setFriendships] = useState([])
   const [userFriends, setUserFriends] = useState([])
 
   useEffect(() => {
-    getAllFriendships().then((data) => {
-      setFriendships(data)
+    getFriendsByUserId(userId).then((data) => {
+      setUserFriends(data)
     })
-  }, [])
-
-  useEffect(() => {
-    const foundFriends = friendships.filter(
-      (friend) => friend.userId === parseInt(userId)
-    )
-    setUserFriends(foundFriends)
-  }, [friendships, userId])
-
-  console.log(userId)
+  }, [userId])
 
   return (
     <>
@@ -36,15 +26,6 @@ export const FriendsList = ({ userId }) => {
           </div>
         </>
       )}
-    </>
-  )
-}
-
-export const FriendButton = () => {
-  return (
-    <>
-      <button className="friend-btn">Add Friend</button>
-      <button className="friend-btn">Remove Friend</button>
     </>
   )
 }

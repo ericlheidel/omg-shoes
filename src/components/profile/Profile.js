@@ -5,7 +5,8 @@ import { getUserById } from "../../services/usersService.js"
 import { ShoeCollection } from "../shoes/ShoeCollection.js"
 import { Link } from "react-router-dom"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
-import { FriendButton, FriendsList } from "../friends/FriendsList.js"
+import { FriendsList } from "../friends/FriendsList.js"
+import { FriendButtons } from "../friends/FriendButtons.js"
 
 export const Profile = ({ currentUser }) => {
   const [user, setUser] = useState([])
@@ -78,10 +79,10 @@ export const Profile = ({ currentUser }) => {
     <div className="profile">
       <div className="profile-div">
         <div className="profile-img-div">
-          <FriendButton />
           <img src={user.avatar} alt="User Avatar" className="profile-img" />
         </div>
         <div className="user-name">{user.name}</div>
+        <FriendButtons userId={userId} currentUser={currentUser} />
         <FriendsList userId={userId} />
         {/* <div className="user-info-div friends-list">
           <FriendsList />

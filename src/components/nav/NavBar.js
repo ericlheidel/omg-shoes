@@ -17,7 +17,7 @@ export const NavBar = ({ currentUser }) => {
   return (
     <>
       <nav>
-        <div>
+        <div className="navbar-placeholder">
           <ul className="navbar">
             <Link to={`/users/${currentUser.id}`}>
               <img

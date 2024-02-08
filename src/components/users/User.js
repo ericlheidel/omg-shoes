@@ -35,20 +35,23 @@ export const User = ({
       bio: userObj.bio,
       isAdmin,
     }
+    updateUserProfile(editedUser).then((data) => getAndSetAllUsers(data))
   }
 
   const logoutNonMainAdmin = () => {
-    localStorage.removeItem("shoes_user")
-    navigate("/", { replace: true })
+    if (currentUser.id !== 6) {
+      localStorage.removeItem("shoes_user")
+      navigate("/", { replace: true })
+    }
   }
 
-  const handleRemoveUser = () => {
-    removeUserById(userObj.id).then(() => {
-      getAllUsers().then((usersArray) => {
-        setSortedUsers(usersArray)
-      })
-    })
-  }
+  // const handleRemoveUser = () => {
+  //   removeUserById(userObj.id).then(() => {
+  //     getAllUsers().then((usersArray) => {
+  //       setSortedUsers(usersArray)
+  //     })
+  //   })
+  // }
 
   return (
     <div className="user">
@@ -76,9 +79,9 @@ export const User = ({
           >
             Make Admin
           </button>
-          <button className="admin-btn" onClick={() => handleRemoveUser()}>
+          {/* <button className="admin-btn" onClick={() => handleRemoveUser()}>
             Remove User
-          </button>
+          </button> */}
         </>
       )}
       {userObj.isAdmin && userObj.id !== 6 && (

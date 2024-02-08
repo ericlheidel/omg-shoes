@@ -2,6 +2,12 @@ export const getAllFriendships = () => {
   return fetch(`http://localhost:9999/friendships`).then((res) => res.json())
 }
 
+export const getFriendsByUserId = (userId) => {
+  return fetch(`http://localhost:9999/friendships?userId=${userId}`).then(
+    (res) => res.json()
+  )
+}
+
 export const addFriendship = (friendship) => {
   return fetch(`http://localhost:9999/friendships`, {
     method: "POST",
@@ -12,8 +18,8 @@ export const addFriendship = (friendship) => {
   })
 }
 
-export const removeFriendship = (id) => {
-  return fetch(`http://http://localhost:9999/friendships/${id}`, {
+export const removeFriendshipById = (id) => {
+  return fetch(`http://localhost:9999/friendships/${id}`, {
     method: "DELETE",
   })
 }

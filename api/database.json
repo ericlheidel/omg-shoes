@@ -1292,6 +1292,14 @@
       "timeStamp": "02/08/2024, 11:32 AM",
       "isEdited": false,
       "id": 10
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "userShoeId": 50,
+      "comment": "I AM A 5 ⭐️ MAN!!!!",
+      "timeStamp": "02/08/2024, 3:21 PM",
+      "isEdited": true
     }
   ],
   "likes": [
@@ -1320,20 +1328,74 @@
     {
       "id": 1,
       "userId": 2,
+      "userName": "Dennis Reynolds",
+      "friendId": 4,
       "friendName": "Ronald McDonald",
       "friendAvatar": "/avatars/ronald-mcdonald.jpg"
     },
     {
       "id": 2,
       "userId": 2,
-      "friendName": "Charlie Kelly",
-      "friendAvatar": "/avatars/charlie-kelly.jpg"
-    },
-    {
-      "id": 3,
-      "userId": 2,
+      "userName": "Dennis Reynolds",
+      "friendId": 1,
       "friendName": "Dee Reynolds",
       "friendAvatar": "/avatars/dee-reynolds.jpg"
+    },
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 3,
+      "friendName": "Frank Reynolds",
+      "friendAvatar": "/avatars/frank-reynolds.jpg",
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 2,
+      "friendName": "Dennis Reynolds",
+      "friendAvatar": "/avatars/dennis-reynolds.jpg",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 2,
+      "friendName": "Dennis Reynolds",
+      "friendAvatar": "/avatars/dennis-reynolds.jpg",
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 4,
+      "friendName": "Ronald McDonald",
+      "friendAvatar": "/avatars/ronald-mcdonald.jpg",
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 10
     }
   ],
   "userShoe": [
