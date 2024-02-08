@@ -5,6 +5,7 @@ import { getUserById } from "../../services/usersService.js"
 import { ShoeCollection } from "../shoes/ShoeCollection.js"
 import { Link } from "react-router-dom"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
+import { FriendsList } from "../friends/FriendsList.js"
 
 export const Profile = ({ currentUser }) => {
   const [user, setUser] = useState([])
@@ -80,6 +81,9 @@ export const Profile = ({ currentUser }) => {
           <img src={user.avatar} alt="User Avatar" className="profile-img" />
         </div>
         <div className="user-name">{user.name}</div>
+        {/* <div className="user-info-div friends-list">
+          <FriendsList />
+        </div> */}
         <div className="user-info-div">
           <div className="user-bio">{user.bio}</div>
         </div>
