@@ -5,6 +5,7 @@
   background-color: var(--color-two);
   border-radius: 12.5px;
   padding: 3rem;
+  box-shadow: 5px 5px 15px var(--color-two);
 }
 
 .register-form > h1,
@@ -12,12 +13,6 @@
   font-size: 3rem;
   text-align: center;
   padding-bottom: 0;
-}
-
-.register-form,
-.login-form {
-  /* background-image: url("https://pbs.twimg.com/media/E25w2ORWQAMuBio?format=jpg&name=medium"); */
-  box-shadow: 5px 5px 15px var(--color-two);
 }
 
 .register-form > h2,

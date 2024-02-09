@@ -2,11 +2,7 @@ import "./User.css"
 import { useEffect, useState } from "react"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
 import { Link, useNavigate } from "react-router-dom"
-import {
-  getAllUsers,
-  removeUserById,
-  updateUserProfile,
-} from "../../services/usersService.js"
+import { updateUserProfile } from "../../services/usersService.js"
 
 export const User = ({
   userObj,
@@ -45,14 +41,6 @@ export const User = ({
     }
   }
 
-  // const handleRemoveUser = () => {
-  //   removeUserById(userObj.id).then(() => {
-  //     getAllUsers().then((usersArray) => {
-  //       setSortedUsers(usersArray)
-  //     })
-  //   })
-  // }
-
   return (
     <div className="user">
       <div className="user-img-div">
@@ -79,9 +67,6 @@ export const User = ({
           >
             Make Admin
           </button>
-          {/* <button className="admin-btn" onClick={() => handleRemoveUser()}>
-            Remove User
-          </button> */}
         </>
       )}
       {userObj.isAdmin && userObj.id !== 6 && (

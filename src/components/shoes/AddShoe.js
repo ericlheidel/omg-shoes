@@ -25,7 +25,6 @@ export const AddShoe = () => {
       colorway,
       image,
     }
-
     createShoe(newShoe).then((res) => {
       navigate(`/shoes/${res.id}`)
     })

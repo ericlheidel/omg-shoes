@@ -77,7 +77,7 @@ export const Comments = ({ currentUser, userShoeId }) => {
       </div>
       <div className="old-comments-div">
         <article className="old-comments">
-          {userShoeComments.map((commentObj) => {
+          {reversedUserShoeComments.map((commentObj) => {
             return (
               <Comment
                 currentUser={currentUser}

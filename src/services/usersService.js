@@ -31,9 +31,3 @@ export const updateUserProfile = (user) => {
     body: JSON.stringify(user),
   })
 }
-
-// export const removeUserById = (id) => {
-//   return fetch(`http://localhost:9999/users/${id}`, {
-//     method: "DELETE",
-//   })
-// }

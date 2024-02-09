@@ -1,32 +1,3 @@
-//ccccccccccccccccccccccccccccccccccccccccc
-//mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-
-//*   /$$$$$$$  /$$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$ /$$   /$$   /$$   /$$   /$$
-//*  | $$__  $$| $$__  $$ /$$__  $$| $$  /$$/| $$_____/| $$$ | $$  | $$  | $$  | $$
-//*  | $$  \ $$| $$  \ $$| $$  \ $$| $$ /$$/ | $$      | $$$$| $$  | $$  | $$  | $$
-//*  | $$$$$$$ | $$$$$$$/| $$  | $$| $$$$$/  | $$$$$   | $$ $$ $$  | $$  | $$  | $$
-//*  | $$__  $$| $$__  $$| $$  | $$| $$  $$  | $$__/   | $$  $$$$  |__/  |__/  |__/
-//*  | $$  \ $$| $$  \ $$| $$  | $$| $$\  $$ | $$      | $$\  $$$
-//*  | $$$$$$$/| $$  | $$|  $$$$$$/| $$ \  $$| $$$$$$$$| $$ \  $$   /$$   /$$   /$$
-//*  |_______/ |__/  |__/ \______/ |__/  \__/|________/|__/  \__/  |__/  |__/  |__/
-//! ********************  THIS IS NOT WORKING  ********************//
-//TODO Delete isn't deleting like by Id
-//TODO Like button isn't posting
-//TODO Like# isn't updated even when the post and delete was working
-//! ********************  THIS IS NOT WORKING  ********************//
-//*   /$$$$$$$  /$$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$ /$$   /$$   /$$   /$$   /$$
-//*  | $$__  $$| $$__  $$ /$$__  $$| $$  /$$/| $$_____/| $$$ | $$  | $$  | $$  | $$
-//*  | $$  \ $$| $$  \ $$| $$  \ $$| $$ /$$/ | $$      | $$$$| $$  | $$  | $$  | $$
-//*  | $$$$$$$ | $$$$$$$/| $$  | $$| $$$$$/  | $$$$$   | $$ $$ $$  | $$  | $$  | $$
-//*  | $$__  $$| $$__  $$| $$  | $$| $$  $$  | $$__/   | $$  $$$$  |__/  |__/  |__/
-//*  | $$  \ $$| $$  \ $$| $$  | $$| $$\  $$ | $$      | $$\  $$$
-//*  | $$$$$$$/| $$  | $$|  $$$$$$/| $$ \  $$| $$$$$$$$| $$ \  $$   /$$   /$$   /$$
-//*  |_______/ |__/  |__/ \______/ |__/  \__/|________/|__/  \__/  |__/  |__/  |__/
-//yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-//mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-//ccccccccccccccccccccccccccccccccccccccccc
-
 import { useEffect, useState } from "react"
 import "./LikesDiv.css"
 import { postLike, removeLikeById } from "../../services/likesService.js"

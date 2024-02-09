@@ -6,7 +6,6 @@ import { handleClick } from "../../utility.js"
 
 export const Login = () => {
   const [email, setEmail] = useState("")
-  // const [password, setPassword] = useState("password")
 
   const navigate = useNavigate()
 
@@ -23,7 +22,6 @@ export const Login = () => {
             isAdmin: user.isAdmin,
           })
         )
-
         navigate("/")
       } else {
         window.alert("Invalid Login")
@@ -63,18 +61,6 @@ export const Login = () => {
               </label>
             </div>
           </fieldset>
-          {/* <fieldset>
-            <div className="form-group">
-              <input
-                type="password"
-                value={password}
-                placeholder="Password"
-                required
-                autoFocus
-                onChange={(e) => setPassword(e.target.value)}
-              />
-            </div>
-          </fieldset> */}
           <fieldset>
             <div className="form-group">
               <button type="submit" className="btn-submit form-btn btn-login">
