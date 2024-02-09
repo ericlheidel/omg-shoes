@@ -6,7 +6,6 @@ import { getUserById, updateUserProfile } from "../../services/usersService.js"
 
 export const ProfileForm = ({ currentUser }) => {
   const [user, setUser] = useState([])
-  // const [hasEmoji, setHasEmoji] = useState(false)
 
   const { userId } = useParams()
 
@@ -37,7 +36,6 @@ export const ProfileForm = ({ currentUser }) => {
       avatar: user.avatar,
       bio: user.bio,
       isAdmin: user.isAdmin,
-      // hasEmoji: hasEmoji,
     }
 
     updateUserProfile(editedUser).then(() => {
@@ -161,36 +159,6 @@ export const ProfileForm = ({ currentUser }) => {
             </label>
           </div>
         </fieldset>
-        {/* <fieldset>
-          <div className="form-group">
-            <label>
-              <input
-                type="radio"
-                name="hasEmoji"
-                value={hasEmoji}
-                checked={user?.hasEmoji}
-                className="form-control"
-                onChange={(e) => {
-                  setHasEmoji(JSON.parse(true))
-                }}
-              />
-              👟
-            </label>
-            <label>
-              <input
-                type="radio"
-                name="hasEmoji"
-                value={hasEmoji}
-                // checked={!user?.hasEmoji}
-                className="form-control"
-                onChange={(e) => {
-                  setHasEmoji(JSON.parse(false))
-                }}
-              />
-              🚫
-            </label>
-          </div>
-        </fieldset> */}
         <fieldset>
           <div className="form-group">
             <button type="submit" className="btn-submit edit-profile-btn">

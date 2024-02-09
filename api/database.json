@@ -36,7 +36,7 @@
       "name": "Ronald McDonald",
       "city": "Philadelphia",
       "state": "PA",
-      "avatar": "/avatars/mac-mcdonald.jpg",
+      "avatar": "/avatars/ronald-mcdonald.jpg",
       "bio": "I'm playing both sides!",
       "isAdmin": false
     },
@@ -59,6 +59,26 @@
       "avatar": "/avatars/the-waitress.jpg",
       "bio": "Nobody knows my name!!!",
       "isAdmin": true
+    },
+    {
+      "email": "early@cuyler.com",
+      "name": "Early Cuyler",
+      "city": "Ringgold",
+      "state": "GA",
+      "avatar": "/avatars/early-cuyler.jpg",
+      "bio": "Mmmmmhmmm....",
+      "isAdmin": false,
+      "id": 7
+    },
+    {
+      "email": "rusty@cuyler.com",
+      "name": "Rusty Cuyler",
+      "city": "Ringgold",
+      "state": "GA",
+      "avatar": "/avatars/rusty-cuyler.jpg",
+      "bio": "It's me!",
+      "isAdmin": false,
+      "id": 8
     }
   ],
   "shoes": [
@@ -1272,6 +1292,22 @@
       "timeStamp": "02/08/2024, 11:32 AM",
       "isEdited": false,
       "id": 10
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "userShoeId": 50,
+      "comment": "I AM A 5 ⭐️ MAN!!!!",
+      "timeStamp": "02/08/2024, 3:21 PM",
+      "isEdited": true
+    },
+    {
+      "id": 12,
+      "userId": 6,
+      "userShoeId": 59,
+      "comment": "I need some laces for these if you got'em!",
+      "timeStamp": "02/09/2024, 12:54 PM",
+      "isEdited": true
     }
   ],
   "likes": [
@@ -1294,6 +1330,296 @@
       "userId": 4,
       "userShoeId": 6,
       "id": 4
+    }
+  ],
+  "friendships": [
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "userName": "Dee Reynolds",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 2,
+      "friendName": "Dennis Reynolds",
+      "friendAvatar": "/avatars/dennis-reynolds.jpg",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "userName": "Dennis Reynolds",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 7,
+      "friendName": "Early Cuyler",
+      "friendAvatar": "/avatars/early-cuyler.jpg",
+      "id": 5
+    },
+    {
+      "userId": 7,
+      "userName": "Early Cuyler",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 3,
+      "friendName": "Frank Reynolds",
+      "friendAvatar": "/avatars/frank-reynolds.jpg",
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 4,
+      "friendName": "Ronald McDonald",
+      "friendAvatar": "/avatars/ronald-mcdonald.jpg",
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "userName": "Ronald McDonald",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 8,
+      "friendName": "Rusty Cuyler",
+      "friendAvatar": "/avatars/rusty-cuyler.jpg",
+      "id": 11
+    },
+    {
+      "userId": 8,
+      "userName": "Rusty Cuyler",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 12
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 5,
+      "friendName": "Charlie Kelly",
+      "friendAvatar": "/avatars/charlie-kelly.jpg",
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "userName": "Charlie Kelly",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 14
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "userName": "Dee Reynolds",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 16
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 2,
+      "friendName": "Dennis Reynolds",
+      "friendAvatar": "/avatars/dennis-reynolds.jpg",
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "userName": "Dennis Reynolds",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 18
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 7,
+      "friendName": "Early Cuyler",
+      "friendAvatar": "/avatars/early-cuyler.jpg",
+      "id": 19
+    },
+    {
+      "userId": 7,
+      "userName": "Early Cuyler",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 20
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 3,
+      "friendName": "Frank Reynolds",
+      "friendAvatar": "/avatars/frank-reynolds.jpg",
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 22
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 4,
+      "friendName": "Ronald McDonald",
+      "friendAvatar": "/avatars/ronald-mcdonald.jpg",
+      "id": 23
+    },
+    {
+      "userId": 4,
+      "userName": "Ronald McDonald",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 24
+    },
+    {
+      "userId": 6,
+      "userName": "The Waitress",
+      "friendId": 8,
+      "friendName": "Rusty Cuyler",
+      "friendAvatar": "/avatars/rusty-cuyler.jpg",
+      "id": 25
+    },
+    {
+      "userId": 8,
+      "userName": "Rusty Cuyler",
+      "friendId": 6,
+      "friendName": "The Waitress",
+      "friendAvatar": "/avatars/the-waitress.jpg",
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "userName": "Dee Reynolds",
+      "friendId": 2,
+      "friendName": "Dennis Reynolds",
+      "friendAvatar": "/avatars/dennis-reynolds.jpg",
+      "id": 27
+    },
+    {
+      "userId": 2,
+      "userName": "Dennis Reynolds",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "userName": "Dee Reynolds",
+      "friendId": 7,
+      "friendName": "Early Cuyler",
+      "friendAvatar": "/avatars/early-cuyler.jpg",
+      "id": 29
+    },
+    {
+      "userId": 7,
+      "userName": "Early Cuyler",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 30
+    },
+    {
+      "userId": 1,
+      "userName": "Dee Reynolds",
+      "friendId": 3,
+      "friendName": "Frank Reynolds",
+      "friendAvatar": "/avatars/frank-reynolds.jpg",
+      "id": 31
+    },
+    {
+      "userId": 3,
+      "userName": "Frank Reynolds",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 32
+    },
+    {
+      "userId": 1,
+      "userName": "Dee Reynolds",
+      "friendId": 4,
+      "friendName": "Ronald McDonald",
+      "friendAvatar": "/avatars/ronald-mcdonald.jpg",
+      "id": 33
+    },
+    {
+      "userId": 4,
+      "userName": "Ronald McDonald",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 34
+    },
+    {
+      "userId": 1,
+      "userName": "Dee Reynolds",
+      "friendId": 8,
+      "friendName": "Rusty Cuyler",
+      "friendAvatar": "/avatars/rusty-cuyler.jpg",
+      "id": 35
+    },
+    {
+      "userId": 8,
+      "userName": "Rusty Cuyler",
+      "friendId": 1,
+      "friendName": "Dee Reynolds",
+      "friendAvatar": "/avatars/dee-reynolds.jpg",
+      "id": 36
     }
   ],
   "userShoe": [
@@ -1703,6 +2029,14 @@
       "conditionId": 3,
       "description": "Needs a scrubbing",
       "id": 58
+    },
+    {
+      "userId": 1,
+      "shoeId": 78,
+      "shoeSize": "12",
+      "conditionId": 1,
+      "description": "Big feet!",
+      "id": 59
     }
   ]
 }

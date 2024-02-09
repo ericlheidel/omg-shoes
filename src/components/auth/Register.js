@@ -4,17 +4,13 @@ import { createUser, getUserByEmail } from "../../services/usersService.js"
 import { states } from "../../utility.js"
 import { useNavigate } from "react-router-dom"
 
-export const Register = ({ setLoggedInUser }) => {
+export const Register = () => {
   const [email, setEmail] = useState("")
   const [name, setName] = useState("")
-  // const [firstName, setFirstName] = useState("")
-  // const [lastName, setLastName] = useState("")
   const [city, setCity] = useState("")
   const [state, setState] = useState("")
   const [avatar, setAvatar] = useState("")
   const [bio, setBio] = useState("")
-  // const [hasEmoji, setHasEmoji] = useState(false)
-  // const [password, setPassword] = useState("")
 
   const navigate = useNavigate()
 
@@ -27,8 +23,6 @@ export const Register = ({ setLoggedInUser }) => {
       avatar,
       bio,
       isAdmin: false,
-      // hasEmoji,
-      /* password, */
     }
     createUser(user).then((createdUser) => {
       if (createdUser.hasOwnProperty("id")) {
@@ -39,7 +33,6 @@ export const Register = ({ setLoggedInUser }) => {
             isAdmin: createdUser.isAdmin,
           })
         )
-
         navigate("/")
       }
     })
@@ -183,20 +176,6 @@ export const Register = ({ setLoggedInUser }) => {
               </label>
             </div>
           </fieldset>
-          {/* <fieldset>
-          <div className="form-group">
-            <input
-              type="password"
-              id="password"
-              value={password}
-              placeholder="Enter a password"
-              required
-              autoFocus
-              className="form-control"
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </div>
-        </fieldset> */}
           <fieldset>
             <div className="form-group">
               <label>
@@ -214,37 +193,6 @@ export const Register = ({ setLoggedInUser }) => {
               </label>
             </div>
           </fieldset>
-          {/* <fieldset>
-            <div className="form-group radio-group">
-              <h4>Would you like to add shoe emoji to your profile?</h4>
-              <label>
-                <input
-                  type="radio"
-                  id="emoji"
-                  name="emoji"
-                  value={hasEmoji}
-                  className="form-control"
-                  onChange={(e) => {
-                    setHasEmoji(true)
-                  }}
-                />
-                👟
-              </label>
-              <label>
-                <input
-                  type="radio"
-                  id="emoji"
-                  name="emoji"
-                  value={hasEmoji}
-                  className="form-control"
-                  onChange={(e) => {
-                    setHasEmoji(false)
-                  }}
-                />
-                🚫
-              </label>
-            </div>
-          </fieldset> */}
           <fieldset>
             <div className="form-group">
               <button type="submit" className="btn-submit form-btn">

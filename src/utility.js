@@ -1,3 +1,5 @@
+import { click } from "@testing-library/user-event/dist/click"
+
 export const getCurrentYear = () => {
   const getYear = new Date()
   const thisYear = getYear.getFullYear()
@@ -15,6 +17,28 @@ export const getTodaysDateAndTime = () => {
   }
   const now = new Date().toLocaleString("en-US", options)
   return now
+}
+
+let clickCount = 0
+export const handleClick = () => {
+  clickCount++
+
+  if (clickCount === 1) {
+    return "ronald@macdonald.com"
+  } else {
+    if (clickCount === 2) {
+      return "early@cuyler.com"
+    } else {
+      if (clickCount === 3) {
+        return "rusty@cuyler.com"
+      } else {
+        if (clickCount === 4) {
+          clickCount = 0
+          return ""
+        }
+      }
+    }
+  }
 }
 
 export const states = [

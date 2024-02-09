@@ -2,10 +2,10 @@ import "./LoginAndRegister.css"
 import { Link, useNavigate } from "react-router-dom"
 import { getUserByEmail } from "../../services/usersService.js"
 import { useState } from "react"
+import { handleClick } from "../../utility.js"
 
 export const Login = () => {
   const [email, setEmail] = useState("")
-  // const [password, setPassword] = useState("password")
 
   const navigate = useNavigate()
 
@@ -13,20 +13,15 @@ export const Login = () => {
     e.preventDefault()
 
     getUserByEmail(email).then((foundUsers) => {
-      if (
-        foundUsers.length === 1 /*  && foundUsers[0].password === password */
-      ) {
+      if (foundUsers.length === 1) {
         const user = foundUsers[0]
         localStorage.setItem(
           "shoes_user",
           JSON.stringify({
             id: user.id,
             isAdmin: user.isAdmin,
-            // firstName: user.firstName,
-            // lastName: user.lastName,
           })
         )
-
         navigate("/")
       } else {
         window.alert("Invalid Login")
@@ -53,9 +48,7 @@ export const Login = () => {
           <fieldset>
             <div className="form-group">
               <label>
-                <span onClick={() => setEmail("ronald@macdonald.com")}>
-                  Email:
-                </span>
+                <span onClick={() => setEmail(handleClick)}>Email:</span>
                 <input
                   type="email"
                   value={email}
@@ -68,18 +61,6 @@ export const Login = () => {
               </label>
             </div>
           </fieldset>
-          {/* <fieldset>
-            <div className="form-group">
-              <input
-                type="password"
-                value={password}
-                placeholder="Password"
-                required
-                autoFocus
-                onChange={(e) => setPassword(e.target.value)}
-              />
-            </div>
-          </fieldset> */}
           <fieldset>
             <div className="form-group">
               <button type="submit" className="btn-submit form-btn btn-login">
