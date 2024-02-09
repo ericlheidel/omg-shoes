@@ -20,6 +20,12 @@ export const removeCommentById = (id) => {
   })
 }
 
+export const removeCommentByUserShoeId = (userShoeId) => {
+  return fetch(`http://localhost:9999/comments?userShoeId=${userShoeId}`, {
+    method: "DELETE",
+  })
+}
+
 export const updateComment = (comment) => {
   return fetch(`http://localhost:9999/comments/${comment.id}`, {
     method: "PUT",

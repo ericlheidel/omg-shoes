@@ -1262,14 +1262,6 @@
       "id": 6
     },
     {
-      "userId": 5,
-      "userShoeId": 6,
-      "comment": "Mac, you son of a bitch!!!",
-      "timeStamp": "12/25/2023, 2:21 PM",
-      "isEdited": false,
-      "id": 7
-    },
-    {
       "id": 8,
       "userId": 6,
       "userShoeId": 43,
@@ -1300,14 +1292,6 @@
       "comment": "I AM A 5 ⭐️ MAN!!!!",
       "timeStamp": "02/08/2024, 3:21 PM",
       "isEdited": true
-    },
-    {
-      "id": 12,
-      "userId": 6,
-      "userShoeId": 59,
-      "comment": "I need some laces for these if you got'em!",
-      "timeStamp": "02/09/2024, 12:54 PM",
-      "isEdited": true
     }
   ],
   "likes": [
@@ -1333,22 +1317,6 @@
     }
   ],
   "friendships": [
-    {
-      "userId": 5,
-      "userName": "Charlie Kelly",
-      "friendId": 1,
-      "friendName": "Dee Reynolds",
-      "friendAvatar": "/avatars/dee-reynolds.jpg",
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "userName": "Dee Reynolds",
-      "friendId": 5,
-      "friendName": "Charlie Kelly",
-      "friendAvatar": "/avatars/charlie-kelly.jpg",
-      "id": 2
-    },
     {
       "userId": 5,
       "userName": "Charlie Kelly",
@@ -2031,11 +1999,11 @@
       "id": 58
     },
     {
-      "userId": 1,
-      "shoeId": 78,
-      "shoeSize": "12",
-      "conditionId": 1,
-      "description": "Big feet!",
+      "userId": 6,
+      "shoeId": 56,
+      "shoeSize": "6",
+      "conditionId": 2,
+      "description": "sfvafsvsavas",
       "id": 59
     }
   ]
