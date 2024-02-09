@@ -10,6 +10,10 @@ import { getAllConditions } from "../../services/conditionsService.js"
 import { LikesDiv } from "../likes/LikesDiv.js"
 import { ProfileColumn } from "../profile/ProfileColumn.js"
 import { Comments } from "../profile/Comments.js"
+import {
+  getCommentsByUserShoeId,
+  removeCommentByUserShoeId,
+} from "../../services/commentsService.js"
 
 export const UserShoeDetails = ({ currentUser }) => {
   const [userShoe, setUserShoe] = useState([])
@@ -18,6 +22,7 @@ export const UserShoeDetails = ({ currentUser }) => {
   const [editedDescription, setEditedDescription] = useState("")
   const [isChecked, setIsChecked] = useState(false)
   const [isHidden, setIsHidden] = useState(false)
+  const [userShoeComments, setUserShoeComments] = useState([])
 
   const { userShoeId } = useParams()
 
@@ -49,6 +54,12 @@ export const UserShoeDetails = ({ currentUser }) => {
     setEditedDescription(userShoe.description)
   }, [userShoe])
 
+  useEffect(() => {
+    getCommentsByUserShoeId(userShoeId).then((data) => {
+      setUserShoeComments(data)
+    })
+  }, [])
+
   const handleSave = (e) => {
     e.preventDefault()
 
@@ -65,6 +76,15 @@ export const UserShoeDetails = ({ currentUser }) => {
       getAndSetShoe()
       setIsHidden(false)
     })
+  }
+
+  const removeComments = () => {
+    const promises = userShoeComments.map((comment) => {
+      return fetch(`http://localhost:9999/comments/${comment.id}`, {
+        method: "DELETE",
+      })
+    })
+    return Promise.all(promises)
   }
 
   let count = 1
@@ -129,6 +149,7 @@ export const UserShoeDetails = ({ currentUser }) => {
                     className="form-btn btn-toggle"
                     hidden={!isHidden}
                     onClick={() => {
+                      removeComments()
                       deleteUserShoeFromCollection(userShoe.id).then(() =>
                         navigate(`/users/${currentUser.id}`)
                       )
