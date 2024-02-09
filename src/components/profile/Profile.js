@@ -5,7 +5,6 @@ import { getUserById } from "../../services/usersService.js"
 import { ShoeCollection } from "../shoes/ShoeCollection.js"
 import { Link } from "react-router-dom"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
-import { FriendsList } from "../friends/FriendsList.js"
 import { FriendButtons } from "../friends/FriendButtons.js"
 import { getFriendsByUserId } from "../../services/friendsService.js"
 import { Friend } from "../friends/Friend.js"
@@ -101,7 +100,6 @@ export const Profile = ({ currentUser }) => {
           currentUser={currentUser}
           getAndSetUserFriends={getAndSetUserFriends}
         />
-        {/* <FriendsList userId={userId} /> */}
         {userFriends.length === 0 ? (
           ""
         ) : (

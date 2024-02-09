@@ -10,7 +10,6 @@ export const Friend = ({ friend }) => {
           alt="friend avatar"
         />
       </Link>
-      {/* <div className="friend-name test">{friend.friendName}</div> */}
     </div>
   )
 }

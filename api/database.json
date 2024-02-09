@@ -1328,26 +1328,10 @@
     {
       "userId": 6,
       "userName": "The Waitress",
-      "friendId": 2,
-      "friendName": "Dennis Reynolds",
-      "friendAvatar": "/avatars/dennis-reynolds.jpg",
-      "id": 1
-    },
-    {
-      "userId": 2,
-      "userName": "Dennis Reynolds",
-      "friendId": 6,
-      "friendName": "The Waitress",
-      "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 2
-    },
-    {
-      "userId": 6,
-      "userName": "The Waitress",
       "friendId": 5,
       "friendName": "Charlie Kelly",
       "friendAvatar": "/avatars/charlie-kelly.jpg",
-      "id": 3
+      "id": 1
     },
     {
       "userId": 5,
@@ -1355,71 +1339,7 @@
       "friendId": 6,
       "friendName": "The Waitress",
       "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 4
-    },
-    {
-      "userId": 6,
-      "userName": "The Waitress",
-      "friendId": 1,
-      "friendName": "Dee Reynolds",
-      "friendAvatar": "/avatars/dee-reynolds.jpg",
-      "id": 5
-    },
-    {
-      "userId": 1,
-      "userName": "Dee Reynolds",
-      "friendId": 6,
-      "friendName": "The Waitress",
-      "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 6
-    },
-    {
-      "userId": 6,
-      "userName": "The Waitress",
-      "friendId": 3,
-      "friendName": "Frank Reynolds",
-      "friendAvatar": "/avatars/frank-reynolds.jpg",
-      "id": 7
-    },
-    {
-      "userId": 3,
-      "userName": "Frank Reynolds",
-      "friendId": 6,
-      "friendName": "The Waitress",
-      "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 8
-    },
-    {
-      "userId": 6,
-      "userName": "The Waitress",
-      "friendId": 4,
-      "friendName": "Ronald McDonald",
-      "friendAvatar": "/avatars/ronald-mcdonald.jpg",
-      "id": 9
-    },
-    {
-      "userId": 4,
-      "userName": "Ronald McDonald",
-      "friendId": 6,
-      "friendName": "The Waitress",
-      "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 10
-    },
-    {
-      "userId": 6,
-      "userName": "The Waitress",
-      "friendId": 7,
-      "friendName": "Early Cuyler",
-      "friendAvatar": "/avatars/early-cuyler.jpg",
-      "id": 11
-    },
-    {
-      "userId": 7,
-      "userName": "Early Cuyler",
-      "friendId": 6,
-      "friendName": "The Waitress",
-      "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 12
+      "id": 2
     }
   ],
   "userShoe": [

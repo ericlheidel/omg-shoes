@@ -1,3 +1,4 @@
+import "./Friends.css"
 import { useEffect, useState } from "react"
 import { getUserById } from "../../services/usersService.js"
 import {
