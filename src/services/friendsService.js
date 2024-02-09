@@ -23,3 +23,9 @@ export const removeFriendshipById = (id) => {
     method: "DELETE",
   })
 }
+
+export const removeFriendshipByUserId = (userId) => {
+  return fetch(`http://localhost:9999/friendships?_userId=${userId}`, {
+    method: "DELETE",
+  })
+}

@@ -1,16 +1,21 @@
 import { useEffect, useState } from "react"
-import { getAllUsers, getUserById } from "../../services/usersService.js"
+import { getUserById } from "../../services/usersService.js"
 import {
   addFriendship,
   getAllFriendships,
   removeFriendshipById,
 } from "../../services/friendsService.js"
 
-export const FriendButtons = ({ userId, currentUser }) => {
+export const FriendButtons = ({
+  userId,
+  currentUser,
+  getAndSetUserFriends,
+}) => {
   const [friendships, setFriendships] = useState([])
   const [currentlyViewedUser, setCurrentlyViewedUser] = useState([])
   const [currentUserInfo, setCurrentUserInfo] = useState([])
-  const [foundFriendship, setFoundFriendship] = useState([])
+  const [foundInitiator, setFoundInitiator] = useState([])
+  const [foundRecipient, setFoundRecipient] = useState([])
 
   useEffect(() => {
     getAllFriendships().then((data) => {
@@ -31,39 +36,65 @@ export const FriendButtons = ({ userId, currentUser }) => {
   }, [currentUser])
 
   useEffect(() => {
-    const foundFriendMatch = friendships.filter(
+    const foundInitiatorMatch = friendships.filter(
       (friendship) =>
         friendship.friendId === parseInt(userId) &&
         friendship.userId === currentUser.id
     )
-    if (foundFriendMatch.length === 1) {
-      setFoundFriendship(foundFriendMatch)
+    if (foundInitiatorMatch.length === 1) {
+      setFoundInitiator(foundInitiatorMatch)
     }
-  }, [friendships, userId])
+  }, [currentUser, friendships, userId])
 
-  const handleAddFriend = () => {
-    const newFriendship = {
+  useEffect(() => {
+    const foundRecipientMatch = friendships.filter(
+      (friendship) =>
+        friendship.friendId === currentUser.id &&
+        friendship.userId === currentlyViewedUser.id
+    )
+    if (foundRecipientMatch.length === 1) {
+      setFoundRecipient(foundRecipientMatch)
+    }
+  }, [currentUser, currentlyViewedUser, friendships])
+
+  const handleAdd = () => {
+    const newInitiator = {
       userId: currentUser.id,
       userName: currentUserInfo.name,
       friendId: parseInt(userId),
       friendName: currentlyViewedUser.name,
       friendAvatar: currentlyViewedUser.avatar,
     }
-    addFriendship(newFriendship).then(() => {
+    addFriendship(newInitiator).then(() => {
       getAllFriendships().then((data) => {
         setFriendships(data)
+        getAndSetUserFriends()
+      })
+    })
+    const newRecipient = {
+      userId: currentlyViewedUser.id,
+      userName: currentlyViewedUser.name,
+      friendId: currentUser.id,
+      friendName: currentUserInfo.name,
+      friendAvatar: currentUserInfo.avatar,
+    }
+    addFriendship(newRecipient).then(() => {
+      getAllFriendships().then((data) => {
+        setFriendships(data)
+        getAndSetUserFriends()
       })
     })
   }
 
-  const handleRemoveFriend = () => {
-    // const foundFriendship = friendships.filter(
-    //   (friendship) => friendship.friendId === parseInt(userId)
-    // )
-    removeFriendshipById(foundFriendship[0].id).then(() => {
-      getAllFriendships().then((data) => {
-        setFriendships(data)
-        setFoundFriendship([])
+  const handleRemove = () => {
+    removeFriendshipById(foundInitiator[0].id).then(() => {
+      removeFriendshipById(foundRecipient[0].id).then(() => {
+        getAllFriendships().then((data) => {
+          setFriendships(data)
+          setFoundInitiator([])
+          setFoundRecipient([])
+          getAndSetUserFriends()
+        })
       })
     })
   }
@@ -74,30 +105,16 @@ export const FriendButtons = ({ userId, currentUser }) => {
         ""
       ) : (
         <>
-          {foundFriendship.length === 1 && (
-            <button className="remove-friend-btn" onClick={handleRemoveFriend}>
+          {foundInitiator.length === 1 && foundRecipient.length === 1 && (
+            <button className="remove-friend-btn" onClick={handleRemove}>
               Remove Friend
             </button>
           )}
-          {foundFriendship.length === 0 && (
-            <button className="add-friend-btn" onClick={handleAddFriend}>
+          {foundInitiator.length === 0 && foundRecipient.length === 0 && (
+            <button className="add-friend-btn" onClick={handleAdd}>
               Add Friend
             </button>
           )}
-          {/* <button
-            className="add-friend-btn"
-            hidden={isHidden}
-            onClick={handleAdd}
-          >
-            Add Friend
-          </button>
-          <button
-            className="remove-friend-btn"
-            hidden={!isHidden}
-            onClick={handleRemoveFriend}
-          >
-            Remove Friend
-          </button> */}
         </>
       )}
     </>

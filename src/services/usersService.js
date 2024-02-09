@@ -32,8 +32,8 @@ export const updateUserProfile = (user) => {
   })
 }
 
-export const removeUserById = (id) => {
-  return fetch(`http://localhost:9999/users/${id}`, {
-    method: "DELETE",
-  })
-}
+// export const removeUserById = (id) => {
+//   return fetch(`http://localhost:9999/users/${id}`, {
+//     method: "DELETE",
+//   })
+// }

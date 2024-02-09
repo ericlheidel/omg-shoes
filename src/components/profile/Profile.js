@@ -7,12 +7,16 @@ import { Link } from "react-router-dom"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
 import { FriendsList } from "../friends/FriendsList.js"
 import { FriendButtons } from "../friends/FriendButtons.js"
+import { getFriendsByUserId } from "../../services/friendsService.js"
+import { Friend } from "../friends/Friend.js"
 
 export const Profile = ({ currentUser }) => {
   const [user, setUser] = useState([])
   const [collection, setCollection] = useState([])
   const [filteredShoes, setFilteredShoes] = useState([])
   const [chosenShoeValue, setChosenShoeValue] = useState(0)
+
+  const [userFriends, setUserFriends] = useState([])
 
   const { userId } = useParams()
 
@@ -75,6 +79,16 @@ export const Profile = ({ currentUser }) => {
 
   const reducedCollectionArray = reduceCollection(collection)
 
+  const getAndSetUserFriends = () => {
+    getFriendsByUserId(userId).then((data) => {
+      setUserFriends(data)
+    })
+  }
+
+  useEffect(() => {
+    getAndSetUserFriends()
+  }, [userId])
+
   return (
     <div className="profile">
       <div className="profile-div">
@@ -82,11 +96,24 @@ export const Profile = ({ currentUser }) => {
           <img src={user.avatar} alt="User Avatar" className="profile-img" />
         </div>
         <div className="user-name">{user.name}</div>
-        <FriendButtons userId={userId} currentUser={currentUser} />
-        <FriendsList userId={userId} />
-        {/* <div className="user-info-div friends-list">
-          <FriendsList />
-        </div> */}
+        <FriendButtons
+          userId={userId}
+          currentUser={currentUser}
+          getAndSetUserFriends={getAndSetUserFriends}
+        />
+        {/* <FriendsList userId={userId} /> */}
+        {userFriends.length === 0 ? (
+          ""
+        ) : (
+          <>
+            <div className="friends-title">Friends</div>
+            <div className="friends-list">
+              {userFriends.map((friend) => {
+                return <Friend friend={friend} key={friend.id} />
+              })}
+            </div>
+          </>
+        )}
         <div className="user-info-div">
           <div className="user-bio">{user.bio}</div>
         </div>
