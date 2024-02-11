@@ -58,7 +58,7 @@ export const UserShoeDetails = ({ currentUser }) => {
     getCommentsByUserShoeId(userShoeId).then((data) => {
       setUserShoeComments(data)
     })
-  }, [])
+  }, [userShoeId])
 
   const handleSave = (e) => {
     e.preventDefault()
@@ -85,6 +85,12 @@ export const UserShoeDetails = ({ currentUser }) => {
       })
     })
     return Promise.all(promises)
+  }
+
+  const deleteShoe = () => {
+    deleteUserShoeFromCollection(userShoe.id).then(() => {
+      navigate(`/users/${currentUser.id}`)
+    })
   }
 
   let count = 1
@@ -150,9 +156,7 @@ export const UserShoeDetails = ({ currentUser }) => {
                     hidden={!isHidden}
                     onClick={() => {
                       removeComments()
-                      deleteUserShoeFromCollection(userShoe.id).then(() =>
-                        navigate(`/users/${currentUser.id}`)
-                      )
+                      deleteShoe()
                     }}
                   >
                     Remove Shoe

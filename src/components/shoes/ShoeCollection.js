@@ -49,12 +49,12 @@ export const ShoeCollection = ({
                   >
                     Remove Shoe
                   </button>
-                  <button
+                  {/* <button
                     className="btn-edit-shoe"
                     onClick={(e) => navigate(`/usershoe/${userShoe.id}`)}
                   >
                     Edit Shoe
-                  </button>
+                  </button> */}
                 </div>
               </>
             )}

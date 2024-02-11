@@ -5,9 +5,9 @@ import { getUserById } from "../../services/usersService.js"
 import { ShoeCollection } from "../shoes/ShoeCollection.js"
 import { Link } from "react-router-dom"
 import { getUserShoeCollectionByUserId } from "../../services/userShoeService.js"
-import { FriendButtons } from "../friends/FriendButtons.js"
-import { getFriendsByUserId } from "../../services/friendsService.js"
-import { Friend } from "../friends/Friend.js"
+// import { FriendButtons } from "../friends/FriendButtons.js"
+// import { getFriendsByUserId } from "../../services/friendsService.js"
+// import { Friend } from "../friends/Friend.js"
 
 export const Profile = ({ currentUser }) => {
   const [user, setUser] = useState([])
@@ -15,7 +15,7 @@ export const Profile = ({ currentUser }) => {
   const [filteredShoes, setFilteredShoes] = useState([])
   const [chosenShoeValue, setChosenShoeValue] = useState(0)
 
-  const [userFriends, setUserFriends] = useState([])
+  // const [userFriends, setUserFriends] = useState([])
 
   const { userId } = useParams()
 
@@ -78,15 +78,15 @@ export const Profile = ({ currentUser }) => {
 
   const reducedCollectionArray = reduceCollection(collection)
 
-  const getAndSetUserFriends = () => {
-    getFriendsByUserId(userId).then((data) => {
-      setUserFriends(data)
-    })
-  }
+  // const getAndSetUserFriends = () => {
+  //   getFriendsByUserId(userId).then((data) => {
+  //     setUserFriends(data)
+  //   })
+  // }
 
-  useEffect(() => {
-    getAndSetUserFriends()
-  }, [userId])
+  // useEffect(() => {
+  //   getAndSetUserFriends()
+  // }, [userId])
 
   return (
     <div className="profile">
@@ -95,7 +95,7 @@ export const Profile = ({ currentUser }) => {
           <img src={user.avatar} alt="User Avatar" className="profile-img" />
         </div>
         <div className="user-name">{user.name}</div>
-        <FriendButtons
+        {/* <FriendButtons
           userId={userId}
           currentUser={currentUser}
           getAndSetUserFriends={getAndSetUserFriends}
@@ -111,7 +111,7 @@ export const Profile = ({ currentUser }) => {
               })}
             </div>
           </>
-        )}
+        )} */}
         <div className="user-info-div">
           <div className="user-bio">{user.bio}</div>
         </div>

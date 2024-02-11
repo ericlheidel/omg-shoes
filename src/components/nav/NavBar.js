@@ -9,9 +9,11 @@ export const NavBar = ({ currentUser }) => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    getUserById(currentUser.id).then((userObj) => {
-      setUser(userObj)
-    })
+    if (currentUser.id) {
+      getUserById(currentUser.id).then((userObj) => {
+        setUser(userObj)
+      })
+    }
   }, [currentUser])
 
   return (

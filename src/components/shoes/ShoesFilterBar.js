@@ -8,6 +8,7 @@ export const ShoesFilterBar = ({ setFilteredYear, setSearchTerm }) => {
         type="text"
         placeholder="Search..."
         className="shoe-search"
+        spellCheck={false}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <select

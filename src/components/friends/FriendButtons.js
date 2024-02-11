@@ -66,12 +66,14 @@ export const FriendButtons = ({
       friendName: currentlyViewedUser.name,
       friendAvatar: currentlyViewedUser.avatar,
     }
-    addFriendship(newInitiator).then(() => {
-      getAllFriendships().then((data) => {
-        setFriendships(data)
-        getAndSetUserFriends()
+    addFriendship(newInitiator)
+      .then(() => {
+        getAllFriendships().then((data) => {
+          setFriendships(data)
+          getAndSetUserFriends()
+        })
       })
-    })
+      .catch(console.error)
     const newRecipient = {
       userId: currentlyViewedUser.id,
       userName: currentlyViewedUser.name,
@@ -79,12 +81,14 @@ export const FriendButtons = ({
       friendName: currentUserInfo.name,
       friendAvatar: currentUserInfo.avatar,
     }
-    addFriendship(newRecipient).then(() => {
-      getAllFriendships().then((data) => {
-        setFriendships(data)
-        getAndSetUserFriends()
+    addFriendship(newRecipient)
+      .then(() => {
+        getAllFriendships().then((data) => {
+          setFriendships(data)
+          getAndSetUserFriends()
+        })
       })
-    })
+      .catch(console.error)
   }
 
   const handleRemove = () => {

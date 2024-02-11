@@ -52,7 +52,9 @@ export const Comments = ({ currentUser, userShoeId }) => {
 
   return (
     <div className="comments">
-      <h2>COMMENTS</h2>
+      <h2 onClick={() => setCommentText("These are hard to find!")}>
+        Comments
+      </h2>
       <div className="new-comment-div">
         <textarea
           className="form-textarea comments-textarea"

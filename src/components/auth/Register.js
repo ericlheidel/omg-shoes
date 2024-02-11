@@ -52,12 +52,12 @@ export const Register = () => {
   }
 
   const fillOutForm = () => {
-    setName("Eric Heidel")
-    setCity("Nashville")
-    setState("TN")
-    setAvatar("/avatar/eric-heidel.jpg")
-    setEmail("eric@heidel.com")
-    setBio("You can run, but you can't Heidel")
+    setName("Sheriff")
+    setCity("Ringgold")
+    setState("GA")
+    setAvatar("/avatars/sheriff.jpg")
+    setEmail("sheriff@sheriff.com")
+    setBio("I'm the sheriff!")
   }
 
   return (
