@@ -1297,24 +1297,16 @@
       "userId": 6,
       "userShoeId": 59,
       "comment": "These are hard to find!",
-      "timeStamp": "02/11/2024, 4:04 PM",
+      "timeStamp": "02/12/2024, 1:41 PM",
       "isEdited": false,
       "id": 12
     },
     {
+      "id": 13,
       "userId": 6,
       "userShoeId": 59,
-      "comment": "These are hard to find!",
-      "timeStamp": "02/11/2024, 4:04 PM",
-      "isEdited": false,
-      "id": 13
-    },
-    {
-      "id": 14,
-      "userId": 6,
-      "userShoeId": 58,
-      "comment": "Soles are Brittle",
-      "timeStamp": "02/11/2024, 4:23 PM",
+      "comment": "These are hard to find!!!!!",
+      "timeStamp": "02/12/2024, 1:41 PM",
       "isEdited": true
     }
   ],
@@ -1992,10 +1984,10 @@
     },
     {
       "userId": 6,
-      "shoeId": 6,
+      "shoeId": 75,
       "shoeSize": "5.5",
       "conditionId": 1,
-      "description": "v c xc vc",
+      "description": "sffsa",
       "id": 59
     }
   ]
