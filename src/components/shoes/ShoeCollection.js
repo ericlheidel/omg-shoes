@@ -36,7 +36,7 @@ export const ShoeCollection = ({
                 {userShoe.description}
               </div>
             </div>
-            {currentUser.id === parseInt(userId) && (
+            {/* {currentUser.id === parseInt(userId) && (
               <>
                 <div className="btn-div">
                   <button
@@ -49,15 +49,15 @@ export const ShoeCollection = ({
                   >
                     Remove Shoe
                   </button>
-                  {/* <button
+                  <button
                     className="btn-edit-shoe"
                     onClick={(e) => navigate(`/usershoe/${userShoe.id}`)}
                   >
                     Edit Shoe
-                  </button> */}
+                  </button>
                 </div>
               </>
-            )}
+            )} */}
           </div>
         )
       })}

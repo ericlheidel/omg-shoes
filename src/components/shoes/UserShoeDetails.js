@@ -10,10 +10,7 @@ import { getAllConditions } from "../../services/conditionsService.js"
 import { LikesDiv } from "../likes/LikesDiv.js"
 import { ProfileColumn } from "../profile/ProfileColumn.js"
 import { Comments } from "../profile/Comments.js"
-import {
-  getCommentsByUserShoeId,
-  removeCommentByUserShoeId,
-} from "../../services/commentsService.js"
+import { getCommentsByUserShoeId } from "../../services/commentsService.js"
 
 export const UserShoeDetails = ({ currentUser }) => {
   const [userShoe, setUserShoe] = useState([])
