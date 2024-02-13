@@ -17,7 +17,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: var(--color-two);
-  box-shadow: 5px 5px 15px var(--color-two);
+  /* box-shadow: 5px 5px 15px var(--color-two); */
   border-radius: 15px;
 }
 

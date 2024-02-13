@@ -7,7 +7,7 @@
 
 .user-shoe {
   background-color: var(--color-two);
-  box-shadow: 5px 5px 15px var(--color-two);
+  /* box-shadow: 5px 5px 15px var(--color-two); */
   color: var(--color-five);
   padding: 15px;
   border-radius: 8px;
