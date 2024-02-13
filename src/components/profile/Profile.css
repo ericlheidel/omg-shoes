@@ -4,7 +4,7 @@
 
 .profile-div {
   background-color: var(--color-two);
-  box-shadow: 5px 5px 15px var(--color-two);
+  /* box-shadow: 5px 5px 15px var(--color-two); */
   flex-shrink: 0;
   width: 250px;
   height: fit-content;

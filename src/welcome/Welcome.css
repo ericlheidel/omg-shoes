@@ -3,7 +3,7 @@
   width: 75%;
   border: 2px solid var(--color-two);
   border-radius: 35px;
-  box-shadow: 7.5px 7.5px 15px var(--color-two);
+  /* box-shadow: 7.5px 7.5px 15px var(--color-two); */
   background-color: var(--color-two);
   width: 55%;
   padding-bottom: 4rem;
@@ -28,6 +28,6 @@
   height: 35rem;
   width: 35rem;
   border-radius: 35px;
-  box-shadow: 5px 5px 15px;
+  /* box-shadow: 5px 5px 15px; */
   align-self: center;
 }
