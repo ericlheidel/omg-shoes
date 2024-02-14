@@ -59,26 +59,6 @@
       "avatar": "/avatars/the-waitress.jpg",
       "bio": "Nobody knows my name!",
       "isAdmin": true
-    },
-    {
-      "email": "early@cuyler.com",
-      "name": "Early Cuyler",
-      "city": "Ringgold",
-      "state": "GA",
-      "avatar": "/avatars/early-cuyler.jpg",
-      "bio": "Mmmmmhmmm....",
-      "isAdmin": false,
-      "id": 7
-    },
-    {
-      "email": "rusty@cuyler.com",
-      "name": "Rusty Cuyler",
-      "city": "Ringgold",
-      "state": "GA",
-      "avatar": "/avatars/rusty-cuyler.jpg",
-      "bio": "It's me!",
-      "isAdmin": false,
-      "id": 8
     }
   ],
   "shoes": [
@@ -1308,6 +1288,30 @@
       "comment": "These are hard to find!!!!!",
       "timeStamp": "02/12/2024, 1:41 PM",
       "isEdited": true
+    },
+    {
+      "userId": 5,
+      "userShoeId": 26,
+      "comment": "Soaked in mop water!",
+      "timeStamp": "02/14/2024, 3:07 PM",
+      "isEdited": false,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "userShoeId": 66,
+      "comment": "WOAH!!!",
+      "timeStamp": "02/14/2024, 3:23 PM",
+      "isEdited": false,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "userShoeId": 65,
+      "comment": "🔪🔪🔪",
+      "timeStamp": "02/14/2024, 3:23 PM",
+      "isEdited": false,
+      "id": 16
     }
   ],
   "likes": [
@@ -1330,6 +1334,146 @@
       "userId": 6,
       "userShoeId": 6,
       "id": 5
+    },
+    {
+      "userId": 5,
+      "userShoeId": 49,
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "userShoeId": 50,
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "userShoeId": 52,
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "userShoeId": 36,
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "userShoeId": 37,
+      "id": 10
+    },
+    {
+      "userId": 6,
+      "userShoeId": 36,
+      "id": 11
+    },
+    {
+      "userId": 6,
+      "userShoeId": 38,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "userShoeId": 43,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "userShoeId": 44,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "userShoeId": 46,
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "userShoeId": 47,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "userShoeId": 48,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "userShoeId": 58,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "userShoeId": 59,
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "userShoeId": 43,
+      "id": 20
+    },
+    {
+      "userId": 2,
+      "userShoeId": 44,
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "userShoeId": 46,
+      "id": 22
+    },
+    {
+      "userId": 2,
+      "userShoeId": 47,
+      "id": 23
+    },
+    {
+      "userId": 2,
+      "userShoeId": 48,
+      "id": 24
+    },
+    {
+      "userId": 2,
+      "userShoeId": 58,
+      "id": 25
+    },
+    {
+      "userId": 2,
+      "userShoeId": 59,
+      "id": 26
+    },
+    {
+      "userId": 3,
+      "userShoeId": 43,
+      "id": 27
+    },
+    {
+      "userId": 3,
+      "userShoeId": 44,
+      "id": 28
+    },
+    {
+      "userId": 3,
+      "userShoeId": 46,
+      "id": 29
+    },
+    {
+      "userId": 3,
+      "userShoeId": 47,
+      "id": 30
+    },
+    {
+      "userId": 3,
+      "userShoeId": 48,
+      "id": 31
+    },
+    {
+      "userId": 3,
+      "userShoeId": 58,
+      "id": 32
+    },
+    {
+      "userId": 3,
+      "userShoeId": 59,
+      "id": 33
     }
   ],
   "friendships": [
@@ -1356,14 +1500,6 @@
       "friendName": "Early Cuyler",
       "friendAvatar": "/avatars/early-cuyler.jpg",
       "id": 5
-    },
-    {
-      "userId": 7,
-      "userName": "Early Cuyler",
-      "friendId": 5,
-      "friendName": "Charlie Kelly",
-      "friendAvatar": "/avatars/charlie-kelly.jpg",
-      "id": 6
     },
     {
       "userId": 5,
@@ -1406,14 +1542,6 @@
       "id": 11
     },
     {
-      "userId": 8,
-      "userName": "Rusty Cuyler",
-      "friendId": 5,
-      "friendName": "Charlie Kelly",
-      "friendAvatar": "/avatars/charlie-kelly.jpg",
-      "id": 12
-    },
-    {
       "userId": 6,
       "userName": "The Waitress",
       "friendId": 1,
@@ -1452,14 +1580,6 @@
       "friendName": "Early Cuyler",
       "friendAvatar": "/avatars/early-cuyler.jpg",
       "id": 19
-    },
-    {
-      "userId": 7,
-      "userName": "Early Cuyler",
-      "friendId": 6,
-      "friendName": "The Waitress",
-      "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 20
     },
     {
       "userId": 6,
@@ -1502,28 +1622,12 @@
       "id": 25
     },
     {
-      "userId": 8,
-      "userName": "Rusty Cuyler",
-      "friendId": 6,
-      "friendName": "The Waitress",
-      "friendAvatar": "/avatars/the-waitress.jpg",
-      "id": 26
-    },
-    {
       "userId": 1,
       "userName": "Dee Reynolds",
       "friendId": 7,
       "friendName": "Early Cuyler",
       "friendAvatar": "/avatars/early-cuyler.jpg",
       "id": 29
-    },
-    {
-      "userId": 7,
-      "userName": "Early Cuyler",
-      "friendId": 1,
-      "friendName": "Dee Reynolds",
-      "friendAvatar": "/avatars/dee-reynolds.jpg",
-      "id": 30
     },
     {
       "userId": 1,
@@ -1579,10 +1683,9 @@
       "id": 6,
       "userId": 5,
       "shoeId": 3,
-      "style": "Low",
       "shoeSize": "11.5",
       "conditionId": 5,
-      "description": "Completely unwearable!"
+      "description": "Completely unwearable!!!"
     },
     {
       "id": 7,
@@ -1989,6 +2092,166 @@
       "conditionId": 1,
       "description": "sffsa",
       "id": 59
+    },
+    {
+      "userId": 6,
+      "shoeId": 10,
+      "shoeSize": "6.5",
+      "conditionId": 1,
+      "description": "Missing the box",
+      "id": 60
+    },
+    {
+      "userId": 6,
+      "shoeId": 9,
+      "shoeSize": "7",
+      "conditionId": 4,
+      "description": "Pretty torn apart",
+      "id": 61
+    },
+    {
+      "userId": 6,
+      "shoeId": 102,
+      "shoeSize": "6.5",
+      "conditionId": 2,
+      "description": "Has all the extras included! Looking to move!",
+      "id": 62
+    },
+    {
+      "userId": 6,
+      "shoeId": 107,
+      "shoeSize": "7",
+      "conditionId": 2,
+      "description": "Has all the extras included! Looking to move!",
+      "id": 63
+    },
+    {
+      "userId": 6,
+      "shoeId": 106,
+      "shoeSize": "7.5",
+      "conditionId": 4,
+      "description": "I bleached these and I like the way they turned out!",
+      "id": 64
+    },
+    {
+      "userId": 6,
+      "shoeId": 96,
+      "shoeSize": "7.5",
+      "conditionId": 2,
+      "description": "🔪🔪🔪",
+      "id": 65
+    },
+    {
+      "userId": 6,
+      "shoeId": 77,
+      "shoeSize": "6",
+      "conditionId": 1,
+      "description": "💰💰💰💃🏻🕺🏻💰💰💰",
+      "id": 66
+    },
+    {
+      "userId": 2,
+      "shoeId": 18,
+      "shoeSize": "11.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 67
+    },
+    {
+      "userId": 2,
+      "shoeId": 17,
+      "shoeSize": "11.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 68
+    },
+    {
+      "userId": 2,
+      "shoeId": 31,
+      "shoeSize": "11",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 69
+    },
+    {
+      "userId": 2,
+      "shoeId": 30,
+      "shoeSize": "11",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 70
+    },
+    {
+      "userId": 2,
+      "shoeId": 102,
+      "shoeSize": "10",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 71
+    },
+    {
+      "userId": 2,
+      "shoeId": 107,
+      "shoeSize": "10",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 72
+    },
+    {
+      "userId": 2,
+      "shoeId": 94,
+      "shoeSize": "10.5",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 73
+    },
+    {
+      "userId": 2,
+      "shoeId": 94,
+      "shoeSize": "11",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 74
+    },
+    {
+      "userId": 2,
+      "shoeId": 64,
+      "shoeSize": "12",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 75
+    },
+    {
+      "userId": 2,
+      "shoeId": 65,
+      "shoeSize": "12",
+      "conditionId": 1,
+      "description": "Brand New",
+      "id": 76
+    },
+    {
+      "userId": 1,
+      "shoeId": 54,
+      "shoeSize": "6.5",
+      "conditionId": 5,
+      "description": "100% used",
+      "id": 77
+    },
+    {
+      "userId": 1,
+      "shoeId": 19,
+      "shoeSize": "7.5",
+      "conditionId": 1,
+      "description": "Great Condition!",
+      "id": 78
+    },
+    {
+      "id": 79,
+      "userId": 6,
+      "shoeId": 89,
+      "shoeSize": "7",
+      "conditionId": 3,
+      "description": "🤑🤑🤑🤑🤑"
     }
   ]
 }

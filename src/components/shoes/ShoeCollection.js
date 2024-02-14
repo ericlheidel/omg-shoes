@@ -1,7 +1,7 @@
 import "./ShoeCollection.css"
 
-import { deleteUserShoeFromCollection } from "../../services/userShoeService.js"
-import { Link, useNavigate } from "react-router-dom"
+// import { deleteUserShoeFromCollection } from "../../services/userShoeService.js"
+import { Link /* useNavigate */ } from "react-router-dom"
 
 export const ShoeCollection = ({
   userId,
@@ -9,7 +9,7 @@ export const ShoeCollection = ({
   filteredShoes,
   getAndSetCollectionByUserId,
 }) => {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
 
   let count = 1
   return (

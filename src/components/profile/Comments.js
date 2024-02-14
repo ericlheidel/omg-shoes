@@ -13,6 +13,7 @@ export const Comments = ({ currentUser, userShoeId }) => {
 
   useEffect(() => {
     getAndSetCommentsByUserShoeId(userShoeId)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [userShoeId])
 
   const getAndSetCommentsByUserShoeId = () => {
