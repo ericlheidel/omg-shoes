@@ -104,16 +104,22 @@ export const ShoeDetailsForm = ({ currentUser }) => {
               </select>
             </fieldset>
             <fieldset>
-              <div className="shoe-description">
-                <textarea
-                  type="text"
-                  className="form-textarea"
-                  required
-                  value={userShoeDescription}
-                  placeholder="Write a short description of the condition of
+              <div className="flex row">
+                <div className="shoe-description">
+                  <textarea
+                    type="text"
+                    className="form-textarea"
+                    required
+                    value={userShoeDescription}
+                    placeholder="Write a short description of the condition of
                   your shoe..."
-                  onChange={(e) => setUserShoeDescription(e.target.value)}
-                ></textarea>
+                    onChange={(e) => setUserShoeDescription(e.target.value)}
+                  ></textarea>
+                </div>
+                <div
+                  className="hidden-div"
+                  onClick={() => setUserShoeDescription("Great Condition!")}
+                ></div>
               </div>
             </fieldset>
             <fieldset>

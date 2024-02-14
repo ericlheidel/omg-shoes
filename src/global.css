@@ -69,3 +69,8 @@
 .test {
   border: 2.5px solid red;
 }
+
+.hidden-div {
+  margin-left: 30px;
+  width: 80px;
+}
