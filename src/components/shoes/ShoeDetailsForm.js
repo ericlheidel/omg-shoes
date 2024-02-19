@@ -5,7 +5,6 @@ import { getShoeById } from "../../services/shoesService.js"
 import { getAllConditions } from "../../services/conditionsService.js"
 import { sizes } from "../../utility.js"
 import { addShoeToUserCollection } from "../../services/userShoeService.js"
-import { isDisabled } from "@testing-library/user-event/dist/utils/index.js"
 
 export const ShoeDetailsForm = ({ currentUser }) => {
   const [shoe, setShoe] = useState([])
