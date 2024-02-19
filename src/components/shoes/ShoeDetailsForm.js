@@ -9,7 +9,7 @@ import { addShoeToUserCollection } from "../../services/userShoeService.js"
 export const ShoeDetailsForm = ({ currentUser }) => {
   const [shoe, setShoe] = useState([])
   const [conditions, setAllConditions] = useState([])
-  const [chosenCondition, setChosenCondition] = useState(0)
+  const [chosenCondition, setChosenCondition] = useState("0")
   const [chosenSize, setChosenSize] = useState("0")
   const [userShoeDescription, setUserShoeDescription] = useState("")
 
@@ -49,8 +49,10 @@ export const ShoeDetailsForm = ({ currentUser }) => {
   }
 
   useEffect(() => {
-    if (chosenCondition !== 0 && chosenSize !== "0") {
+    if (chosenCondition !== "0" && chosenSize !== "0") {
       setIsDisabled(false)
+    } else {
+      setIsDisabled(true)
     }
   }, [chosenCondition, chosenSize])
 
