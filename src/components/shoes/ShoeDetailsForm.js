@@ -49,12 +49,16 @@ export const ShoeDetailsForm = ({ currentUser }) => {
   }
 
   useEffect(() => {
-    if (chosenCondition !== "0" && chosenSize !== "0") {
+    if (
+      chosenCondition !== "0" &&
+      chosenSize !== "0" &&
+      userShoeDescription !== ""
+    ) {
       setIsDisabled(false)
     } else {
       setIsDisabled(true)
     }
-  }, [chosenCondition, chosenSize])
+  }, [chosenCondition, chosenSize, userShoeDescription])
 
   return (
     <div className="shoe-details-container">
