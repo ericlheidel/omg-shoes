@@ -5,13 +5,16 @@ import { getShoeById } from "../../services/shoesService.js"
 import { getAllConditions } from "../../services/conditionsService.js"
 import { sizes } from "../../utility.js"
 import { addShoeToUserCollection } from "../../services/userShoeService.js"
+import { isDisabled } from "@testing-library/user-event/dist/utils/index.js"
 
 export const ShoeDetailsForm = ({ currentUser }) => {
   const [shoe, setShoe] = useState([])
   const [conditions, setAllConditions] = useState([])
-  const [chosenCondition, setChosenCondition] = useState("")
-  const [chosenSize, setChosenSize] = useState("")
+  const [chosenCondition, setChosenCondition] = useState(0)
+  const [chosenSize, setChosenSize] = useState("0")
   const [userShoeDescription, setUserShoeDescription] = useState("")
+
+  const [isDisabled, setIsDisabled] = useState(true)
 
   const { shoeId } = useParams()
 
@@ -46,7 +49,11 @@ export const ShoeDetailsForm = ({ currentUser }) => {
     })
   }
 
-  useEffect(() => {}, [])
+  useEffect(() => {
+    if (chosenCondition !== 0 && chosenSize !== "0") {
+      setIsDisabled(false)
+    }
+  }, [chosenCondition, chosenSize])
 
   return (
     <div className="shoe-details-container">
@@ -63,7 +70,7 @@ export const ShoeDetailsForm = ({ currentUser }) => {
           <div className="shoe-detail-two">{shoe.modelNumber}</div>
           <div className="shoe-detail-two">{shoe.colorway}</div>
         </div>
-        <form className="form" onSubmit={handleAddShoeToUserCollection}>
+        <form className="form" /* onSubmit={handleAddShoeToUserCollection} */>
           <fieldset>
             <div className="form-group">
               <select
@@ -124,7 +131,12 @@ export const ShoeDetailsForm = ({ currentUser }) => {
             </fieldset>
             <fieldset>
               <div className="add-btn-div">
-                <button type="submit" className="add-btn form-btn">
+                <button
+                  type="submit"
+                  className="add-btn form-btn"
+                  disabled={isDisabled}
+                  onClick={handleAddShoeToUserCollection}
+                >
                   Add Shoe to Collection
                 </button>
               </div>
