@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Welcome to OMG, Shoes...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+OMG, Shoes... is my, [Eric Heidel](https://github.com/ericlheidel), front-end
+capstone from my first 3 months in a 6 month FullStack Bootcamp at
+[Nashville Software School](https://nashvillesoftwareschool.com/).
 
-## Available Scripts
+## What is OMG, Shoes...
 
-In the project directory, you can run:
+This app provides an online community where sneaker enthusiast can join together
+to keep track of their collections and communicate about their shoes.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Installation](#installation)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Keep track of your collection of sneakers online with OMG, Shoes...
+- Search for the shoes you own.
+- Add specifics about each pair of shoes down to size, condition and even a
+  little write up about each pair.
+- Search other users and view their collections.
+- Comment on and Like other user's shoes.
+- Sold one of your pairs? Update your collection.
+- Thrash one of your pairs at work? Update the pair's condition in your
+  collection.
+- Want to become an admin? Admins can upgrade other Users to admins.
+- Update your profile with an 'about me' and you city and state .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+- [Node.js](https://nodejs.org/en) is needed for this insallation
+- if npm is not installed, in terminal run command `npm install`
+- `git clone` this repository
+- open `terminal` and navigate to `omg-shoes
+- `code .` command to open in VSCode
+- in one integrated terminal window in VSCode, use command:
+  `json-server api/database/json -p 9999 --watch` to start the json server
+- in a second integrated VSCode terminal window, use command `npm start` to
+  start client
+- if client does not automatically open, navigate to `localhost:3000`
+- register yourself and feel free to browse OMG, Shoes...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<small style="font-size: 0.6em; color: gray;">**Disclaimer:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project, including all images, characters, and content, is intended solely
+for educational and non-commercial purposes. The use of images and references to
+any existing products or pop culture references is intended as a parody and does
+not imply any endorsement or affiliation with the respective copyright holders.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+All trademarks, images, and characters referenced within this project are the
+property of their respective copyright holders. The use of such materials is
+protected under the principles of fair use and free speech. No copyright
+infringement is intended.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Users of this project should be aware that the project owner does not claim
+ownership of any copyrighted materials referenced herein, and no profit is being
+made from the distribution or use of this project. </small>
