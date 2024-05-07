@@ -42,6 +42,8 @@ to keep track of their collections and communicate about their shoes.
 - if client does not automatically open, navigate to `localhost:3000`
 - register yourself and feel free to browse OMG, Shoes...
 
+## Thanks for visiting.
+
 <small style="font-size: 0.6em; color: gray;">**Disclaimer:**
 
 This project, including all images, characters, and content, is intended solely
