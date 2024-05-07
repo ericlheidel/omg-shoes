@@ -13,6 +13,7 @@ to keep track of their collections and communicate about their shoes.
 
 - [Features](#features)
 - [Installation](#installation)
+- [Future](#future)
 
 ## Features
 
@@ -41,6 +42,11 @@ to keep track of their collections and communicate about their shoes.
   start client
 - if client does not automatically open, navigate to `localhost:3000`
 - register yourself and feel free to browse OMG, Shoes...
+
+## Future
+
+Future plans: Create an API for this project using Python and Django REST
+Framework.
 
 ## Thanks for visiting.
 
