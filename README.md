@@ -12,6 +12,7 @@ to keep track of their collections and communicate about their shoes.
 ## Table of Contents
 
 - [Features](#features)
+- [Deployment](#deployment)
 - [Installation](#installation)
 - [Future](#future)
 
@@ -29,9 +30,25 @@ to keep track of their collections and communicate about their shoes.
 - Want to become an admin? Admins can upgrade other Users to admins.
 - Update your profile with an 'about me' and you city and state .
 
+## Deployment
+
+- OMG, Shoes... is current deployed
+  [Click here](https://omg-shoes-8rbvm.ondigitalocean.app/) to view
+- There is no need to Register an account in order to navigate around the site
+  and use its functionality:
+  - There are 6 hidden onClick's on the Login page. Each onClick will autofill
+    the login input with a valid email.
+  - The hidden onClick's are all within the h1 and h2 headings:
+    - "OMG" - user 5
+    - "Shoes..." - user 6 (admin)
+    - "Please" - user 1
+    - "sign" - user 2
+    - "in" - user 3
+    - "Email:" user 4
+
 ## Installation
 
-- [Node.js](https://nodejs.org/en) is needed for this insallation
+- [Node.js](https://nodejs.org/en) is needed for this installation
 - if npm is not installed, in terminal run command `npm install`
 - `git clone` this repository
 - open `terminal` and navigate to `omg-shoes
@@ -45,8 +62,10 @@ to keep track of their collections and communicate about their shoes.
 
 ## Future
 
-Future plans: Create an API for this project using Python and Django REST
-Framework.
+Future plans:
+
+- Create an API for this project using Python and Django REST Framework.
+- Re-Style in order to be "mobile-first" and have responsive styling.
 
 ## Thanks for visiting.
 
