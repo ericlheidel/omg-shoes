@@ -123,8 +123,8 @@ export const ShoeDetailsForm = ({ currentUser }) => {
                     className="form-textarea"
                     required
                     value={userShoeDescription}
-                    placeholder="Write a short description of the condition of
-                  your shoe..."
+                    // placeholder="Write a short description of the condition of
+                    // your shoe..."
                     onChange={(e) => setUserShoeDescription(e.target.value)}
                   ></textarea>
                 </div>

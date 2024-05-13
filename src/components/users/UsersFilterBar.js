@@ -5,7 +5,7 @@ export const UsersFilterBar = ({ setSearchTerm }) => {
     <div className="user-filter-bar">
       <input
         type="text"
-        placeholder="Search..."
+        // placeholder="Search..."
         className="user-search"
         spellCheck={false}
         onChange={(e) => setSearchTerm(e.target.value)}

@@ -77,7 +77,7 @@ export const Register = () => {
                     type="text"
                     id="name"
                     value={name}
-                    placeholder="Enter your name..."
+                    // placeholder="Enter your name..."
                     required
                     autoFocus
                     spellCheck={false}
@@ -99,7 +99,7 @@ export const Register = () => {
                     type="text"
                     id="city"
                     value={city}
-                    placeholder="Enter your city..."
+                    // placeholder="Enter your city..."
                     required
                     autoFocus
                     spellCheck={false}
@@ -146,7 +146,7 @@ export const Register = () => {
                   type="text"
                   id="avatar"
                   value={avatar}
-                  placeholder="Enter an avatar url..."
+                  // placeholder="Enter an avatar url..."
                   required
                   autoFocus
                   spellCheck={false}
@@ -166,7 +166,7 @@ export const Register = () => {
                   type="email"
                   id="email"
                   value={email}
-                  placeholder="Enter your email..."
+                  // placeholder="Enter your email..."
                   required
                   autoFocus
                   spellCheck={false}
@@ -184,7 +184,7 @@ export const Register = () => {
                   type="text"
                   id="bio"
                   value={bio}
-                  placeholder="Tell us about yourself..."
+                  // placeholder="Tell us about yourself..."
                   required
                   autoFocus
                   className="form-control"
