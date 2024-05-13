@@ -61,7 +61,7 @@ export const Comments = ({ currentUser, userShoeId }) => {
           className="form-textarea comments-textarea"
           required
           value={commentText}
-          placeholder="Leave a comment..."
+          // placeholder="Leave a comment..."
           onChange={(e) => {
             setCommentText(e.target.value)
           }}

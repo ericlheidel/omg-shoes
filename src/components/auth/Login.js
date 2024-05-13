@@ -52,7 +52,7 @@ export const Login = () => {
                 <input
                   type="email"
                   value={email}
-                  placeholder="Email address"
+                  // placeholder="Email address"
                   required
                   autoFocus
                   className="form-control"

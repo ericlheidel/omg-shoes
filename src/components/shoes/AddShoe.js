@@ -97,7 +97,7 @@ export const AddShoe = () => {
                 value={parseInt(year)}
                 required
                 autoFocus
-                placeholder=""
+                // placeholder=""
                 className="form-control"
                 onChange={(e) => {
                   setYear(e.target.value)
