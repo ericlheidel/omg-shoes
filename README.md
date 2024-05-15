@@ -1,7 +1,10 @@
+- [Git](https://github.com/ericlheidel)
+- [LinkedIn](https://www.linkedin.com/in/ericleeheidel/)
+
 # Welcome to OMG, Shoes...
 
-OMG, Shoes... is my, [Eric Heidel](https://github.com/ericlheidel), front-end
-capstone from my first 3 months in a 6 month FullStack Bootcamp at
+OMG, Shoes... is my front-end capstone from my Front-End Capstone from my first
+3 months in a 6 month FullStack Boot Camp at
 [Nashville Software School](https://nashvillesoftwareschool.com/).
 
 ## What is OMG, Shoes...
@@ -67,7 +70,7 @@ Future plans:
 - Create an API for this project using Python and Django REST Framework.
 - Re-Style in order to be "mobile-first" and have responsive styling.
 
-## Thanks for visiting.
+## Thanks for visiting!
 
 <small style="font-size: 0.6em; color: gray;">**Disclaimer:**
 
