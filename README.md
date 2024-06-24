@@ -57,7 +57,7 @@ to keep track of their collections and communicate about their shoes.
 - open `terminal` and navigate to `omg-shoes
 - `code .` command to open in VSCode
 - in one integrated terminal window in VSCode, use command:
-  `json-server api/database/json -p 9999 --watch` to start the json server
+  `json-server api/database.json -p 9999` to start the json server
 - in a second integrated VSCode terminal window, use command `npm start` to
   start client
 - if client does not automatically open, navigate to `localhost:3000`
