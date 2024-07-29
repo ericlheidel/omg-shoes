@@ -35,7 +35,7 @@ to keep track of their collections and communicate about their shoes.
 
 ## Deployment
 
-[comment]: <> # - OMG, Shoes... is current deployed
+// - OMG, Shoes... is current deployed
 [Click here](https://omg-shoes-z6qbz.ondigitalocean.app) to view
 - There is no need to Register an account in order to navigate around the site
   and use its functionality:
